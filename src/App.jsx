@@ -1,20 +1,20 @@
-import React from "react"
-import Nav from "./Components/Nav"
-import Home from "./Components/Home"
+import React from "react";
+import Nav from "./Components/Nav";
+import Home from "./Components/Home";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import SponsorUS from "./Components/SponsorUS";
 
 function Landing() {
   return (
-    <div>
+    <div className="font-bodyFont">
       <Nav />
       <Home />
-      <div className=" h-[300vh]">
-
-      </div>
+      <div className=" h-[100vh]"></div>
+      <SponsorUS />
+      <div className=" h-[100vh]"></div>
     </div>
   );
 }
-
 
 function App() {
   return (
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
