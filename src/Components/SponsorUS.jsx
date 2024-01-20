@@ -18,10 +18,10 @@ const SponsorUS = () => {
           />
           <img src={background} className="w-full object-cover z-10" alt="" />
           <div className="w-[80%] h-[20%] absolute left-[10%] sm:top-[68%] top-[64%] flex flex-col gap-2 justify-between items-center">
-            <h2 className="w-full text-center font-bodyFont text-[120%] font-semibold ">
+            <h2 className="w-full text-center font-bodyFont text-[80%] sm:text-[120%] font-semibold ">
               Fill the form to reach out to us!!
             </h2>
-            <div className="w-full grid grid-cols-2 gap-1 sm:gap-2 text-[80%] px-20 md:px-4">
+            <div className="w-full grid grid-cols-2 gap-1 sm:gap-2 text-[50%] sm:text-[80%] px-20 md:px-4">
               <div class="flex w-full items-center justify-center">
                 <div class="relative w-full">
                   <input
@@ -87,7 +87,7 @@ const SponsorUS = () => {
                 </div>
               </div>
               <div className=" w-full flex justify-center col-span-2 px-8">
-                <button className="bg-[#FC8824] rounded-xl relative h-[2rem] w-[40%] my-3 text-white">
+                <button className="bg-[#FC8824] rounded-xl relative h-[1rem] sm:h-[2rem] w-[40%] my-1 text-white">
                   Submit
                 </button>
               </div>
