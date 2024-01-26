@@ -12,17 +12,10 @@ import cacleft from '../assets/home/cacleft.svg'
 import cacright from '../assets/home/cacright.svg'
 
 
-
-
-
-
-
-
-
 const Home = () => {
     return (
         <>
-        <div className='flex justify-center top-[5em] md:top-[7em]  mx-2 relative'>
+        <div className='flex justify-center top-[5em] md:top-[7em]  mx-[2%] relative'>
             <div className='relative pt-[8em] bg-[#85C19C] px-12  overflow-hidden rounded-2xl w-[87em] h-[36em] md:h-[43em]'>
                 
                 <motion.img initial={{opacity:0}} whileInView={{opacity:1} } exit={{x:100}} transition={{delay:1.7 , duration: 1.3 }} className='w-[18em] md:w-[32em] lg:w-[36em] absolute top-[4.8em] z-10 md:top-[3em] left-[50%] translate-x-[-50%] sss' src={sss} alt="" />
@@ -44,9 +37,15 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className='w-[42em] lg:w-[63em] hidden md:block h-[7em] relative  top-[3.8em] rounded-xl shadow-lg shadow-black mx-auto  bg-white'>
+        <div className='w-[42em] lg:w-[60em] hidden md:block h-[7em] relative  top-[3.8em] rounded-xl shadow-lg shadow-black mx-auto  bg-white'>
+         <div className=' md:hidden flex gap-4 w-[98%] mx-auto'>
+            <div className='w-[45%] h-[4em] bg-white rounded-2xl'>
 
+            </div>
+         </div>
         </div>
+
+        
         </>
     )
 }
