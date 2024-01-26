@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         bodyFont: ["inter", "sans-serif"],
+        titleFont: ["texas"],
       },
     },
   },
