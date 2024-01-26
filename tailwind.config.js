@@ -7,6 +7,9 @@ export default {
         bodyFont: ["inter", "sans-serif"],
         titleFont: ["texas"],
       },
+      screens: {
+        xs: { max: "480px" },
+      },
     },
   },
   plugins: [],

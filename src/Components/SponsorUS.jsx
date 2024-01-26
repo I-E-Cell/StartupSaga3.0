@@ -1,5 +1,5 @@
 import React from "react";
-import background from "../assets/sponsorus/background.png";
+import background from "../assets/sponsorus/background.webp";
 import title from "../assets/sponsorus/title.png";
 import subtitle from "../assets/sponsorus/subtitle.png";
 
