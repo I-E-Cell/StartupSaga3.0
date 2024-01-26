@@ -91,3 +91,38 @@ body{
     bottom: -10px;
     right: -20px;
 }
+.ait{
+    position: absolute;
+    bottom: 1em;
+    right: 2.2em;
+}
+.horse{
+    position: absolute;
+    bottom: 1em;
+    left: 2.2em;
+}
+.aitpn{
+    position: absolute;
+    bottom: 0.3em;
+    right: 0.6em;
+}
+.horsepn{
+    position: absolute;
+    bottom: 0.3em;
+    left: 0.8em;
+}
+.ss{
+    position: absolute;
+    bottom: 0em;
+    left: 0.5em; 
+}
+.horse2{
+    position: absolute;
+    bottom: 0.3em;
+    right: 0.7em  
+}
+.ss2{
+    position: absolute;
+    bottom: 0.3em;
+    left: 2.2em;
+}
