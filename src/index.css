@@ -73,3 +73,21 @@ body{
         left: -20px;
     }
 }
+
+.gradi{
+    /* background-image: linear-gradient(to bottom, #FFF4E7 30%, #FFB171 70%); */
+    background: -webkit-linear-gradient(top, #FFF4E7 30%, #ffba81 0% )
+}
+
+.gradii{
+    /* background-image: linear-gradient(to bottom, #FFF4E7 30%, #FFB171 70%); */
+    background: -webkit-linear-gradient(top, #FFF4E7 30%, #ffb260 0% );
+    left: 11em;
+    position: absolute;
+    z-index: 0;
+
+}
+.question{
+    bottom: -10px;
+    right: -20px;
+}

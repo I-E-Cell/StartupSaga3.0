@@ -2,15 +2,17 @@ import React from "react"
 import Nav from "./Components/Nav"
 import Home from "./Components/Home"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import FAQ from "./Components/FAQ";
 
 function Landing() {
   return (
     <div>
       <Nav />
       <Home />
-      <div className=" h-[300vh]">
 
-      </div>
+      <FAQ />
+
+      
     </div>
   );
 }
