@@ -4,6 +4,7 @@
 
 body{
     background-color: #FFF4E7;
+   
 }
 .cloud1{
     position: absolute;
@@ -74,6 +75,30 @@ body{
     }
 }
 
+  .phatta{
+    background-image: url("./assets/log.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+
+  }
+  
+.ghoda{
+   position: absolute;
+   bottom: 30px;
+   right:20px;
+   
+}
+.startupsaga{
+    position: absolute;
+    bottom: 22px;
+    left:20px;
+}
+
+
 .gradi{
     /* background-image: linear-gradient(to bottom, #FFF4E7 30%, #FFB171 70%); */
     background: -webkit-linear-gradient(top, #FFF4E7 30%, #ffba81 0% )
@@ -125,6 +150,31 @@ body{
     position: absolute;
     bottom: 0.3em;
     left: 2.2em;
+}
+.about-text{
+    font-family: "Special Elite",sans-serif;
+    font-size: large;
+    top:50%;
+    right:50%;
+    translate: 50% -50%;
+    margin: auto;
+}
+@media (min-width:900px) and (max-width:1024px) {
+    .about-text{
+    font-size: small;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  
+
+    
+}
+}
+.countdown-text{
+    font-family: "Special Elite",sans-serif;
+}
+.flip-countdown-title{
+    font-family: "Special Elite",sans-serif;
 }
 .imgg{
    
