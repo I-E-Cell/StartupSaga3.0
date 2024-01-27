@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import FAQ from "./Components/FAQ";
 import { About } from "./Components/About";
 import Events from "./Components/Events";
+import Eventpn from "./Components/Eventpn";
 
 
 function Landing() {
@@ -16,6 +17,7 @@ function Landing() {
 
       <About />
       <Events />
+      <Eventpn />
       <FAQ />
       
 
