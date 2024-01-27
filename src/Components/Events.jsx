@@ -10,9 +10,9 @@ const Events = () => {
   const [position, SetPosition] = useState('')
   return (
     
-      <div className='max-w-[90%] hidden md:flex crack  items-center w-[87em] gap-7 relative overflow-hidden crack border-[3px] my-14 mx-auto border-broq md:h-[36em] rounded-2xl bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  rotate-90 md:rotate-0'>
-        <img className='absolute -z-10  opacity-70 w-[100em] ' src={crack} alt="" />
-        <div className='flex flex-col gap-7 w-[100%]   items-center'>
+      <div className='max-w-[90%] hidden md:flex crack  items-center w-[87em] gap-7 relative overflow-hidden crack border-[3px] my-14 mx-auto border-broq md:h-[36em] rounded-2xl bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  '>
+        <img className='absolute z-0  opacity-70 w-[100em] ' src={crack} alt="" />
+        <div className='flex flex-col z-10 gap-7 w-[100%]   items-center'>
 
 
           <div className=' w-full flex justify-evenly'>
@@ -87,7 +87,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className='absolute  ' >
+        <div className='absolute  z-10 ' >
             <img className='imgg w-[16em] relative' style={{ top: trainPosition.top, left: trainPosition.left }} src={train} alt="" />
         </div>
 
