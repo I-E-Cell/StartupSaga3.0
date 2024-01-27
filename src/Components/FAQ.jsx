@@ -18,18 +18,18 @@ const FAQ = () => {
       <img className='w-[9em] mx-auto relative z-10 py-6 mb-[5em]' src={Faq} alt="" />
       <div className='flex flex-col relative -left-7 sm:left-0 lg:gap-10  z-10'>
         <div className='flex flex-col lg:flex-row gap:3 lg:gap-0 justify-around '>
-          <Accordion title='defe' answer='fefe' />
-          <Accordion title='defe' answer='fefe' />
+          <Accordion title='Treat ke liye kawnse jagah ache rahege?' answer='jaha khana acha mil jaee' />
+          <Accordion title='Treat ke liye kawnse jagah ache rahege?' answer='jaha khana acha mil jaee' />
 
         </div>
         <div className='flex flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
-          <Accordion title='defe' answer='fefe' />
-          <Accordion title='defe' answer='fefe' />
+          <Accordion title='Treat ke liye kawnse jagah ache rahege?' answer='jaha khana acha mil jaee' />
+          <Accordion title='Treat ke liye kawnse jagah ache rahege?' answer='jaha khana acha mil jaee' />
 
         </div>
         <div className='flex flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
-          <Accordion title='defe' answer='fefe' />
-          <Accordion title='defe' answer='fefe' />
+          <Accordion title='Treat ke liye kawnse jagah ache rahege?' answer='jaha khana acha mil jaee' />
+          <Accordion title='Treat ke liye kawnse jagah ache rahege?' answer='jaha khana acha mil jaee' />
 
         </div>
 
