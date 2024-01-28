@@ -79,12 +79,17 @@ body{
     background-image: url("./assets/home/log.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    
-    
-    
-    
+ }
+ @media (max-width:532px) {
+    .phatta{
+        background-image: url("./assets/home/log.svg");
+        background-repeat: repeat-y;
+       
+  
+        
 
-  }
+    }
+ }
   
 .ghoda{
    position: absolute;
@@ -151,6 +156,15 @@ body{
     bottom: 0.3em;
     left: 2.2em;
 }
+.horizontal-carousel {
+    overflow-x: auto;
+    white-space: nowrap;
+    /* Add any other necessary styles */
+  }
+  
+.about-us{
+    font-family: "Special Elite",sans-serif;
+}
 .about-text{
     font-family: "Special Elite",sans-serif;
     font-size: large;
@@ -185,6 +199,14 @@ body{
    width: 25em;
     
   
+
+    
+}
+}
+@media (max-width:360px) {
+    .about-text{
+    font-size: 0.6em;
+   width: 23em;
 
     
 }
