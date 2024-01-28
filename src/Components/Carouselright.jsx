@@ -5,8 +5,8 @@ const Carouselright = () => {
     <div>
       <ScrollCarousel
         autoplay
-        autoplaySpeed={3}
-        speed={7}
+        autoplaySpeed={1}
+        speed={2}
         direction={'ltr'}
         onReady={() => console.log("Carousel")}
       >

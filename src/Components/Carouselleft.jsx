@@ -8,6 +8,8 @@ const MyComponent = () => {
   <div className="carousel-container-left">
     <ScrollCarousel
       autoplay
+      autoplaySpeed={1}
+      speed={2}
       direction={'rtl'}
       onReady={() => console.log("Carousel left")}
     >
