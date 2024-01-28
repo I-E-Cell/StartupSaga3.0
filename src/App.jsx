@@ -8,6 +8,8 @@ import Footer from "./Components/Footer";
 
 import Events from "./Components/Events";
 import Eventpn from "./Components/Eventpn";
+import Sponsors from "./Components/Sponsors";
+import SponUS from "./Components/SponUS";
 
 function Landing() {
   const deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000);
@@ -17,14 +19,16 @@ function Landing() {
       <Nav />
 
       <Home />
-      <div className="">
+      
         <About />
 
         <Events />
         <Eventpn />
+        <Sponsors />
+        <SponUS />
         <FAQ />
         <Footer />
-      </div>
+      
     </div>
   );
 }

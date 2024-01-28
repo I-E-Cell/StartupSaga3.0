@@ -182,6 +182,12 @@ body{
      
 }
 
+.crack{
+    
+    background-image: url(./assets/crack.svg);
+    background-position: center;
+    background-size: cover;
+}
 
 
 
