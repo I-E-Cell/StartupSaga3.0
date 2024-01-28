@@ -10,10 +10,11 @@ import horse2 from "../assets/horse2.svg";
 export const About = () => {
   return (
     <>
-      <div className="">
-        <p className="text-center ">About Us</p>
-      </div>
+      
       <div className="mt-[3.5em] ">
+      <div className="">
+        <p className="text-center text-4xl ">About Us</p>
+      </div>
         <div className="relative mx-auto flex flex-col gap-5">
           <div className="relative  hidden md:block  mx-auto w-[90%] max-w-[72em] ">
             <p className="absolute text-center about-text w-[40em] ">
@@ -59,11 +60,25 @@ export const About = () => {
             />
           </div>
           <div className="relative block md:hidden mx-auto w-[90%] max-w-[72em] ">
+          <p className="absolute text-center about-text  ">
+          "Our mission is to support the
+              Government's vision of achieving a 5 trillion economy by fostering
+              startups founded by AIT students, and we remain committed to this
+              objective."The Innovation and Entrepreneurship Cell aims to
+              promote the entrepreneurship culture in and around the campus by
+              providing multiple platforms for budding entrepreneurs .
+            </p>
             <img className="w-[100%]" src={abtpn} alt=""></img>
             <img className="absolute w-[5em]  aitpn    " src={ait} alt="" />
             <img className="absolute w-[2.3em]  horsepn" src={horse} alt="" />
           </div>
           <div className="relative block md:hidden mx-auto w-[90%] max-w-[72em] ">
+          <p className="absolute text-center about-text  ">
+          Startup Saga, our annual Pan-India event that focuses primarily on
+              engineering students across the country. This event provides a
+              platform for students to showcase their innovative ideas,
+              entrepreneurial skills, and aptitude.
+            </p>
             <img className="w-[100%]" src={abtpn} alt=""></img>
             <img
               className="absolute w-[2.3em] horse2 ait "
@@ -71,6 +86,7 @@ export const About = () => {
               alt=""
             />
             <img className="absolute w-[7.2em]  ss " src={ss} alt="" />
+            
           </div>
         </div>
       </div>

@@ -76,7 +76,7 @@ body{
 }
 
   .phatta{
-    background-image: url("./assets/log.svg");
+    background-image: url("./assets/home/log.svg");
     background-size: contain;
     background-repeat: no-repeat;
     
@@ -159,17 +159,37 @@ body{
     translate: 50% -50%;
     margin: auto;
 }
-@media (min-width:900px) and (max-width:1024px) {
+@media (max-width:1157px) {
     .about-text{
-    font-size: small;
-    padding-left: 30px;
-    padding-right: 30px;
-
+    font-size: medium;
+   width: 30em;
+    
   
 
     
 }
 }
+@media (max-width:567px) {
+    .about-text{
+    font-size: small;
+   width: 25em;
+    
+  
+
+    
+}
+}
+@media (max-width:457px) {
+    .about-text{
+    font-size: 0.7em;
+   width: 25em;
+    
+  
+
+    
+}
+}
+
 .countdown-text{
     font-family: "Special Elite",sans-serif;
 }

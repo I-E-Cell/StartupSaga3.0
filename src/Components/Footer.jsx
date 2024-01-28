@@ -20,22 +20,22 @@ const Footer = () => {
                         <img src={ecelllogo} alt="" />
                     </div>
                 </div>
-                <div className='text-[16px] mt-4 text-center md:text-left'>Designed and Developed by <span className='text-[#F4AB2E]'>Team I & E Cell</span></div>
+                <div className='text-[16px] mt-4 text-center md:text-left text-white'>Designed and Developed by <span className='text-[#F4AB2E]'>Team I & E Cell</span></div>
             </div>
             <div className="flex gap-2 relative top-0 right-0   md:flex-row md:items-center">
-                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#604F47] rounded-full'>
+                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#FFFFFF] rounded-full '>
                     <FaFacebook size={25} color={'#3A281E'} className='mx-auto my-[25%]'/>
                 </div>
-                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#604F47] rounded-full'>
+                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#FFFFFF] rounded-full'>
                     <FaInstagram size={25} color={'#3A281E'} className='mx-auto my-[25%]'/>
                 </div>
-                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#604F47] rounded-full'>
+                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#FFFFFF] rounded-full'>
                     <FaTwitter size={25} color={'#3A281E'} className='mx-auto my-[25%]'/>
                 </div>
-                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#604F47] rounded-full'>
+                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#FFFFFF] rounded-full'>
                     <FaLinkedinIn size={25} color={'#3A281E'} className='mx-auto my-[25%]'/>
                 </div>
-                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#604F47] rounded-full'>
+                <div className='w-[40px] h-[40px] md:w-[45px] md:h-[45px] bg-[#FFFFFF] rounded-full'>
                     <FaYoutube size={25} color={'#3A281E'} className='mx-auto my-[25%]'/>
                 </div>
             </div>
