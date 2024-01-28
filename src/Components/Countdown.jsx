@@ -1,7 +1,10 @@
 
 import FlipCountdown from "@rumess/react-flip-countdown";
+import React, { useState } from 'react';
+
 
 function Countdown() {
+  
   const size = window.innerWidth;
   var clocksize="medium"
   if(size<768){
