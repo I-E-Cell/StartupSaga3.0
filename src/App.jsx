@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import FAQ from "./Components/FAQ";
 import { About } from "./Components/About";
 import Footer from "./Components/Footer";
-
+import Carousel from "./Components/Carousel.jsx"
 import Events from "./Components/Events";
 import Eventpn from "./Components/Eventpn";
 import Sponsors from "./Components/Sponsors";
@@ -26,6 +26,7 @@ function Landing() {
         <Eventpn />
         <Sponsors />
         <SponUS />
+        <Carousel/>
         <FAQ />
         <Footer />
       
