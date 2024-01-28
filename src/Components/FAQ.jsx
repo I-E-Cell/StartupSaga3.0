@@ -34,7 +34,7 @@ const FAQ = () => {
         </div>
 
       </div>
-      <img className=' w-[12em] sm:w-[14em] md:w-[16em] absolute question' src={questionmark} alt="" />
+      <img className='  w-[0em] md:w-[16em] absolute question' src={questionmark} alt="" />
 
 
 

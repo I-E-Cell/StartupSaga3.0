@@ -4,7 +4,7 @@ import ss from '../assets/ssnew.svg'
 
 const Eventpn = () => {
   return (
-    <div class=" max-w-[90%] rounded-xl mx-auto bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  md:hidden flex flex-col justify-center py-12 mt-12">
+    <div class=" crack  max-w-[90%] rounded-xl mx-auto bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  md:hidden flex flex-col justify-center py-12 mt-12">
   <div class="py-3 max-w-md mx-auto w-full px-2 sm:px-0">
 
     <div class="relative text-[#410C00] antialiased text-sm font-semibold">
