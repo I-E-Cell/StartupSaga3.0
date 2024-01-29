@@ -3,31 +3,25 @@ import about from "../assets/about.svg";
 import abtpn from "../assets/abtpn.svg";
 import ait from "../assets/AitPune.svg";
 import ss from "../assets/ss.svg";
-
+import Abouttext from "./Abouttext.jsx";
 import horse from "../assets/horse.svg";
 import horse2 from "../assets/horse2.svg";
-import Typewriter from "typewriter-effect";
+
 
 export const About = () => {
   return (
     <>
       <div className="mt-[3.5em] ">
-        <div className=" mt-3 mb-3 pt-2 md:pt-4">
+        <div className=" mt-3 mb-3 pt-y">
           <p className="text-center text-[1.5em] md:text-[3.4em] text-black font-extrabold about-us  ">About Us</p>
         </div>
         <div className="relative mx-auto flex flex-col gap-5">
           <div className="relative    mx-auto w-[90%] max-w-[72em]  ">
             <div className=" absolute text-center about-text w-[55em]">
-              <Typewriter
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString(
-                      "Our mission is to support the Government's vision of achieving a 5 trillion economy by fostering startups founded by AIT students, and we remain committed to this objective. The Innovation and Entrepreneurship Cell aims to promote the entrepreneurship culture in and around the campus by providing multiple platforms for budding entrepreneurs."
-                    )
-                    .changeDelay(0.3)
-                    .start();
-                }}
-              />
+              
+                      <Abouttext/>
+                  
+            
             </div>
             <img className="w-[100%] hidden md:block " src={about} alt=""></img>
             <img className="w-[100%] md:hidden block" src={abtpn} alt=""></img>
@@ -48,16 +42,9 @@ export const About = () => {
           </div>
           <div className="relative mx-auto w-[90%] max-w-[72em] ">
             <div className="absolute text-center about-text w-[55em]">
-              <Typewriter
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString(
+              
                       "Startup Saga, our annual Pan-India event that focuses primarily on engineering students across the country. This event provides a platform for students to showcase their innovative ideas, entrepreneurial skills, and aptitude."
-                    )
-                    .changeDelay(1)
-                    .start();
-                }}
-              />
+                
             </div>
 
             <img className="w-[100%] hidden md:block" src={about} alt=""></img>
