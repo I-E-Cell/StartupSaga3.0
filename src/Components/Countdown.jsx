@@ -19,22 +19,15 @@ function Countdown() {
   return (
     <div className="text-black countdown-text text-xl ">
       <FlipCountdown
-        id="timer"
         hideYear
-        hideMonth
+        
         theme="dark"
         size={clocksize}
         titlePosition="bottom"
         endAt={new Date(
-          Date.now() +
-            1000 /* sec */ *
-              60 /* min */ *
-              60 /* hour */ *
-              48 /* day */ *
-              30 /* month */ *
-              12 /* year */ *
-              2
+         "2024-03-27"
         ).toUTCString()}
+        monthTitle="MONTHS"
         dayTitle="DAYS"
         hourTitle="HOURS"
         minuteTitle="MINS"

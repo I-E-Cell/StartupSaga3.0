@@ -1,32 +1,80 @@
+
 import React from 'react';
 import ScrollCarousel from 'scroll-carousel-react';
-import react from "../assets/react.svg";
 
-const MyComponent = () => {
-  return (
-  <div className="mt-3 md:mt-4">
-  <div className="carousel-container-left">
-    <ScrollCarousel
-      autoplay
-      autoplaySpeed={1}
-      speed={2}
-      direction={'rtl'}
-      onReady={() => console.log("Carousel left")}
-    >
-      {[1, 2, 3, 4, 5, 6, 7].map((item) => (
-        <div key={item} className='bg-blue-300/20 border-2 border-blue-300/70 rounded h-36 w-48'>
-        </div>
-      ))}
-    </ScrollCarousel>
-  </div>
+import Team from "../assets/team.webp"
+
+
+
+export const Data = [
+    {
+      id: 1,
+      src: Team,
+    },
+    {
+      id: 2,
+      src:Team ,
+    },
+    {
+      id: 3,
+      src: Team,
+    },
+    {
+        id: 4,
+        src: Team,
+      },
+      {
+        id: 5,
+        src: Team,
+      },
+      {
+        id: 6,
+        src: Team,
+      },
+      {
+        id: 7,
+        src: Team,
+      },
+      {
+        id: 8,
+        src: Team,
+      },
+      {
+        id: 9,
+        src: Team,
+      },
+      {
+        id: 10,
+        src: Team,
+      },
+      {
+        id: 11,
+        src: Team,
+      },
+  ];
+  
 
   
-</div>
 
-     
-    
-    
+const Carouselright = () => {
+  return (
+    <div>
+      <ScrollCarousel
+        autoplay
+        autoplaySpeed={2}
+        speed={7}
+        direction={'rtl'}
+        onReady={() => console.log("Carousel")}
+      >
+        {Data.map((image,id) => ( 
+          <div key={id} className=' border-2 border-blue-300/70 rounded h-36 w-48 mx-auto justify-center'>
+            <img src={image.src} alt="" className="carousel-image" />
+          </div>
+        ))}
+      </ScrollCarousel>
+    </div>
   );
-};
+}
 
-export default MyComponent;
+export default Carouselright;
+
