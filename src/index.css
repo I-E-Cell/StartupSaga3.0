@@ -80,16 +80,15 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
  }
- @media (max-width:532px) {
+ @media (max-width: 1024px) {
     .phatta{
-        background-image: url("./assets/home/log.svg");
-        background-repeat: repeat-y;
-       
-  
+        background-image: url("./assets/home/chotalog.svg");
+        background-size: contain;
+        background-repeat:no-repeat;
         
-
-    }
- }
+     }
+}
+ 
   
 .ghoda{
    position: absolute;

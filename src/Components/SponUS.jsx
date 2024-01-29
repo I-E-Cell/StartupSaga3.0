@@ -21,12 +21,12 @@ const SponUS = () => {
             <div className='flex flex-col justify-evenly gap-6'>
                 <div className='flex flex-col gap-6 md:flex-row justify-between w-[90%] mx-auto'>
                     <div className='flex  md:gap-[2px] w-full'>
-                        <h1 className='px-3 py-2 bg-[#1F1401]  text-sm md:text-xl font-semibold text-nowrap rounded-lg text-white'>COMPANY NAME</h1>
-                        <input className='bg-transparent border-[2px] w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
+                        <h1 className='px-3 py-2 bg-[#1F1401]  text-sm md:text-md lg:text-xl font-semibold text-nowrap rounded-lg text-white'>COMPANY NAME</h1>
+                        <input className='bg-transparent border-[2px] w-[100%] md:w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
                     </div>
                     <div className='flex gap-[2px] w-full'>
-                        <h1 className='px-6 py-2 border-[#1F1401] border-[1.5px] text-sm md:text-xl font-semibold rounded-lg text-[#1F1401]'>EMAIL</h1>
-                        <input className='bg-transparent border-[2px] w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
+                        <h1 className='px-6 py-2 border-[#1F1401] border-[1.5px] text-sm md:text-md lg:text-xl font-semibold rounded-lg text-[#1F1401]'>EMAIL</h1>
+                        <input className='bg-transparent border-[2px] w-[100%] md:w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
                     </div>
                     <div className='hidden md:flex gap-[2px] items-center  rounded border-[#1F1401] border-[1.5px] px-4 py-2 '>
                         {/* <h1 className='px-6 py-2 border-[#1F1401] border-[1.5px] text-xl font-semibold rounded-lg text-[#1F1401]'></h1> */}
@@ -35,15 +35,15 @@ const SponUS = () => {
                 </div>
                 <div className='flex flex-col items-center  gap-4 md:flex-row justify-between w-[90%] mx-auto'>
                     <div className='flex gap-[2px] w-full'>
-                        <h1 className='px-3 py-2 bg-[#1F1401] text-sm md:text-xl font-semibold text-nowrap rounded-lg text-white'>PHONE</h1>
-                        <input className='bg-transparent border-[2px] w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
+                        <h1 className='px-3 py-2 bg-[#1F1401] text-sm md:text-md lg:text-xl font-semibold text-nowrap rounded-lg text-white'>PHONE</h1>
+                        <input className='bg-transparent border-[2px] w-[100%] md:w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
                     </div>
                     <div className='hidden md:flex gap-[2px]  items-center  rounded border-[#1F1401] border-[1.5px] px-4 py-[.9em] '>
                         <GoDotFill size={15} />
                     </div>
                     <div className='flex gap-[2px] w-full'>
-                        <h1 className='px-6 py-2 border-[#1F1401] border-[1.5px] text-sm md:text-xl font-semibold rounded-lg text-[#1F1401]'>LINKEDIN</h1>
-                        <input className='bg-transparent border-[2px] w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
+                        <h1 className='px-6 py-2 border-[#1F1401] border-[1.5px] text-sm md:text-md lg:text-xl font-semibold rounded-lg text-[#1F1401]'>LINKEDIN</h1>
+                        <input className='bg-transparent border-[2px] w-[100%] md:w-[60%] border-[#1F1401] rounded-r-lg border-l-0'></input>
                     </div>
                     <hr className=' hidden md:flex w-[6em] h-1 rounded bg-[#1F1401]' />  <GoDotFill className='hidden md:flex' size={25} />
                     <div className='hidden md:flex gap-[2px] items-center  rounded border-[#1F1401] border-[1.5px] px-4 py-2 '>

@@ -108,15 +108,19 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" lg:w-[60em] relative  top-[2.8em]   mx-auto   justify-center bg-transparent phatta  ">
-        
-      
+      <div className=" hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-transparent phatta  ">
+
+
         <div className="  ">
-          <div className="py-5 h-[6em] justify-center md:h-[8em] rounded-2xl ">
-          
+          <div className="py-5 h-[6em] flex justify-center items-center md:h-[8em] rounded-2xl ">
+
             <Countdown />
           </div>
         </div>
+      </div>
+      <div className="mt-[6em] md:hidden">
+        <Countdown />
+
       </div>
     </>
   );

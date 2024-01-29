@@ -17,7 +17,7 @@ function Countdown() {
   }, []); // Empty dependency array ensures that this effect runs only once
 
   return (
-    <div className="text-black countdown-text ">
+    <div className="text-black countdown-text text-xl ">
       <FlipCountdown
         id="timer"
         hideYear
@@ -37,8 +37,8 @@ function Countdown() {
         ).toUTCString()}
         dayTitle="DAYS"
         hourTitle="HOURS"
-        minuteTitle="MINUTES"
-        secondTitle="SECONDS"
+        minuteTitle="MINS"
+        secondTitle="SECS"
       />
     </div>
   );
