@@ -24,7 +24,7 @@ const Events = () => {
                 28/3/2004
               </h3>
             </div>
-            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '9em' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '11%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
             </div>
             <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
@@ -35,7 +35,7 @@ const Events = () => {
                 28/3/2004
               </h3>
             </div>
-            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '36em' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '42%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
             </div>
             <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
@@ -46,13 +46,13 @@ const Events = () => {
                 28/3/2004
               </h3>
             </div>
-            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '65em' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '75%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
             </div>
           </div>
           <img className='' src={tracks} alt="" />
           <div className=' w-full flex justify-evenly'>
-            <div  onMouseEnter={() => moveTrain({ top: '-1.25em', left: '-4.2em' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <div  onMouseEnter={() => moveTrain({ top: '-1.25em', left: '-6%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
             </div>
             <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
@@ -63,7 +63,7 @@ const Events = () => {
                 28/3/2004
               </h3>
             </div>
-            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '22.5em' })} className='w-[7.5em] h-[7.5em] rounded-lg  border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '26%' })} className='w-[7.5em] h-[7.5em] rounded-lg  border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
             </div>
             <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
@@ -74,7 +74,7 @@ const Events = () => {
                 28/3/2004
               </h3>
             </div>
-            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '49em' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <div onMouseEnter={() => moveTrain({ top: '-1.25em', left: '58%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
             </div>
             <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
@@ -87,7 +87,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        <div className='absolute  z-10 ' >
+        <div className='absolute  z-10  w-[85%] lg:w-full' >
             <img className='imgg w-[16em] relative' style={{ top: trainPosition.top, left: trainPosition.left }} src={train} alt="" />
         </div>
 

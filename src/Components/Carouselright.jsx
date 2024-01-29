@@ -58,7 +58,7 @@ export const Data = [
 
 const Carouselright = () => {
   return (
-    <div>
+    <div className='  pb-5'>
       <ScrollCarousel
         autoplay
         autoplaySpeed={2}

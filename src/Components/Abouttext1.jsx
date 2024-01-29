@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 function App() {
   const text =
-    "Our mission is to support the Government's vision of achieving a 5 trillion economy by fostering startups founded by AIT students, and we remain committed to this objective. The Innovation and Entrepreneurship Cell aims to promote the entrepreneurship culture in and around the campus by providing multiple platforms for budding entrepreneurs.".split(
+  "Startup Saga, our annual Pan-India event that focuses primarily on engineering students across the country. This event provides a platform for students to showcase their innovative ideas, entrepreneurial skills, and aptitude.".split(
       " "
     );
 

@@ -80,16 +80,14 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
  }
- @media (max-width:532px) {
+ @media (max-width: 1024px) {
     .phatta{
-        background-image: url("./assets/log.svg");
-        background-repeat: repeat-y;
-       
-  
+        background-image: url("./assets/home/chotalog.svg");
+        background-size: contain;
+        background-repeat:no-repeat;
         
-
-    }
- }
+     }
+}
  
   
 .ghoda{
@@ -236,10 +234,11 @@ body{
 .carousel-image{
     position: absolute;
     width: 10em;
-    height: 10em;
+    height: 8em;
     top:50%;
     right: 50%;
     translate: 50% -50%;
+    
 }
 
 

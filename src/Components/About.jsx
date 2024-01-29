@@ -6,6 +6,7 @@ import ss from "../assets/ss.svg";
 import Abouttext from "./Abouttext.jsx";
 import horse from "../assets/horse.svg";
 import horse2 from "../assets/horse2.svg";
+import Abouttext1 from "./Abouttext1.jsx";
 
 
 export const About = () => {
@@ -41,9 +42,9 @@ export const About = () => {
             <img className="absolute w-[2.3em] md:hidden block horsepn" src={horse} alt="" />
           </div>
           <div className="relative mx-auto w-[90%] max-w-[72em] ">
-            <div className="absolute text-center about-text w-[55em]">
+            <div className="absolute text-center about-text">
               
-                      "Startup Saga, our annual Pan-India event that focuses primarily on engineering students across the country. This event provides a platform for students to showcase their innovative ideas, entrepreneurial skills, and aptitude."
+                 <Abouttext1/>    
                 
             </div>
 
