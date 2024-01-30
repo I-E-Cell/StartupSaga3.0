@@ -3,6 +3,13 @@ import React from 'react';
 import ScrollCarousel from 'scroll-carousel-react';
 
 import Team from "../assets/team.webp"
+import Img1 from "../assets/img1.webp"
+import Img2 from "../assets/img2.webp"
+import Img3 from "../assets/img3.webp"
+import Img4 from "../assets/img4.webp"
+import Img5 from "../assets/img5.webp"
+import Img6 from "../assets/img6.webp"
+
 
 
 
@@ -13,27 +20,27 @@ export const Data = [
     },
     {
       id: 2,
-      src:Team ,
+      src:Img1 ,
     },
     {
       id: 3,
-      src: Team,
+      src: Img2,
     },
     {
         id: 4,
-        src: Team,
+        src: Img3,
       },
       {
         id: 5,
-        src: Team,
+        src: Img4,
       },
       {
         id: 6,
-        src: Team,
+        src: Img5,
       },
       {
         id: 7,
-        src: Team,
+        src: Img6,
       },
       {
         id: 8,
@@ -41,15 +48,15 @@ export const Data = [
       },
       {
         id: 9,
-        src: Team,
+        src: Img1,
       },
       {
         id: 10,
-        src: Team,
+        src: Img2,
       },
       {
         id: 11,
-        src: Team,
+        src: Img3,
       },
   ];
   
@@ -58,16 +65,16 @@ export const Data = [
 
 const Carouselright = () => {
   return (
-    <div className='  pb-5'>
+    <div className=' py-2 bg-[#241303]'>
       <ScrollCarousel
         autoplay
         autoplaySpeed={2}
-        speed={7}
+        speed={6}
         direction={'ltr'}
         onReady={() => console.log("Carousel")}
       >
         {Data.map((image,id) => ( 
-          <div key={id} className=' border-2 border-blue-300/70 rounded h-36 w-48 mx-auto justify-center'>
+          <div key={id} className='  rounded h-[15em] w-[15em] mx-auto justify-center carousel-container'>
             <img src={image.src} alt="" className="carousel-image" />
           </div>
         ))}
