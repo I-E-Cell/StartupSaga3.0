@@ -30,6 +30,7 @@ const EventData = [
         date: '27 Jan 2024',
         button: 'www.google.com',
     },
+    
 ]
 
 function Modal(props) {
