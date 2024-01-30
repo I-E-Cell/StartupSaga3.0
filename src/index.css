@@ -264,3 +264,10 @@ body{
 
 
 
+.sponus{
+    background-image: url(./assets/paper.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
