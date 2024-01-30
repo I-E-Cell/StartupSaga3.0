@@ -234,7 +234,7 @@ body{
 .carousel-image{
     position: absolute;
     height: 14em;
-    width: 14em;
+    width: 19em;
     top:50%;
     right: 50%;
     translate: 50% -50%;
@@ -243,21 +243,18 @@ body{
     
 }
 
+
 @media (max-width:768px) {
     .carousel-image{
-        height: 11em;
-        width: 11em;
+        height: 8.5em;
+        width: 11.5em;
+        
     }
     
 
     
 }
-.carousel-container{
-    background-size: contain;
-}
-.faq-text{
-    font-family: "Special Elite",sans-serif;
-}
+
 
 
 

@@ -7,7 +7,8 @@ import { GoDotFill } from "react-icons/go";
 const Carousel = () => {
   return (
     <>
-    <div className="mt-14 md:mt-16 py-3 ">
+    
+    <div className="mt-4 md:mt-6 z-0 ">
     <div className=" text-center">
     <h1 className='text-[1.6em] md:text-[3.6em] mx-auto text-center font-extrabold text-[#241303]'>Glimpses</h1>
 
