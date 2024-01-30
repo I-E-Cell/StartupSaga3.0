@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 const Footer = () => {
     return (<>
-        <div>
+        <div className='max-w-[87em]'>
             <div id='top' className='bg-[#241303]  w-[100%] h-[31em] sm:h-[34em] md:h-[21em] flex  flex-col md:flex-row md:mt-[8em] mt-[6em]'>
 
                 <div className='w-[100%] align-centre justify-center md:w-[30%]'>
