@@ -75,8 +75,8 @@ const Carouselright = () => {
         onReady={() => console.log("Carousel")}
       >
         {Data.map((image, id) => (
-          <div key={id} className='  rounded h-[15em] w-[15em] mx-auto justify-center'>
-            <img src={image.src} alt="" className="carousel-image" />
+          <div key={id} className='  rounded h-[12em] w-[12em] md:h-[15em] md:w-[15em]  mx-auto justify-center'>
+            <img src={image.src} alt="" className="carousel-image" loading='lazy' />
           </div>
         ))}
       </ScrollCarousel>

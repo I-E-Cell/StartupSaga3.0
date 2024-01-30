@@ -30,14 +30,14 @@ const Events = () => {
 
           <div className=' w-full flex justify-evenly'>
             <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
-              <h2 className='text-lg font-semibold text-center'> Event A
+              <h2 className='text-lg font-semibold text-center'> Niveshathon
 
               </h2>
               <h3 className=' font-bold'>
-                28/3/2004
+                27/3/2024
               </h3>
             </div>
-            <div onClick={() => displaymodal('Niveshathon 1')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '11%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <div onClick={() => displaymodal('Niveshathon')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '11%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
             </div>
             <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
