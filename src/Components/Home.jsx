@@ -16,7 +16,7 @@ import Countdown from "./Countdown";
 const Home = () => {
   return (
     <>
-      <div className="flex justify-center top-[5em] md:top-[7em]  mx-[2%] relative">
+      <div className="flex justify-center top-[5em] md:top-[7em]  mx-[2%] relative z-10">
         <div className="relative pt-[8em] bg-[#85C19C] px-12  overflow-hidden rounded-2xl w-[87em] h-[36em] md:h-[43em]">
           <motion.img
             initial={{ opacity: 0 }}
@@ -108,7 +108,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-transparent phatta  ">
+      <div className=" hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-transparent phatta z-20 ">
 
 
         <div className="  ">
