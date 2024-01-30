@@ -240,11 +240,24 @@ body{
     translate: 50% -50%;
     border-radius: 3%;
     
+    
+}
+
+@media (max-width:768px) {
+    .carousel-image{
+        height: 11em;
+        width: 11em;
+    }
+    
+
+    
 }
 .carousel-container{
     background-size: contain;
 }
-
+.faq-text{
+    font-family: "Special Elite",sans-serif;
+}
 
 
 

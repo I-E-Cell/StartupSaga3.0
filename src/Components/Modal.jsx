@@ -4,15 +4,15 @@ import ss from '../assets/ssnew.svg'
 const EventData = [
     {
         logo: '',
-        EventName: 'Niveshathon 1',
-        discription: 'This is a paper trading competition where participants test their trading skills in a real-time platform eliminating the natural fear of losing money and competing with others for the highest final portfolio valuation.',
-        date: '27 Jan 2024',
+        EventName: 'Niveshathon',
+        discription: 'Hone your trading skills using virtual currency and achieve the highest profit to conquer your way through others.',
+        date: '28 Jan 2024',
         button: 'www.google.com',
     },
     {
         logo: '',
-        EventName: 'Niveshathon 2',
-        discription: 'This is a paper trading competition where participants test their trading skills in a real-time platform eliminating the natural fear of losing money and competing with others for the highest final portfolio valuation.',
+        EventName: 'Shark Tank AIT',
+        discription: 'Pitch your best ideas to a panel of expert judges for a chance to secure big funding opportunities.',
         date: '27 Jan 2024',
         button: 'www.google.com',
     },
