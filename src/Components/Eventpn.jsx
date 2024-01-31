@@ -45,6 +45,7 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                    Niveshathon
                     27/03/2024
                   </div>
                 </div>
@@ -58,6 +59,7 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                    Speaker Session
                     28/03/2024
                   </div>
                 </div>
@@ -98,6 +100,7 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                    Shark Tank AIT
                     29/03/2024
                   </div>
                 </div>
@@ -110,6 +113,7 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                    Ecell Meet
                     29/03/2024
                   </div>
                 </div>
@@ -149,6 +153,7 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                    Escape Room
                     30/03/2024
                   </div>
                 </div>
@@ -161,6 +166,7 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                    Theme based Hackathon
                     30/03/2024
                   </div>
                 </div>
