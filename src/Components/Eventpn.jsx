@@ -1,7 +1,13 @@
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import ss from '../assets/ssnew.svg'
 import Modal from './Modal'
+import nivesh from '../assets/nivesh.svg'
+import meet from '../assets/meet.svg'
+import escape from '../assets/escape.svg'
+import theme from '../assets/theme.svg'
+
+import sharktank from '../assets/sharktank.svg'
 
 const Eventpn = () => {
 
@@ -12,7 +18,7 @@ const Eventpn = () => {
     setDisplay(event);
     setShowModal(true)
   }
-  
+
   const closeModal = () => {
     setShowModal(prevShowModal => !prevShowModal);
   };
@@ -32,8 +38,9 @@ const Eventpn = () => {
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
                 <div onClick={() => displaymodal('Niveshathon')} class="w-[8.5em] h-[8.5em] ">
-                  <div class="p-4 border-[1px] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
-
+                  <div class="p-4 border-[1px] gap-5  text-[#F0D6B8]  flex flex-col justify-center items-center border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
+                    <img className='w-[70%] ' src={nivesh} alt="" />
+                    <h1 className=' whitespace-nowrap'>Register Here!</h1>
                   </div>
                 </div>
               </div>
@@ -70,9 +77,10 @@ const Eventpn = () => {
                 </img>
               </div>
               <div class="flex justify-end  mx-auto items-center">
-                <div  class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Speaker Session')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
-
+                <div class="w-[8.5em]">
+                  <div onClick={() => displaymodal('Speaker Session')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] gap-5  text-[#F0D6B8] flex flex-col justify-center items-center border-[#210D00] bg-[#9E4D16] rounded shadow">
+                    <img className='w-[40%] ' src={sharktank} alt="" />
+                    <h1 className=' whitespace-nowrap'>Register Here !</h1>
 
                   </div>
                 </div>
@@ -86,8 +94,9 @@ const Eventpn = () => {
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
                 <div onClick={() => displaymodal('Ecell Meet')} class="w-[8.5em] h-[8.5em]">
-                  <div class="p-4 border-[1px] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
-
+                  <div class="p-4 border-[1px]  flex flex-col justify-center items-center gap-5  text-[#F0D6B8] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
+                    <img className='w-[40%] ' src={sharktank} alt="" />
+                    <h1 className=' whitespace-nowrap'>Register Here !</h1>
 
                   </div>
                 </div>
@@ -125,8 +134,9 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Shark Tank AIT')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
-
+                  <div onClick={() => displaymodal('Shark Tank AIT')} class="p-4 w-[8.5em] gap-5  text-[#F0D6B8] h-[8.5em] border-[1px] border-[#210D00]  flex flex-col justify-center items-center bg-[#9E4D16] rounded shadow">
+                    <img className='w-[60%] ' src={meet} alt="" />
+                    <h1 className=' whitespace-nowrap'>Register Here !</h1>
 
                   </div>
                 </div>
@@ -139,8 +149,9 @@ const Eventpn = () => {
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
                 <div onClick={() => displaymodal('Escape Room')} class="w-[8.5em] h-[8.5em]">
-                  <div class="p-4 border-[1px] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
-
+                  <div class="p-4  flex flex-col justify-center items-center border-[1px] gap-5  text-[#F0D6B8] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
+                    <img className='w-[45%] ' src={escape} alt="" />
+                    <h1 className=' whitespace-nowrap'>Register Here !</h1>
 
                   </div>
                 </div>
@@ -166,7 +177,7 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    Theme based Hackathon
+                    Startup Competition
                     30/03/2024
                   </div>
                 </div>
@@ -178,8 +189,9 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Theme-based Hackathon')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
-
+                  <div onClick={() => displaymodal('Theme-based Hackathon')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] gap-5  text-[#F0D6B8]  flex flex-col justify-center items-center rounded shadow">
+                    <img className='w-[45%] ' src={theme} alt="" />
+                    <h1  className=' whitespace-nowrap text-semibold'>Register Here !</h1>
 
                   </div>
                 </div>
