@@ -1,0 +1,206 @@
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-in {
+    animation: slideIn 1s ease-in-out;
+  }
+  @keyframes revolve {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-revolve {
+    animation: revolve 10s linear infinite; 
+  }
+  
+
+  @keyframes translateOscillate {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  .animate-oscillate {
+    animation: translateOscillate 2s ease-in-out infinite alternate; 
+  }
+
+  @keyframes popUpSlide1 {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-5px) scale(1.1);
+    }
+  }
+  
+  @keyframes popUpSlide2 {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-5px) scale(1.1);
+    }
+  }
+  
+  @keyframes popUpSlide3 {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-5px) scale(1.1);
+    }
+  }
+  
+  @keyframes popUpSlide4 {
+    0%, 100% {
+      transform: translateY(0) scale(1);
+    }
+    50% {
+      transform: translateY(-5px) scale(1.1);
+    }
+  }
+  .animate-pop-up-slide1 {
+    animation: popUpSlide1 1.5s ease-in-out infinite alternate, grow 1s ease-in-out infinite alternate;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .animate-pop-up-slide2 {
+    animation: popUpSlide2 1.5s ease-in-out infinite alternate, grow 1s ease-in-out infinite alternate;
+    transition: transform 0.5s ease-in-out;
+    animation-delay: 0.25s; 
+  }
+  
+  .animate-pop-up-slide3 {
+    animation: popUpSlide3 1.5s ease-in-out infinite alternate, grow 1s ease-in-out infinite alternate;
+    transition: transform 0.5s ease-in-out;
+    animation-delay: 0.5s; 
+  }
+  
+  .animate-pop-up-slide4 {
+    animation: popUpSlide4 1.5s ease-in-out infinite alternate, grow 1s ease-in-out infinite alternate;
+    transition: transform 0.5s ease-in-out;
+    animation-delay: 0.75s; 
+  }  
+
+  .bg-blue-500 {
+    background-color: #3b82f6; 
+    width: 2px;
+  }
+  
+  @keyframes popAndScale {
+    0% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1.06);
+      opacity: 1;
+    }
+  }
+  .animate-pop-and-scale {
+    animation: popAndScale 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  }
+  .bg-linear-gradient-custom {
+    background-image: linear-gradient(rgb(17, 24, 39), rgb(75, 85, 99));
+  }
+  
+  
+  .gradient-text {
+    background-image: linear-gradient(rgb(229, 231, 235), rgb(156, 163, 175), rgb(75, 85, 99));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  
+  
+  
+.img {
+  max-width: 400px;
+  height: 200px;
+  position: relative;
+  top: -2.6em;
+  border-radius: 3%;
+  object-fit: cover;
+}
+@media (max-width:768px) {
+    .img{
+        height: 150px;
+        top:0;
+        
+    }
+    
+}
+.img:last-of-type {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+ 
+}
+
+.wrapper {
+  position: absolute;
+  display: flex;
+  
+  justify-items: center;
+}
+
+.section1 {
+  display: flex;
+  animation: swipe1 var(--speed) linear infinite forwards;
+}
+.section2 {
+    display: flex;
+    animation: swipe2 var(--speed) linear infinite backwards;
+  }
+  
+
+@keyframes swipe1 {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+@keyframes swipe2 {
+    0% {
+      transform: translate(-100%);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+
+.image:hover {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.paused {
+  animation-play-state: paused;
+}
