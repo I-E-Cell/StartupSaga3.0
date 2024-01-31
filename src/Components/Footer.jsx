@@ -71,7 +71,7 @@ const Footer = () => {
                             transition={{ duration: 0.6 }}
 
                         >
-                            <h1 className=' my-0'>Startup Saga</h1>
+                            <h1 className=' my-0'>Startup Saga </h1>
                         </motion.div>
 
                     </div>

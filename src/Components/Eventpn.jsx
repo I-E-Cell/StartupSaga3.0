@@ -31,7 +31,7 @@ const Eventpn = () => {
           <motion.div initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }} class="mt-6  mb-12">
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
-                <div onClick={() => displaymodal('Niveshathon 1')} class="w-[8.5em] h-[8.5em] ">
+                <div onClick={() => displaymodal('Niveshathon')} class="w-[8.5em] h-[8.5em] ">
                   <div class="p-4 border-[1px] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
 
                   </div>
@@ -45,7 +45,8 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    28/03/2004
+                    Niveshathon
+                    27/03/2024
                   </div>
                 </div>
               </div>
@@ -58,7 +59,8 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    28/03/2004
+                    Speaker Session
+                    28/03/2024
                   </div>
                 </div>
               </div>
@@ -69,7 +71,7 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div  class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Niveshathon 1')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
+                  <div onClick={() => displaymodal('Speaker Session')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
 
 
                   </div>
@@ -83,7 +85,7 @@ const Eventpn = () => {
           <motion.div initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }} class="mt-6  mb-12">
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
-                <div onClick={() => displaymodal('Niveshathon 1')} class="w-[8.5em] h-[8.5em]">
+                <div onClick={() => displaymodal('Ecell Meet')} class="w-[8.5em] h-[8.5em]">
                   <div class="p-4 border-[1px] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
 
 
@@ -98,7 +100,8 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    28/03/2004
+                    Shark Tank AIT
+                    29/03/2024
                   </div>
                 </div>
               </div>
@@ -110,7 +113,8 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    28/03/2004
+                    Ecell Meet
+                    29/03/2024
                   </div>
                 </div>
               </div>
@@ -121,7 +125,7 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Niveshathon 1')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
+                  <div onClick={() => displaymodal('Shark Tank AIT')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
 
 
                   </div>
@@ -134,7 +138,7 @@ const Eventpn = () => {
           <motion.div initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }} class="mt-6  mb-12">
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
-                <div onClick={() => displaymodal('Niveshathon 1')} class="w-[8.5em] h-[8.5em]">
+                <div onClick={() => displaymodal('Escape Room')} class="w-[8.5em] h-[8.5em]">
                   <div class="p-4 border-[1px] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
 
 
@@ -149,7 +153,8 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    28/03/2004
+                    Escape Room
+                    30/03/2024
                   </div>
                 </div>
               </div>
@@ -161,7 +166,8 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    28/03/2004
+                    Theme based Hackathon
+                    30/03/2024
                   </div>
                 </div>
               </div>
@@ -172,7 +178,7 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Niveshathon 1')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
+                  <div onClick={() => displaymodal('Theme-based Hackathon')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] rounded shadow">
 
 
                   </div>

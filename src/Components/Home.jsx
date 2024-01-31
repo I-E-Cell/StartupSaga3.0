@@ -77,6 +77,7 @@ const Home = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.6, duration: 1 }}
             src={mount1}
+            loading="eager"
             className="w-[25em] lg:w-[36em] absolute hidden md:block mount1"
             alt=""
           />
@@ -85,6 +86,7 @@ const Home = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.6, duration: 1 }}
             src={mount2}
+            loading="eager"
             className="md:w-[25em] lg:w-[36em] sm:w-[36em] absolute  mount2"
             alt=""
           />
