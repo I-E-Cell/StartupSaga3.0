@@ -35,7 +35,7 @@ const Banner = ({ images, speed = 8000 }) => {
                   <div className="bg-white h-3 w-6 md:h-4 md:w-8 md:mt-4 rounded-sm"></div>
                   <div className="  bg-white h-3 w-6 md:h-4 md:w-8 md:mt-4 "></div>
                 </div>
-                <img className="img" src={image} alt={`Image ${id}`} />
+                <img className="img" src={image} alt={`Image ${id}`} loading="lazy" />
               </div>
             ))}
           </section>
