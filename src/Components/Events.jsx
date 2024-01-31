@@ -30,70 +30,70 @@ const Events = () => {
 
         <div className=' w-full flex justify-evenly'>
           <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
-            <h2 className='text-lg font-semibold text-center'> Event A
+            <h2 className='text-lg font-semibold text-center'> Niveshathon
 
             </h2>
             <h3 className=' font-bold'>
-              28/3/2004
+              27/03/2024
             </h3>
           </div>
-          <div onClick={() => displaymodal('Niveshathon 1')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '11%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+          <div onClick={() => displaymodal('Speaker Session')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '11%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
           </div>
           <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
-            <h2 className='text-lg font-semibold text-center'> Event B
-
+            <h2 className='text-lg font-semibold text-center'> 
+            Ecell Meet
             </h2>
             <h3 className=' font-bold'>
-              28/3/2004
+              28/03/2024
             </h3>
           </div>
-          <div onClick={() => displaymodal('Niveshathon 3')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '42%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+          <div onClick={() => displaymodal('Ecell Meet')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '42%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
           </div>
           <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
-            <h2 className='text-lg font-semibold text-center'> Event c
+            <h2 className='text-lg font-semibold text-center'> Escape Room
 
             </h2>
             <h3 className=' font-bold'>
-              28/3/2004
+              29/03/2024
             </h3>
           </div>
-          <div onClick={() => displaymodal('Niveshathon 2')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '75%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+          <div onClick={() => displaymodal('Theme-based Hackathon')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '75%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
           </div>
         </div>
         <img className='' src={tracks} alt="" />
         <div className=' w-full flex justify-evenly'>
-          <div onClick={() => displaymodal('Niveshathon 4')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '-6%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+          <div onClick={() => displaymodal('Niveshathon')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '-6%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
           </div>
           <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
-            <h2 className='text-lg font-semibold text-center'> Event c
+            <h2 className='text-lg font-semibold text-center'> Speaker Session
 
             </h2>
             <h3 className=' font-bold'>
-              28/3/2004
+              27/03/2024
             </h3>
           </div>
-          <div onClick={() => displaymodal('Niveshathon 5')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '26%' })} className='w-[7.5em] h-[7.5em] rounded-lg  border-[1px] border-[#210D00] bg-[#9E4D16]'>
+          <div onClick={() => displaymodal('Shark Tank AIT')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '26%' })} className='w-[7.5em] h-[7.5em] rounded-lg  border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
           </div>
           <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
-            <h2 className='text-lg font-semibold text-center'> Event y
+            <h2 className='text-lg font-semibold text-center'> Shark Tank AIT
             </h2>
             <h3 className=' font-bold'>
-              28/3/2004
+              28/03/2024
             </h3>
           </div>
-          <div onClick={() => displaymodal('Niveshathon 6')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '58%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+          <div onClick={() => displaymodal('Escape Room')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '58%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
 
           </div>
           <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
-            <h2 className='text-lg font-semibold text-center'> Event x
+            <h2 className='text-lg font-semibold text-center'> Theme-based Hackathon
             </h2>
             <h3 className=' font-bold'>
-              28/3/2004
+              29/03/2024
             </h3>
           </div>
         </div>
