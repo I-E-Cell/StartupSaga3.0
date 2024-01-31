@@ -1,7 +1,6 @@
-import React from 'react'
-import Carouselright from './Carouselright'
-import Carouselleft from './Carouselleft'
-import Horsegame from './Horsegame'
+import React from 'react';
+import Carouselright from './Carouselright';
+import Carouselleft from './Carouselleft';
 import { GoDotFill } from "react-icons/go";
 
 const Carousel = () => {
@@ -25,7 +24,6 @@ const Carousel = () => {
 
           <Carouselright />
 
-          <Horsegame />
           <Carouselleft />
       </div>
       </>
