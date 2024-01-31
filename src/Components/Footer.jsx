@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "../assets/sslogo.svg";
 import darrow from "../assets/darrow.svg";
-import tumble1 from "../assets/1.png";
+
 const Footer = () => {
   return (
     <div className=" w-screen  h-full flex justify-center  gap-4 md:rounded-2xl rounded-md p-4">
       <div>
         <div className="h-full inline-flex flex-col bg-[#ffe1ad] justify-center  md:rounded-2xl rounded-md  overflow-hidden">
-          <div className="w-full h-full p-4">
-            <img className=" md:w-[80%] w-full" src={logo} alt="" />
+          <div className="w-full h-full p-4 flex justify-center items-center">
+            <img className=" md:w-[70%] w-full" src={logo} alt="" />
           </div>
           <div>
             <div class="flex  h-full justify-evenly lg:px-4 ">
@@ -106,27 +106,27 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=" w-[60%] h-[100%] flex flex-col gap-2 md:rounded-2xl rounded-md justify-between">
-        <div className=" w-[95%] grid grid-flow-col md:grid-rows-1 sm:grid-rows-2 grid-rows-3 justify-evenly md:rounded-2xl p-1 rounded-md bg-[#6F4E37] lg:p-4">
-          <h4 className=" text-white md:text-lg text-[10px]"> Home </h4>
-          <h4 className=" text-white md:text-lg text-[10px]"> Events </h4>
-          <h4 className=" text-white md:text-lg text-[10px]"> Timeline </h4>
-          <h4 className=" text-white md:text-lg text-[10px]"> Memories </h4>
-          <h4 className=" text-white md:text-lg text-[10px]"> Team </h4>
-          <h4 className=" text-white md:text-lg text-[10px] sm:block lg:hidden hidden ">
+      <div className=" w-[60%] h-[100%] flex flex-col gap-2 md:rounded-2xl rounded-md justify-between ">
+        <div className=" w-[100%] hidden sm:grid sm:grid-flow-col md:grid-rows-1 sm:grid-rows-2 grid-rows-3 justify-evenly md:rounded-2xl p-1 rounded-md bg-[#6F4E37] md:p-4">
+          <h4 className=" text-white md:text-[14px] text-[10px]"> Home </h4>
+          <h4 className=" text-white md:text-[14px] text-[10px]"> Events </h4>
+          <h4 className=" text-white md:text-[14px] text-[10px]"> Timeline </h4>
+          <h4 className=" text-white md:text-[14px] text-[10px]"> Memories </h4>
+          <h4 className=" text-white md:text-[14px] text-[10px]"> Team </h4>
+          <h4 className=" text-white md:text-[14px] text-[10px] sm:block lg:hidden hidden ">
             {" "}
             Locate us{" "}
           </h4>
         </div>
         <div className=" w-full flex sm:flex-row flex-col gap-4 h-full md:rounded-2xl rounded-md justify-center">
           <div className="flex flex-col justify-center items-center w-full bg-[#C4A484] md:p-4 p-1 gap-4 md:rounded-2xl rounded-md">
-            <div className=" flex flex-col gap-2 w-full  bg-transparent sm:block hidden">
-              <h4 className=" text-center md:text-sm text-[10px] ">
+            <div className=" flex flex-col gap-2 w-full justify-center  bg-transparent ">
+              <h4 className=" text-center md:text-sm text-[10px] max-w-sm  mx-auto">
                 “If you look at history, innovation doesn’t come just from
                 giving people incentives; it comes from creating environments
                 where their ideas can connect.“
               </h4>
-              <h4 className=" flex gap-1 md:text-sm text-[10px] font-bold justify-end">
+              <h4 className=" flex gap-1 md:text-sm text-[10px] font-bold justify-end mr-4">
                 {" "}
                 I&E Cell{" "}
                 <span>
@@ -134,19 +134,26 @@ const Footer = () => {
                 </span>
               </h4>
             </div>
-            <div className=" w-full flex flex-col justify-start h-auto ">
-              <h2 className=" font-bold md:text-md text-xs "> Contact Us</h2>
-              <h4 className="md:text-sm text-[10px]">
+            <div className=" w-full flex flex-col justify-start gap-0 md:gap-2 lg:gap-0 h-auto ">
+              <h2 className=" w-full font-bold md:text-[20px] text-xs text-center pb-2  ">
                 {" "}
-                Ayush Kumar : <span>9898xxxxxxx</span>
-              </h4>
-              <h4 className=" md:text-sm text-[10px]">
-                {" "}
-                Jyoti Yadav : <span>9898xxxxxxx</span>
-              </h4>
+                Contact
+              </h2>
+              <div className=" w-full flex md:flex-row flex-col md:justify-between justify-start items-center">
+                <h4 className=" flex flex-col text-center gap-1 md:text-sm text-[10px]">
+                  {" "}
+                  <span className=" font-bold">Ayush Kumar, Secretay</span>
+                  <span>9898xxxxxxx</span>
+                </h4>
+                <h4 className=" flex flex-col text-center gap-1 md:text-sm text-[10px]">
+                  {" "}
+                  <span className=" font-bold">Jyoti Yadav, Secretary</span>
+                  <span>9898xxxxxxx</span>
+                </h4>
+              </div>
             </div>
           </div>
-          <div className=" w-full  bg-[#988558] sm:p-4 flex flex-col justify-center gap-2 md:rounded-2xl rounded-xl lg:block sm:hidden">
+          <div className=" w-full  bg-[#988558] sm:p-4 flex flex-col justify-center gap-2 md:rounded-2xl rounded-xl lg:block md:hidden">
             <iframe
               class="rounded-xl w-full   sm:mb-4 mx-auto "
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.64883570219!2d73.87434400449611!3d18.607325966357873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c70090000001%3A0x160a20f3d0273495!2sArmy%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1700741837638!5m2!1sen!2sin"
