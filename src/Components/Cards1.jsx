@@ -16,7 +16,7 @@ export default function Cards() {
   return (
     <div className="">
       
-      <Banner images={images} speed={8000} />
+      <Banner images={images} speed={7000} />
     </div>
   );
 }
