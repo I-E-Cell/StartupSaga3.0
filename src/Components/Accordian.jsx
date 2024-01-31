@@ -21,7 +21,7 @@ const Accordion = ({ title, answer }) => {
 
           src={cactusopen} />}
 
-        <span>{title}</span>
+        <span className="text-left">{title}</span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
       </button>
       <div
@@ -30,7 +30,7 @@ const Accordion = ({ title, answer }) => {
             : "grid-rows-[0fr] opacity-0"
           }`}
       >
-        <div className="overflow-hidden relative left-[5.8em] sm:left-[8.2em] py-2">{answer}</div>
+        <div className="overflow-hidden relative left-[5.8em] sm:left-[8.2em]  text-left">{answer}</div>
       </div>
     </div>
   );
