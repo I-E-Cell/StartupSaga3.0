@@ -3,6 +3,7 @@ import crack from '../assets/crack.svg'
 import tracks from '../assets/track.svg'
 import train from '../assets/train.svg'
 import Modal from './Modal'
+import nivesh from '../assets/nivesh.svg'
 const Events = () => {
 
   const [trainPosition, setTrainPosition] = useState({ top: '-1.25em', left: '-10.5em' });
@@ -48,8 +49,9 @@ const Events = () => {
               28/3/2004
             </h3>
           </div>
-          <div onClick={() => displaymodal('Niveshathon 3')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '42%' })} className='w-[7.5em] rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
-
+          <div onClick={() => displaymodal('Niveshathon 3')} onMouseEnter={() => moveTrain({ top: '-1.25em', left: '42%' })} className='w-[7.5em] cursor-pointer text-[#F0D6B8] flex flex-col items-center justify-center rounded-lg h-[7.5em] border-[1px] border-[#210D00] bg-[#9E4D16]'>
+            <img className='w-[70%] mx-auto ' src={nivesh} alt="" />
+            <a className='pt-3' href="">Register Here</a>
           </div>
           <div className=' w-[7.5em] rounded-lg  text-center flex flex-col gap-5'>
             <h2 className='text-lg font-semibold text-center'> Event c
