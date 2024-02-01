@@ -273,3 +273,25 @@ body{
     bottom: -18px;
     right:0px
 }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #85C19C #FFF4E7;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    
+    width: 6px;
+    height: 13px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #FFF4E7;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #86C8D3;
+    border-radius: 16px;
+    border: 0px solid #0F1322;
+}
