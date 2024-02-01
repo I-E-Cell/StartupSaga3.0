@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 export const About = () => {
   return (
     <>
-      <div className=" mt-[2.5em] md:mt-[3.5em] ">
+      <div id="about" className=" mt-[2.5em] md:mt-[3.5em] ">
         <div className=" mt-2 mb-2 md:nt-3 md:mb-3">
           <p className="text-center text-[1.5em] md:text-[3.4em] text-black font-extrabold about-us  ">About Us</p>
         </div>

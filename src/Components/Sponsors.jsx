@@ -4,7 +4,7 @@ import { GoDotFill } from "react-icons/go";
 
 const Sponsors = () => {
     return (
-        <div className='max-w-[90%] w-[87em] mx-auto pt-[5em] flex flex-col gap-4'>
+        <div id='sponc' className='max-w-[90%] w-[87em] mx-auto pt-[5em] flex flex-col gap-4'>
             <div className='w-[100%] mb-6 md:w-[90%] mx-auto border-[.4em] md:border-[.8em] border-[#241303] rounded-xl flex'>
                 <div className=' flex w-full items-center justify-center  gap-2 md:gap-8'>
                     <IoStar size={32} /><IoStar size={32} /><IoStar size={32} />

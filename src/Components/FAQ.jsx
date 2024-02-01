@@ -8,7 +8,7 @@ import asd2 from '../assets/asd2.svg'
 
 const FAQ = () => {
   return (
-    <div className=' mt-7 md:mt-[6em] max-w-[87em] relative overflow-hidden gradi w-[91%] mx-auto flex flex-col lg:gap-8 gap:2 px-6 border-[#A46B3A] pb-[3.50em] border-[3.5px] rounded-2xl'>
+    <div id='faq' className=' mt-7 md:mt-[6em] max-w-[87em] relative overflow-hidden gradi w-[91%] mx-auto flex flex-col lg:gap-8 gap:2 px-6 border-[#A46B3A] pb-[3.50em] border-[3.5px] rounded-2xl'>
       <div className='absolute gradii h-[100%] w-[30em] skew-x-[60deg] bg-[#FF9B31]'>
 
       </div>

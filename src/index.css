@@ -4,6 +4,7 @@
 
 body{
     background-color: #FFF4E7;
+    scroll-behavior: smooth;
    
 }
 .cloud1{
@@ -254,6 +255,8 @@ body{
 
     
 }
+
+
 
 
 

@@ -30,7 +30,7 @@ const Events = () => {
   };
 
   return (
-    <div className="max-w-[90%] crack hidden md:flex crack  items-center w-[87em]  relative overflow-hidden crack border-[3px] my-14 mx-auto border-broq md:h-[36em] rounded-2xl bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  ">
+    <div id='events' className="max-w-[90%] crack hidden md:flex crack  items-center w-[87em]  relative overflow-hidden crack border-[3px] my-14 mx-auto border-broq md:h-[36em] rounded-2xl bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  ">
       {/* <img className='absolute z-0  opacity-70 w-[100em] ' src={crack} alt="" /> */}
       {showModal && <Modal EventName={display} closeModal={closeModal} />}
       <div className="flex flex-col z-10 gap-8 w-[100%]   items-center">
