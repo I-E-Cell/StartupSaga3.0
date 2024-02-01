@@ -5,10 +5,11 @@ import { FaInstagram, FaLinkedinIn, FaFacebook, FaTwitter, FaYoutube, FaHeart, }
 import { BsArrowUpRight } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion'
-
+import  cac from '../assets/footcac.svg'
 const Footer = () => {
     return (<>
-        <div className='w-[100%] bg-[#241303] mx-auto'>
+        <div className='w-[100%] relative   bg-gradient-to-t from-[#FCAA41] mx-auto'>
+            <hr  className='w-[94%] absolute left-[50%] translate-x-[-50%] h-[2px] bg-[#280C05]  mx-auto'/>
             <div id='top' className=' max-w-[98%] w-[90em] mx-auto h-[31em] sm:h-[34em] md:h-[21em] flex  flex-col md:flex-row md:mt-[8em] mt-[6em]'>
 
                 <div className='w-[100%] align-centre justify-center md:w-[30%]'>
@@ -18,7 +19,7 @@ const Footer = () => {
                         transition={{ duration: 0.6 }}
 
                     >
-                        <div className='text-white  mx-auto w-[80%] justify-center rounded-xl'>
+                        <div className='text-black  mx-auto w-[80%] justify-center rounded-xl'>
 
                             <div className="mx-auto rounded-xl overflow-x-hidden justify-center pt-3">
                                 <iframe className='rounded-xl  mb-6 mx-auto ' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.64883570219!2d73.87434400449611!3d18.607325966357873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c70090000001%3A0x160a20f3d0273495!2sArmy%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1700741837638!5m2!1sen!2sin"></iframe>
@@ -53,18 +54,18 @@ const Footer = () => {
                     <div className='flex    md:gap-16 md:justify-end relative mx-auto  md:-left-32'>
 
                      
-                        <div className='textt text-white mx-auto md:mx-0 relative rounded-xl p-2 px-2 border-white border-[1px] top-4 ' >
+                        <div className='textt text-black mx-auto md:mx-0 relative rounded-xl p-2 px-2 border-black border-[1px] top-4 ' >
 
                             <p className='text-xs mb-2 max-w-[180px] '>“If you look at history, innovation doesn’t come just from giving people incentives; it comes from creating environments where their ideas can connect.“</p>
 
-                            <a href='/' className='flex justify-end gap-2 text-[#B8BFFF]'  >I & E Cell <BsArrowUpRight color='#B8BFFF' size={15} /></a>
+                            <a href='/' className='flex justify-end gap-2 text-[#280C05]'  >I & E Cell <BsArrowUpRight color='#B8BFFF' size={15} /></a>
 
                         </div>
 
 
                     </div>
 
-                    <div className='text-[30px] relative   textt sm:text-[65px] md:text-[70px] lg:text-[97px] mx-[10%]   top-[40px]   text-[#DA6625] hidden sm:flex justify-center md:justify-start font-bold text-wrap'>
+                    <div className='text-[30px] relative   textt sm:text-[65px] md:text-[70px] lg:text-[97px] mx-[10%]   top-[40px]   text-[#DA6625]/30 hidden sm:flex justify-center md:justify-start font-bold text-wrap'>
                         <motion.div
                             initial={{ opacity: 0, x: 60 }}
                             whileInView={{ opacity: 1, x: 0 }}
@@ -76,6 +77,9 @@ const Footer = () => {
 
                     </div>
 
+            <div>
+             <img className='absolute hidden md:block cacc md:w-[10em] '  src={cac} alt="" />
+            </div>
                 </div>
                 {/* FOOTER  */}
             </div>
