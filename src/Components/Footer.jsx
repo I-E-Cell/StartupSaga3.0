@@ -143,7 +143,7 @@ const Footer = () => {
               <div className=" w-full flex md:flex-row flex-col md:justify-between justify-start items-center">
                 <h4 className=" flex flex-col text-center gap-1 md:text-sm text-[10px]">
                   {" "}
-                  <span className=" font-bold">Ayush Kumar, Secretay</span>
+                  <span className=" font-bold">Ayush Kumar, Secretary</span>
                   <span>9898xxxxxxx</span>
                 </h4>
                 <h4 className=" flex flex-col text-center gap-1 md:text-sm text-[10px]">
