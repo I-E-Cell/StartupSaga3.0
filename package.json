@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.12.1",
     "@rumess/react-flip-countdown": "^1.2.6",
+    "axios": "^1.6.7",
     "framer-motion": "^10.18.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
