@@ -1,6 +1,6 @@
 import React from "react";
-import about from "../assets/about.svg";
-import abtpn from "../assets/abtpn.svg";
+import about from "../assets/abtpn.webp";
+import abtpn from "../assets/about.webp";
 import ait from "../assets/AitPune.svg";
 import ss from "../assets/ss.svg";
 import Abouttext from "./Abouttext.jsx";
@@ -8,15 +8,25 @@ import horse from "../assets/horse.svg";
 import horse2 from "../assets/horse2.svg";
 import Abouttext1 from "./Abouttext1.jsx";
 import { motion } from "framer-motion";
-
+import { GoDotFill } from "react-icons/go";
 
 export const About = () => {
   return (
     <>
-      <div id="about" className=" mt-[2.5em] md:mt-[3.5em] ">
-        <div className=" mt-2 mb-2 md:nt-3 md:mb-3">
-          <p className="text-center text-[1.5em] md:text-[3.4em] text-black font-extrabold about-us  ">About Us</p>
-        </div>
+      <div>
+        <div className="mt-4  mb-7 md:mb-11 md:mt-14 z-0 ">
+    <div className=" text-center">
+    <h1 className='text-[1.6em] md:text-[3.6em] mx-auto text-center font-extrabold text-[#241303]'>About Us</h1>
+
+<div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
+    <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
+    <GoDotFill size={10} />
+    <GoDotFill size={10} />
+    <GoDotFill size={10} />
+    <hr className='w-[45%] h-[3px] bg-[#241303]  mx-auto' />
+</div>
+</div>
+    </div>
         <div className="relative mx-auto flex flex-col gap-5">
           <div className="relative    mx-auto w-[90%] max-w-[72em]  ">
             <div className=" absolute text-center about-text w-[55em]">
