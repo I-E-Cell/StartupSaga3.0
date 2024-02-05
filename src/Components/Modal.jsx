@@ -59,8 +59,8 @@ function Modal(props) {
                         <div className="relative  rounded-lg sponus shadow bg-[#FFF4E7] ">
                             <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-700">
                                 <div className='flex items-center gap-5'>
-                                    <div className='w-12 flex justify-center items-center h-12 bg-[#ffc0cb]/60 rounded-lg rotate-45'>
-                                        <img className='w-5 -rotate-45' src={ss} alt="" />
+                                    <div className='w-12 flex justify-center items-center h-12 bg-[#fff]/60 rounded-lg rotate-45'>
+                                        <img className='w-7 -rotate-45' src={ss} alt="" />
                                     </div>
                                     <h3 className="text-lg font-semibold text-gray-900 d">
                                         {eventData.EventName}

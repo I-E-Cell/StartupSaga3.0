@@ -115,7 +115,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="   hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-white shadow-black  rounded-2xl shadow-lg z-20 ">
+      <div className=" crack  hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-white shadow-black  rounded-2xl shadow-lg z-20 ">
 
 
         <div className="  ">
