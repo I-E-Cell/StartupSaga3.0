@@ -308,9 +308,10 @@ body{
 }
 .fmount1{
     position: absolute;
-    right: -5px;
-    bottom: 17em;
+   
 }
+
+
 .terrain1{
     position: absolute;
     right: -5px;
@@ -350,4 +351,11 @@ body{
     }
     
 
+}
+.horserider{
+    position: absolute;
+    
+   
+    right:70%;
+    translate: 30% -90%;
 }
