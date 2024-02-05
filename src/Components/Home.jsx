@@ -7,9 +7,14 @@ import mount1 from "../assets/home/mount1.svg";
 import mount2 from "../assets/home/mount2.svg";
 import sss from "../assets/home/sss.svg";
 import sun from "../assets/home/sun.svg";
+import chain from "../assets/home/chain.svg";
+import { GoDotFill } from "react-icons/go";
+
 import baseboard from "../assets/home/baseboard.svg";
 import cacleft from "../assets/home/cacleft.svg";
 import cacright from "../assets/home/cacright.svg";
+import log from "../assets/log.svg";
+
 import Countdown from "./Countdown";
 
 
@@ -110,11 +115,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-transparent phatta z-20 ">
+      <div className=" crack  hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-white shadow-black  rounded-2xl shadow-lg z-20 ">
 
 
         <div className="  ">
-          <div className="py-5 h-[6em] flex justify-center items-center md:h-[8em] rounded-2xl ">
+          <div className="py-4 h-[6em] flex justify-center items-center md:h-[7.2em] rounded-2xl ">
 
             <Countdown />
           </div>
@@ -123,6 +128,39 @@ const Home = () => {
       <div className="mt-[6em] md:hidden">
         <Countdown />
 
+      </div>
+      <div className="mt-[4.5em]  hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-transparent z-10 ">
+
+        <div className="absolute ladki z-10">
+          <img className="relative" src={log} alt="" />
+        </div>
+        <div className="relative w-full md:h-[6em] lg:h-[7.5em]  items-center flex justify-center  ladki z-10">
+          <div className=" text-center  flex  ">
+            <div className="flex gap-4">
+              <div className="flex flex-col pt-2  justify-center ">
+                <h1 className='text-[1.6em] md:text-[1.6em]   font-semibold text-left text-[#241303]'>PRIZES</h1>
+                <h1 className='text-[1.6em] md:text-[1.6em] mx-auto -mt-3 text-center  font-semibold text-[#241303]'>WORTH</h1>
+
+              </div>
+              <div>
+                <h1 className="text-[1.6em] md:text-[4em] whitespace-nowrap mx-auto text-center font-bold text-[#241303]">INR 6+ LAKHS</h1>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div className="absolute bottom-[4em] right-4 z-0">
+          <img className="w-[10em]" src={chain} alt="" />
+        </div>
+        <div className="absolute bottom-[4em] z-0">
+          <img className=" w-[10em]" src={chain} alt="" />
+        </div>
+        <div className="   ">
+          <div className="py-4 h-[6em] flex justify-center items-center md:h-[7.2em] rounded-2xl ">
+
+
+          </div>
+        </div>
       </div>
     </>
   );

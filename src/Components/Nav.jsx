@@ -20,7 +20,7 @@ const Nav = () => {
         <div className='mx-auto  bg-white shadow-lg fixed w-[100%]  z-50'>
 
             <div className='bg-transparent mt-1 h-[70px] flex text sticky z-50 justify-between px-8'>
-                <img className='h-[40px] my-auto  bg-transparent ' src={logo} alt="ait_logo" />
+                <img className='h-[40px] my-auto md:pr-[6.3em]  bg-transparent ' src={logo} alt="ait_logo" />
                 <div className='hidden bg-white/[13%] brightness-75 border-[1px] border-white/40 font-semibold  px-6 py-3 rounded-2xl md:flex my-auto lg:gap-16 md:gap-5  backdrop-blur-md'>
                     <a className='bg-transparent hover:-translate-y-1  md:text-sm  lg:text-[15px] duration-300 ' href="#home">Home</a>
                     <a className='bg-transparent hover:-translate-y-1  md:text-sm  lg:text-[15px] duration-300 ' href="#about">About</a>

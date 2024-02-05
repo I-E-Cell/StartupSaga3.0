@@ -296,6 +296,7 @@ body{
 }
 
 
+
 .mount-left{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -329,4 +330,23 @@ body{
     position: absolute;
     left: 110px;
     bottom: 17em;
+
+.ladki{
+    animation: ani 3s infinite linear;
+}
+@keyframes ani {
+    0%{
+        position: absolute;
+        top: 0em ;
+    }
+    50%{
+        position: absolute;
+        top: 0.4em ;
+    }
+    100%{
+        position: absolute;
+        top: 0em ;
+    }
+    
+
 }
