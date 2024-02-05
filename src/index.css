@@ -295,6 +295,25 @@ body{
     border: 0px solid #0F1322;
 }
 
+.ladki{
+    animation: ani 3s infinite linear;
+}
+@keyframes ani {
+    0%{
+        position: absolute;
+        top: 0em ;
+    }
+    50%{
+        position: absolute;
+        top: 0.4em ;
+    }
+    100%{
+        position: absolute;
+        top: 0em ;
+    }
+    
+}
+
 
 .mount-left{
     -webkit-transform: scaleX(-1);
