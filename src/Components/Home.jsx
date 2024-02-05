@@ -14,6 +14,8 @@ import baseboard from "../assets/home/baseboard.svg";
 import cacleft from "../assets/home/cacleft.svg";
 import cacright from "../assets/home/cacright.svg";
 import log from "../assets/log.svg";
+import logmb from "../assets/logmb.svg";
+
 
 import Countdown from "./Countdown";
 
@@ -115,45 +117,45 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className=" crack  hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-white shadow-black  rounded-2xl shadow-lg z-20 ">
+      <div className=" crack   lg:w-[58em] w-[20em] md:w-[45em] relative top-[3em] md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-white shadow-black  rounded-2xl shadow-lg z-20 ">
 
 
         <div className="  ">
-          <div className="py-4 h-[6em] flex justify-center items-center md:h-[7.2em] rounded-2xl ">
+          <div className="py-4 h-[4.8em] flex justify-center items-center md:h-[7.2em] rounded-2xl ">
 
             <Countdown />
           </div>
         </div>
       </div>
-      <div className="mt-[6em] md:hidden">
-        <Countdown />
 
-      </div>
-      <div className="mt-[4.5em]  hidden md:block lg:w-[58em] w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-transparent z-10 ">
+      <div className="mt-[4.5em] lg:w-[58em] max-w-[95%] w-[25em] md:w-[45em] relative md:top-[4em]  lg:top-[2.9em]  mx-auto   justify-center bg-transparent z-10 ">
 
-        <div className="absolute ladki z-10">
+        <div className="absolute hidden md:block ladki z-10">
           <img className="relative" src={log} alt="" />
         </div>
-        <div className="relative w-full md:h-[6em] lg:h-[7.5em]  items-center flex justify-center  ladki z-10">
+        <div className="absolute block md:hidden ladki z-10">
+          <img className="relative" src={logmb} alt="" />
+        </div>
+        <div className="relative w-full h-[5em] md:h-[6em] lg:h-[7.5em]  items-center flex justify-center  ladki z-10">
           <div className=" text-center  flex  ">
             <div className="flex gap-4">
-              <div className="flex flex-col pt-2  justify-center ">
-                <h1 className='text-[1.6em] md:text-[1.6em]   font-semibold text-left text-[#241303]'>PRIZES</h1>
-                <h1 className='text-[1.6em] md:text-[1.6em] mx-auto -mt-3 text-center  font-semibold text-[#241303]'>WORTH</h1>
+              <div className="flex flex-col pt-2   justify-center ">
+                <h1 className='text-[1.2em] md:text-[1.6em]   font-semibold text-left text-[#241303]'>PRIZES</h1>
+                <h1 className='text-[1.2em] md:text-[1.6em] mx-auto -mt-3 text-center  font-semibold text-[#241303]'>WORTH</h1>
 
               </div>
-              <div>
-                <h1 className="text-[1.6em] md:text-[4em] whitespace-nowrap mx-auto text-center font-bold text-[#241303]">INR 6+ LAKHS</h1>
+              <div className="flex items-center">
+                <h1 className="text-[1.8em] md:text-[4em] whitespace-nowrap mx-auto text-center font-bold text-[#241303]">INR 6+ LAKHS</h1>
               </div>
             </div>
 
           </div>
         </div>
-        <div className="absolute bottom-[4em] right-4 z-0">
-          <img className="w-[10em]" src={chain} alt="" />
+        <div className="absolute bottom-[4em] right-6 md:right-4 z-0">
+          <img className=" w-[6.5em] md:w-[10em]" src={chain} alt="" />
         </div>
-        <div className="absolute bottom-[4em] z-0">
-          <img className=" w-[10em]" src={chain} alt="" />
+        <div className="absolute bottom-[4em] left-5 md:left-0 z-0">
+          <img className="  w-[6.5em] md:w-[10em]" src={chain} alt="" />
         </div>
         <div className="   ">
           <div className="py-4 h-[6em] flex justify-center items-center md:h-[7.2em] rounded-2xl ">
