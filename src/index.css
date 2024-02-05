@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #FFF4E7;
     scroll-behavior: smooth;
@@ -81,14 +84,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
  }
- @media (max-width: 1024px) {
-    .phatta{
-        background-image: url("./assets/home/chotalog.svg");
-        background-size: contain;
-        background-repeat:no-repeat;
-        
-     }
-}
+ 
  
   
 .ghoda{
@@ -297,4 +293,40 @@ body{
     background-color: #86C8D3;
     border-radius: 16px;
     border: 0px solid #0F1322;
+}
+
+
+.mount-left{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.fmount{
+    position: absolute;
+    right: -5px;
+    bottom: 18em;
+}
+.fmount1{
+    position: absolute;
+    right: -5px;
+    bottom: 17em;
+}
+.terrain1{
+    position: absolute;
+    right: -5px;
+    bottom: 13em;
+}
+.terrain2{
+    position: absolute;
+   
+    bottom: 4em;
+}
+.cacf{
+    position: absolute;
+    right: 110px;
+    bottom: 17.5em;
+}
+.cacfr{
+    position: absolute;
+    left: 110px;
+    bottom: 17em;
 }
