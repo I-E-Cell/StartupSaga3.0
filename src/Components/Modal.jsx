@@ -75,7 +75,7 @@ function Modal(props) {
                                         {eventData.EventName}
                                     </h3>
                                 </div>
-                                <button type="button" onClick={props.closeModal} className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm h-8 w-8 ms-auto inline-flex justify-center items-center " data-modal-toggle="select-modal">
+                                <button type="button"  className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm h-8 w-8 ms-auto inline-flex justify-center items-center " data-modal-toggle="select-modal">
                                     <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                                     </svg>
@@ -93,10 +93,10 @@ function Modal(props) {
                                     {eventData.discription}
                                 </p>
                             </div>
-                            <div className="p-4 md:p-5">
-                                <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className='  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white bg-[#1F1401] '>
+                            <div className="p-4 md:p-5 ">
+                                <a href="#" target='_blank'><motion.button  onClick={props.closeModal} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className='mb-2 md:mb-0  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white bg-[#1F1401] '>
                                     Register Now
-                                </motion.button>
+                                </motion.button></a>
                             </div>
                         </div>
                     </div>
