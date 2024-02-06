@@ -55,7 +55,7 @@ body{
 @keyframes identifier {
     
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .baseboard{
         position: absolute;
         bottom: 87%;

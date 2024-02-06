@@ -63,7 +63,7 @@ function Modal(props) {
     return (
         <a onClick={props.closeModal}>
             {eventData && (
-                <div key={eventData.EventName} className="overflow-y-auto overflow-x-hidden flex fixed top-0 right-0 left-0 z-50 justify-center bg-orange-200/30 backdrop-blur-sm items-center h-[100vh] w-full md:inset-0 max-h-full">
+                <div key={eventData.EventName} className="overflow-y-auto overflow-x-hidden  flex fixed top-0 right-0 left-0 z-50 justify-center bg-orange-200/30 backdrop-blur-sm items-center h-[100vh] w-full md:inset-0 max-h-full">
                     <div className="relative p-4 max-w-lg  ">
                         <div className="relative  rounded-lg sponus shadow bg-[#FFF4E7] ">
                             <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-700">
@@ -88,7 +88,7 @@ function Modal(props) {
                             <div className='w-[90%] text-center  mt-4 font-bold text-xl mx-auto  text-amber-900'>
                                 Prizes worth <span className='text-[1.5em]'>{eventData.prize}+</span>
                             </div>
-                            <div className="p-4 md:p-5 text-center  mx-auto justify-center">
+                            <div className="p-4 md:p-5 text-center flex mx-auto justify-center">
                                 <p className='max-w-[90%]  font-normal text-[0.95em] text-justify'>
                                     {eventData.discription}
                                 </p>

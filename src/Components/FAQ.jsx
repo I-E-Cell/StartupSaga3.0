@@ -4,6 +4,7 @@ import Faq from '../assets/FAQS.svg'
 import questionmark from '../assets/questionmark.svg'
 import asd from '../assets/asd.svg'
 import asd2 from '../assets/asd2.svg'
+import { GoDotFill } from "react-icons/go";
 
 
 const FAQ = () => {
@@ -15,7 +16,17 @@ const FAQ = () => {
       <img className='absolute w-[30em] -left-[5em] top-[26%] md:top-[26%] lg:top-[24%] ' src={asd} alt="" />
       <img className='absolute w-[80em] hidden md:block left-[20em] top-[25%] lg:top-[23%]' src={asd2} alt="" />
 
-      <img className='w-[9em] mx-auto relative z-10 py-6 mb-[5em]' src={Faq} alt="" />
+      <div className=" text-center mb-[5em] md:mb-[7em] relative">
+        <h1 className='text-[1.6em] md:text-[3.6em] mx-auto text-center font-extrabold text-[#241303] mt-6'>FAQs</h1>
+
+        <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
+          <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
+          <GoDotFill size={10} />
+          <GoDotFill size={10} />
+          <GoDotFill size={10} />
+          <hr className='w-[45%] h-[3px] bg-[#241303]  mx-auto' />
+        </div>
+      </div>
       <div className='flex flex-col relative -left-7 sm:left-0 lg:gap-10  z-10'>
         <div className='flex flex-col lg:flex-row gap:3 lg:gap-0 justify-around '>
           <Accordion title='Do team members need to be of same year?' answer='No' />
