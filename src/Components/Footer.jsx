@@ -18,20 +18,20 @@ import cacleft from "../assets/home/cacleft.svg";
 import horserider from "../assets/horserider.svg";
 const Footer = () => {
   return (
-    <div className="relative mt-16 md:mt-32 pt-[6em] " id="foot">
+    <div className="relative footer mt-16 md:mt-32 pt-[6em] " id="foot">
       <img
         className="w-[4em] md:w-[7em] md:block absolute horserider"
         src={horserider}
         alt=""
       />
       <img
-        className="w-[10em] -z-20 hidden md:block absolute  cacfr"
+        className="w-[10em] -z-20 hidden lg:block absolute  cacfr"
         src={cacleft}
         alt=""
       />
 
       <img
-        className="w-[10em]  -z-20 hidden md:block absolute cacf"
+        className="w-[10em]  -z-20 hidden lg:block absolute cacf"
         src={cacright}
         alt=""
       />
@@ -44,16 +44,16 @@ const Footer = () => {
       <img className="absolute w-[6em] h-[8em] top-0 fmount " src={fmount1} alt="" />
 
       <div className="">
-        <div className="  bg-[#3A281E] flex justify-center w-screen h-full overflow-x-hidden ">
-          <div className=""></div>
+        <div className=" gap-2  bg-[#3A281E] flex justify-center w-screen h-full overflow-x-hidden ">
 
-          <div className="container bg-[#3A281E] max-w-[87em] mx-auto mt-3 ">
-            <div className=" py-4 md:py-8 px-2 md:px-20 flex flex-col sm:flex-row justify-between items-center w-full">
+
+          <div className="container  bg-[#3A281E] max-w-[87em] mx-auto mt-3 ">
+            <div className=" py-4 md:py-8 px-2 md:px-20 flex flex-col lg:flex-row justify-between items-center w-full">
               <div className="mb-3 md:mb-0 relative z-10">
                 <div className="flex flex-col justify-center gap-6 items-center relative mt-4 md:mt-8 ">
                   <div className=" flex justify-center items-center">
                     <img
-                      className=" object-contain  h-24 w-24 md:h-32 md:w-32"
+                      className=" object-contain  h-20 w-20  md:h-28  md:w-28 lg:h-32 lg:w-32"
                       src={ssb}
                       alt=""
                     />
@@ -103,7 +103,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="h-[9em] w-[0.1em] bg-white hidden md:block "></div>
+              <div className="h-[9em] w-[0.1em] bg-white hidden lg:block "></div>
               <div className="">
                 <div className="mx-auto rounded-xl overflow-x-hidden justify-center pt-3 ">
                   <iframe
@@ -114,10 +114,10 @@ const Footer = () => {
 
 
               </div>
-              <div className="h-[9em] w-[0.1em] hidden md:block bg-white  "></div>
+              <div className="h-[9em] w-[0.1em] hidden lg:block bg-white  "></div>
               <div className=" flex-col">
-                <div className=" text-white mx-auto md:mx-0 relative rounded-xl z-[9999999999] p-2 px-2 border-white border-[1px] top-4 mb-4 w-[300px] ">
-                  <p className="text-xs mb-2  w-[270px] md:w-[300px]  ">
+                <div className=" text-white flex flex-col justify-center mx-auto md:mx-0 relative rounded-xl z-[10] p-2 px-2 border-white border-[1px] top-4 mb-4 w-[300px] ">
+                  <p className="text-xs mb-2 text-justify  w-full   ">
                     “If you look at history, innovation doesn't come just from
                     giving people incentives; it comes from creating environments
                     where their ideas can connect.“

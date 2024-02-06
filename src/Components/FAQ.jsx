@@ -19,26 +19,20 @@ const FAQ = () => {
       <div className=" text-center mb-[5em] md:mb-[7em] relative">
         <h1 className='text-[1.6em] md:text-[3.6em] mx-auto text-center font-extrabold text-[#241303] mt-6'>FAQs</h1>
 
-        <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
-          <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
-          <GoDotFill size={10} />
-          <GoDotFill size={10} />
-          <GoDotFill size={10} />
-          <hr className='w-[45%] h-[3px] bg-[#241303]  mx-auto' />
-        </div>
+        
       </div>
-      <div className='flex flex-col relative -left-7 sm:left-0 lg:gap-10  z-10'>
-        <div className='flex flex-col lg:flex-row gap:3 lg:gap-0 justify-around '>
+      <div className='flex footer flex-col relative -left-7 sm:left-0 lg:gap-10  z-10'>
+        <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0 justify-around '>
           <Accordion title='Do team members need to be of same year?' answer='No' />
           <Accordion title='Will there be accomodation for theme based hackathon?' answer='Yes, but it will be paid' />
 
         </div>
-        <div className='flex flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
+        <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
           <Accordion title='What is team size in theme based hackathon?' answer='1-3' />
           <Accordion title='Is there any registration cost for events?' answer='No' />
 
         </div>
-        <div className='flex flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
+        <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
           
           <Accordion title='Is Shark Tank AIT an inter-college event?' answer='No,it is only for students of AIT'/>
           <Accordion title='Is Niveshathon offline or online event?' answer='Niveshathon is a online event' />
