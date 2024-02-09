@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Banner = ({ images, speed = 8000 }) => {
+const Banner = ({ images, speed = 20000 }) => {
   const [isPaused, setIsPaused] = useState(false);
 
   return (
