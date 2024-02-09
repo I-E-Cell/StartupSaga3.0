@@ -75,8 +75,8 @@ export const About = () => {
 
             </div>
 
-            <img className="w-[100%] hidden md:block" src={about} alt="" />
-            <img className="w-[100%] md:hidden block" src={abtpn} alt="" />
+            <img loading="eager" className="w-[100%] hidden md:block" src={about} alt="" />
+            <img loading="eager" className="w-[100%] md:hidden block" src={abtpn} alt="" />
 
             <motion.img
               initial={{ opacity: 0, right: -30 }}
