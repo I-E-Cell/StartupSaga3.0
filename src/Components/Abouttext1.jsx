@@ -28,7 +28,7 @@ function App() {
   }, [controls, inView]);
 
   return (
-    <div className="App">
+    <div className="App h-[50%]">
       {text.map((el, i) => (
         <motion.span
           ref={ref}
