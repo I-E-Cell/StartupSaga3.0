@@ -21,16 +21,16 @@ const Accordion = ({ title, answer }) => {
 
           src={cactusopen} />}
 
-        <span className="text-left">{title}</span>
+        <span className="text-left text-[1.1em] ">{title}</span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${accordionOpen
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out  font-medium  text-sm ${accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
           }`}
       >
-        <div className="overflow-hidden relative left-[5.8em] sm:left-[8.2em]  text-left">{answer}</div>
+        <div className="overflow-hidden relative left-[5.8em] sm:left-[8.2em]   text-left">{answer}</div>
       </div>
     </div>
   );

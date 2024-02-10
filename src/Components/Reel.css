@@ -138,7 +138,7 @@
   border-radius: 3%;
   object-fit: cover;
 }
-@media (max-width:768px) {
+@media (max-width:767px) {
     .img{
         height: 150px;
         top:0;
