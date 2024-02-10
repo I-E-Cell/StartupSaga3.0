@@ -28,7 +28,7 @@ export const About = () => {
           </div>
         </div>
         <div className="relative mx-auto flex flex-col gap-5">
-          <div className="relative    mx-auto w-[90%] max-w-[72em]  ">
+          <div className="relative min-h-[6em] md:min-h-[10em] lg:min-h-[17em]   mx-auto w-[90%] max-w-[72em]  ">
             <div className=" absolute text-center about-text w-[55em]">
 
               <Abouttext />
@@ -68,7 +68,7 @@ export const About = () => {
 
               className="absolute w-[2.3em] md:hidden block horsepn" src={horse} alt="" />
           </div>
-          <div className="relative mx-auto w-[90%] max-w-[72em] ">
+          <div className="relative min-h-[6em] md:min-h-[10em] lg:min-h-[17em]  mx-auto w-[90%] max-w-[72em] ">
             <div className="absolute text-center about-text">
 
               <Abouttext1 />
