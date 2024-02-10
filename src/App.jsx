@@ -16,6 +16,8 @@ import Modal from "./Components/Modal.jsx";
 import Cards from "./Components/Cards1.jsx";
 
 
+
+
 function Landing() {
   const deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000);
 
@@ -33,6 +35,7 @@ function Landing() {
         <SponUS />
         <Carousel/>
         <FAQ />
+      
         <Footer />
       
 
