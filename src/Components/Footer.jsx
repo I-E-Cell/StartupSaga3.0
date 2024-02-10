@@ -11,37 +11,39 @@ import { BsArrowUpRight } from "react-icons/bs";
 import ssb from "../assets/ssnew.svg";
 import fmount1 from "../assets/fmount1.svg";
 import fmount from "../assets/fmount.svg";
-import terrain1 from "../assets/terrain1.svg"
-import terrain2 from "../assets/terrain2.svg"
 import cacright from "../assets/home/cacright.svg";
 import cacleft from "../assets/home/cacleft.svg";
 import horserider from "../assets/horserider.svg";
+
+import { motion } from "framer-motion";
+
 const Footer = () => {
   return (
-    <div className="relative footer mt-16 md:mt-32 pt-[6em] " id="foot">
+    <div className="relative mt-16 md:mt-32 pt-[6em] " id="foot">
+       <img
+              className="w-[4em] md:w-[7em] md:block absolute horserider"
+              src={horserider}
+              alt=""
+            />
       <img
-        className="w-[4em] md:w-[7em] md:block absolute horserider"
-        src={horserider}
-        alt=""
-      />
+              className="w-[10em] -z-20 hidden md:block absolute  cacfr"
+              src={cacleft}
+              alt=""
+            />
+      
       <img
-        className="w-[10em] -z-20 hidden lg:block absolute  cacfr"
-        src={cacleft}
-        alt=""
-      />
-
+              className="w-[10em]  -z-20 hidden md:block absolute cacf"
+              src={cacright}
+              alt=""
+            />
       <img
-        className="w-[10em]  -z-20 hidden lg:block absolute cacf"
-        src={cacright}
-        alt=""
-      />
-      <img
-        className=" w-[6em] h-[8em] absolute top-0  left-0 mount-left fmount  "
+     
+        className=" w-[6em] h-[8em] absolute top-0  left-0  mount-left fmount  "
         src={fmount1}
         alt=""
       />
       <img className="absolute w-[7em] h-[8em] top-0 right-0 fmount1 " src={fmount} alt="" />
-      <img className="absolute w-[6em] h-[8em] top-0 fmount " src={fmount1} alt="" />
+      <img className="absolute w-[6em] h-[8em] top-0 fmount " src={fmount1} alt="" /> 
 
       <div className="">
         <div className=" gap-2  bg-[#3A281E] flex justify-center w-screen h-full overflow-x-hidden ">

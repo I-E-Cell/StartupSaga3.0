@@ -68,13 +68,13 @@ const Events = () => {
               
             </div>
             <div
-              onClick={() => displaymodal("Ecell Meet")}
+              onClick={() => displaymodal("Mini Event")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "42%" })}
               className="w-[7.5em]  pl-7 relative flex flex-col  items-center  border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >
               <div className='absolute w-3 h-3 rounded-full -top-1 -left-[7px] bg-black' ></div>
 
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Ecell Meet</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Mini Event</h1>
               <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>29 March</h1>
 
               <button className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
@@ -83,14 +83,14 @@ const Events = () => {
             
             </div>
             <div
-              onClick={() => displaymodal("Theme-based Hackathon")}
+              onClick={() => displaymodal("Shark Tank")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "75%" })}
               className="w-[9em]  pl-14 relative flex flex-col  items-center  border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >
               <div className='absolute w-3 h-3 rounded-full -top-1 -left-[7px] bg-black' ></div>
 
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Startup Competition</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>30 March</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Shark Tank</h1>
+              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>31 March</h1>
 
               <button className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
             </div>
@@ -114,13 +114,13 @@ const Events = () => {
              
             </div>
             <div
-              onClick={() => displaymodal("Shark Tank AIT")}
+              onClick={() => displaymodal("Ecell Meet")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "26%" })}
               className="w-[7.5em]  pl-7 relative flex flex-col  items-center justify-end   border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >
               <div className='absolute w-3 h-3 rounded-full -bottom-1 -left-[7px] bg-black' ></div>
 
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Shark Tank</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Ecell Meet</h1>
               <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>29 March</h1>
 
               <button className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
@@ -129,13 +129,13 @@ const Events = () => {
              
             </div>
             <div
-              onClick={() => displaymodal("Escape Room")}
+              onClick={() => displaymodal("Hackathon")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "58%" })}
               className="w-[7.5em]  pl-7 relative flex flex-col  items-center  justify-end  border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >
               <div className='absolute w-3 h-3 rounded-full -bottom-1 -left-[7px] bg-black' ></div>
 
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Escape Room</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Hackathon</h1>
               <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>30 March</h1>
 
               <button className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>

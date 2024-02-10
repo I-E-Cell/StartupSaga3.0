@@ -6,6 +6,7 @@ import nivesh from '../assets/nivesh.svg'
 import meet from '../assets/meet.svg'
 import escape from '../assets/escape.svg'
 import theme from '../assets/theme.svg'
+import speaker from "../assets/speaker.svg"
 
 import sharktank from '../assets/sharktank.svg'
 
@@ -51,7 +52,7 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded pl-4 ">
                     Niveshathon
                     27/03/2024
                   </div>
@@ -79,7 +80,7 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div onClick={() => displaymodal('Speaker Session')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] gap-5  text-[#F0D6B8] flex flex-col justify-center items-center border-[#210D00] bg-[#9E4D16] rounded shadow">
-                    <img className='w-[40%] ' src={sharktank} alt="" />
+                    <img className='w-[40%] ' src={speaker} alt="" />
                     <h1 className=' whitespace-nowrap'>Register Here !</h1>
 
                   </div>
@@ -95,52 +96,52 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div onClick={() => displaymodal('Ecell Meet')} class="w-[8.5em] h-[8.5em]">
                   <div class="p-4 border-[1px]  flex flex-col justify-center items-center gap-5  text-[#F0D6B8] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
-                    <img className='w-[40%] ' src={sharktank} alt="" />
-                    <h1 className=' whitespace-nowrap'>Register Here !</h1>
-
-                  </div>
-                </div>
-              </div>
-              <div class="rounded-full bg-[#E89553] border-white border-4 w-8 h-8 absolute left-1/2 translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                <img src={ss} class="h-5 w-5 text-white">
-
-                </img>
-              </div>
-              <div class="flex justify-end  mx-auto items-center">
-                <div class="w-[8.5em]">
-                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    Shark Tank AIT
-                    29/03/2024
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
-
-          <motion.div initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }} class="mt-6  mb-12">
-            <div class="flex flex-row items-center">
-              <div class="flex justify-start  mx-auto items-center">
-                <div class="w-[8.5em] h-[8.5em]">
-                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    Ecell Meet
-                    29/03/2024
-                  </div>
-                </div>
-              </div>
-              <div class="rounded-full bg-[#E89553] border-white border-4 w-8 h-8 absolute left-1/2 translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
-                <img src={ss} class="h-5 w-5 text-white">
-
-                </img>
-              </div>
-              <div class="flex justify-end  mx-auto items-center">
-                <div class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Shark Tank AIT')} class="p-4 w-[8.5em] gap-5  text-[#F0D6B8] h-[8.5em] border-[1px] border-[#210D00]  flex flex-col justify-center items-center bg-[#9E4D16] rounded shadow">
                     <img className='w-[60%] ' src={meet} alt="" />
                     <h1 className=' whitespace-nowrap'>Register Here !</h1>
 
                   </div>
                 </div>
               </div>
+              <div class="rounded-full bg-[#E89553] border-white border-4 w-8 h-8 absolute left-1/2 translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                <img src={ss} class="h-5 w-5 text-white">
+
+                </img>
+              </div>
+              <div class="flex justify-end  mx-auto items-center">
+                <div class="w-[8.5em]">
+                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded pl-4 ">
+                    Ecell Meet
+                    29/03/2024
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }} class="mt-6  mb-12">
+            <div class="flex flex-row items-center">
+              <div class="flex justify-start  mx-auto items-center">
+                <div class="w-[8.5em] h-[8.5em]">
+                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
+                    Mini Events
+                    29/03/2024
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-full bg-[#E89553] border-white border-4 w-8 h-8 absolute left-1/2 translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                <img src={ss} class="h-5 w-5 text-white">
+
+                </img>
+              </div>
+              <div class="flex justify-end  mx-auto items-center">
+                <div class="w-[8.5em]">
+                  <div onClick={() => displaymodal('Mini Event')} class="p-4 w-[8.5em] gap-5  text-[#F0D6B8] h-[8.5em] border-[1px] border-[#210D00]  flex flex-col justify-center items-center bg-[#9E4D16] rounded shadow">
+                    <img className='w-[60%] ' src={escape} alt="" />
+                    <h1 className=' whitespace-nowrap'>Register Here !</h1>
+
+                  </div>
+                </div>
+              </div>
             </div>
           </motion.div>
 
@@ -148,9 +149,9 @@ const Eventpn = () => {
           <motion.div initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }} class="mt-6  mb-12">
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
-                <div onClick={() => displaymodal('Escape Room')} class="w-[8.5em] h-[8.5em]">
+                <div onClick={() => displaymodal('Hackathon')} class="w-[8.5em] h-[8.5em]">
                   <div class="p-4  flex flex-col justify-center items-center border-[1px] gap-5  text-[#F0D6B8] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
-                    <img className='w-[45%] ' src={escape} alt="" />
+                    <img className='w-[45%] ' src={theme} alt="" />
                     <h1 className=' whitespace-nowrap'>Register Here !</h1>
 
                   </div>
@@ -163,8 +164,8 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    Escape Room
+                  <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded pl-4 ">
+                    Hackathon
                     30/03/2024
                   </div>
                 </div>
@@ -177,8 +178,8 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    Startup Competition
-                    30/03/2024
+                    Shark Tank
+                    31/03/2024
                   </div>
                 </div>
               </div>
@@ -189,8 +190,8 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Theme-based Hackathon')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] gap-5  text-[#F0D6B8]  flex flex-col justify-center items-center rounded shadow">
-                    <img className='w-[45%] ' src={theme} alt="" />
+                  <div onClick={() => displaymodal('Shark Tank')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] gap-5  text-[#F0D6B8]  flex flex-col justify-center items-center rounded shadow">
+                    <img className='w-[45%] ' src={sharktank} alt="" />
                     <h1  className=' whitespace-nowrap text-semibold'>Register Here !</h1>
 
                   </div>
