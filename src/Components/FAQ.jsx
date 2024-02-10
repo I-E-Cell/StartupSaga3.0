@@ -24,7 +24,7 @@ const FAQ = () => {
       <div className='flex footer flex-col relative -left-7 sm:left-0 lg:gap-10  z-10'>
         <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0 justify-around '>
           <Accordion title='Do team members need to be of same year?' answer='No' />
-          <Accordion title='Will there be accomodation for theme based hackathon?' answer='Yes, but it will be paid' />
+          <Accordion title='Will there be accomodation for theme based hackathon?' answer='Yes' />
 
         </div>
         <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
@@ -34,7 +34,7 @@ const FAQ = () => {
         </div>
         <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
           
-          <Accordion title='Is Shark Tank AIT an inter-college event?' answer='No,it is only for students of AIT'/>
+          <Accordion title='Is Shark Tank event open for all?' answer='Top 10 teams  from hackathon will be selected along with 15 outside teams '/>
           <Accordion title='Is Niveshathon offline or online event?' answer='Niveshathon is a online event' />
 
         </div>
