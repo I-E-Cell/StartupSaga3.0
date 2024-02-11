@@ -9,7 +9,7 @@ import { GoDotFill } from "react-icons/go";
 
 const FAQ = () => {
   return (
-    <div id='faq' className=' mt-7 md:mt-[6em] max-w-[87em] relative overflow-hidden gradi w-[91%] mx-auto flex flex-col lg:gap-8 gap:2 px-6 border-[#A46B3A] pb-[2.50em] border-[3.5px] rounded-2xl'>
+    <div className=' mt-7 md:mt-[6em] max-w-[87em] relative overflow-hidden gradi w-[91%] mx-auto flex flex-col lg:gap-8 gap:2 px-6 border-[#A46B3A] pb-[2.50em] border-[3.5px] rounded-2xl'>
       <div className='absolute gradii h-[100%] w-[30em] skew-x-[60deg] bg-[#FF9B31]'>
 
       </div>
@@ -23,12 +23,12 @@ const FAQ = () => {
       </div>
       <div className='flex footer flex-col relative -left-7 sm:left-0 lg:gap-10  z-10'>
         <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0 justify-around '>
-          <Accordion title='Do team members need to be of same year?' answer='No' />
-          <Accordion title='Will there be accomodation for theme based hackathon?' answer='Yes' />
+          <Accordion title='Do team members need to be of same year?' answer='No, you are free to choose members form any year.' />
+          <Accordion title='Will there be accomodation for theme based hackathon?' answer='Yes, for participants residing outside Pune.' />
 
         </div>
         <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
-          <Accordion title='What is team size in theme based hackathon?' answer='1-3' />
+          <Accordion title='What is team size for business hackathon?' answer='The size of the team can range from 2 to 4 members.' />
           <Accordion title='Is there any registration cost for events?' answer='No' />
 
         </div>

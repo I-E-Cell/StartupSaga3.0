@@ -39,8 +39,8 @@ const EventData = [
     },
     {
         logo: '',
-        EventName: 'Hackathon',
-        discription: 'Join us at hAckIT business hackathon for a transformative experience! In 24 hours come up with an innovative startup with your  unique product and prototype idea. Gain helpful connections, guidance, and rewards to kickstart business journey',
+        EventName: 'NextNiche',
+        discription: 'Join us at NextNiche a business hackathon for a transformative experience! In 24 hours come up with an innovative startup with your  unique product and prototype idea. Gain helpful connections, guidance, and rewards to kickstart business journey',
         date: '30 Mar 2024',
         button: 'www.google.com',
         prize: "₹1 lakh",

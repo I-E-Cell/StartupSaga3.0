@@ -31,7 +31,7 @@ function Landing() {
         <Modal />
         <Events />
         <Eventpn />
-        <Sponsors />
+        {/* <Sponsors /> */}
         <SponUS />
         <Carousel/>
         <FAQ />

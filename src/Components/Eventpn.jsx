@@ -149,7 +149,7 @@ const Eventpn = () => {
           <motion.div initial={{ y: -50, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.5 }} class="mt-6  mb-12">
             <div class="flex flex-row items-center">
               <div class="flex justify-start  mx-auto items-center">
-                <div onClick={() => displaymodal('Hackathon')} class="w-[8.5em] h-[8.5em]">
+                <div onClick={() => displaymodal('NextNiche')} class="w-[8.5em] h-[8.5em]">
                   <div class="p-4  flex flex-col justify-center items-center border-[1px] gap-5  text-[#F0D6B8] border-[#210D00] bg-[#9E4D16] w-[8.5em] h-[8.5em] rounded shadow">
                     <img className='w-[45%] ' src={theme} alt="" />
                     <h1 className=' whitespace-nowrap'>Register Here !</h1>
@@ -165,7 +165,7 @@ const Eventpn = () => {
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded pl-4 ">
-                    Hackathon
+                    NextNiche
                     30/03/2024
                   </div>
                 </div>

@@ -47,7 +47,7 @@ const SponUS = () => {
     };
 
     return (
-        <div className='max-w-[90%]  sponus py-12 rounded-xl w-[87em] mx-auto mt-16 flex flex-col gap-11'>
+        <div id='sponc' className='max-w-[90%]  sponus py-12 rounded-xl w-[87em] mx-auto mt-16 flex flex-col gap-11'>
 
             <div className='flex flex-col '>
                 <h1 className='text-[1.6em] md:text-[3.6em] mx-auto text-center font-extrabold text-[#241303]'>WANT TO SPONSOR US?</h1>

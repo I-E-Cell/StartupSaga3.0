@@ -44,7 +44,7 @@ const Events = () => {
         </div>
       </div>
 
-      <div id='events' className="max-w-[90%] crack hidden md:flex crack  items-center w-[87em]  relative overflow-hidden crack border-[3px] my-9 mx-auto border-broq md:h-[36em] rounded-2xl bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  ">
+      <div className="max-w-[90%] crack hidden md:flex crack  items-center w-[87em]  relative overflow-hidden crack border-[3px] my-9 mx-auto border-broq md:h-[36em] rounded-2xl bg-gradient-to-b from-[#FCD7B5] to-[#F8EBD5]  ">
         {/* <img className='absolute z-0  opacity-70 w-[100em] ' src={crack} alt="" /> */}
         {showModal && <Modal EventName={display} closeModal={closeModal} />}
 
@@ -129,13 +129,13 @@ const Events = () => {
              
             </div>
             <div
-              onClick={() => displaymodal("Hackathon")}
+              onClick={() => displaymodal("NextNiche")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "58%" })}
               className="w-[7.5em]  pl-7 relative flex flex-col  items-center  justify-end  border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >
               <div className='absolute w-3 h-3 rounded-full -bottom-1 -left-[7px] bg-black' ></div>
 
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Hackathon</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>NextNiche</h1>
               <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>30 March</h1>
 
               <button className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>

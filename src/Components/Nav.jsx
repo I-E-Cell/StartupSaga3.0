@@ -23,7 +23,7 @@ const Nav = () => {
     }
 
     return (
-        <div className='mx-auto  bg-white shadow-lg fixed w-[100%]  z-50'>
+        <div  className='mx-auto  bg-white shadow-lg fixed w-[100%]  z-50'>
 
             <div className='bg-transparent mt-1 h-[70px] flex text sticky z-50 justify-between px-8'>
                 <img className='h-[40px] my-auto md:pr-[6.3em]  bg-transparent ' src={logo2} alt="ait_logo" />
@@ -31,7 +31,7 @@ const Nav = () => {
                     <a className='bg-transparent hover:-translate-y-1  md:text-sm  lg:text-[15px] duration-300 ' href="#home">Home</a>
                     <a className='bg-transparent hover:-translate-y-1  md:text-sm  lg:text-[15px] duration-300 ' href="#about">About</a>
 
-                    <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300 ' href="#events">Timeline</a>
+                    <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300 ' href="#timeline">Timeline</a>
                     {/* <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300 ' href="#events">Events</a> */}
                     <a className='bg-transparent hover:-translate-y-1 md:text-sm lg:text-[15px] duration-300 ' href="#sponc">Sponsors</a>
 
@@ -45,7 +45,7 @@ const Nav = () => {
 
                 </div>
 
-                <button className='bg-[#FC8824]  rounded-xl relative  h-10 w-[9em] my-3 text-white hidden md:block'>Register Now!</button>
+                <a href="#timeline"><button className='bg-[#FC8824]  rounded-xl relative  h-10 w-[9em] my-3 text-white hidden md:block'>Register Now!</button></a>
 
                 <div onClick={haldleNav} className='block bg-transparent md:hidden my-auto'>
                     {!nav ? <AiOutlineClose size={20} color='#906ED6' /> : <AiOutlineMenu size={20} className=' bg-transparent' color='#906ED6' />}
@@ -75,7 +75,7 @@ const Nav = () => {
 
                         <div className='flex pl-4 items-center relative text-black/80 flex-row gap-'>
 
-                            <TbTimelineEventText size={23} /><a className='pl-4 ' href="#events">Timeline<br /></a>
+                            <TbTimelineEventText size={23} /><a className='pl-4 ' href="#timeline">Timeline<br /></a>
                         </div>
 
                         {/* <div className='flex pl-4 items-center relative text-black/80 flex-row gap-'>
