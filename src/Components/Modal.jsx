@@ -49,7 +49,7 @@ const EventData = [
         logo: '',
         EventName: 'Shark Tank',
         discription: 'Shark Tank is an inter college event which provides an opportunity for students to showcase their Startup ideas in front of a panel of judges, taking inspiration from the popular TV show Shark Tank. The judges will also invest in the startups if they deem it worthy and the negotiation will happen on the spot.   ',
-        date: '30 Mar 2024',
+        date: '31 Mar 2024',
         button: 'www.google.com',
         prize: "₹1 lakh",
 
