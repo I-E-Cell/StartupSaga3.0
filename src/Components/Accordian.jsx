@@ -6,7 +6,7 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="py-2 w-[100%] sm:w-[90%] lg:w-[30em] mx-auto  mt-[1em]">
+    <div className="py-2 w-[100%] sm:w-[90%] lg:w-[30em] mx-auto relative   md:bottom-3 mt-[1em]">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-start gap-3 sm:gap-8 items-center w-full"
@@ -21,16 +21,16 @@ const Accordion = ({ title, answer }) => {
 
           src={cactusopen} />}
 
-        <span className="text-left text-[1.1em] ">{title}</span>
+        <span className="text-left text-[1.1em] top-7 mt-6  ">{title}</span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
       </button>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out  font-medium  text-sm ${accordionOpen
+        className={`grid overflow-hidden transition-all duration-300 ease-in-out  font-medium mb-4 mt-2 text-sm md:text-sm ${accordionOpen
             ? "grid-rows-[1fr] opacity-100"
             : "grid-rows-[0fr] opacity-0"
           }`}
       >
-        <div className="overflow-hidden relative left-[5.8em] sm:left-[8.2em]   text-left">{answer}</div>
+        <div className="overflow-hidden  left-[5.8em] sm:left-[8.2em]  absolute  text-left ">{answer}</div>
       </div>
     </div>
   );

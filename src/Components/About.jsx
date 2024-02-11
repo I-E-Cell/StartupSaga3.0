@@ -1,7 +1,7 @@
 import React from "react";
 import about from "../assets/abtpn.webp";
 import abtpn from "../assets/about.webp";
-import ait from "../assets/AitPune.svg";
+import ait from "../assets/Aitpune.svg";
 import ss from "../assets/ss.svg";
 import Abouttext from "./Abouttext.jsx";
 import horse from "../assets/horse.svg";
@@ -28,46 +28,7 @@ export const About = () => {
           </div>
         </div>
         <div className="relative mx-auto flex flex-col gap-5">
-          <div className="relative min-h-[6em] md:min-h-[10em] lg:min-h-[17em]   mx-auto w-[90%] max-w-[72em]  ">
-            <div className=" absolute text-center about-text w-[55em]">
-
-              <Abouttext />
-
-
-            </div>
-            <img className="w-[100%] hidden md:block " src={about} alt=""></img>
-            <img className="w-[100%] md:hidden block" src={abtpn} alt=""></img>
-
-            <motion.img
-              initial={{ opacity: 0, right: -30 }}
-              whileInView={{ opacity: 1, right: 30 }}
-              transition={{ duration: 1 }}
-              className="absolute w-[7em] lg:w-[11em] hidden md:block ait"
-              src={ait}
-              alt=""
-            />
-            <motion.img
-              initial={{ opacity: 0, left: -30 }}
-              whileInView={{ opacity: 1, left: 30 }}
-              transition={{ duration: 1 }}
-              className="absolute w-[3.3em] lg:w-[6.5em]  hidden md:block horse"
-              src={horse}
-              alt=""
-            />
-
-            <motion.img
-              initial={{ opacity: 0, right: -10 }}
-              whileInView={{ opacity: 1, right: 10 }}
-              transition={{ duration: 1 }}
-
-              className="absolute w-[5em] md:hidden block aitpn    " src={ait} alt="" />
-            <motion.img
-              initial={{ opacity: 0, left: -10 }}
-              whileInView={{ opacity: 1, left: 10 }}
-              transition={{ duration: 1 }}
-
-              className="absolute w-[2.3em] md:hidden block horsepn" src={horse} alt="" />
-          </div>
+          
           <div className="relative min-h-[6em] md:min-h-[10em] lg:min-h-[17em]  mx-auto w-[90%] max-w-[72em] ">
             <div className="absolute text-center about-text">
 
@@ -111,7 +72,46 @@ export const About = () => {
 
 
           </div>
+          <div className="relative min-h-[6em] md:min-h-[10em] lg:min-h-[17em]   mx-auto w-[90%] max-w-[72em]  ">
+            <div className=" absolute text-center about-text w-[55em]">
 
+              <Abouttext/>
+
+
+            </div>
+            <img className="w-[100%] hidden md:block " src={about} alt=""></img>
+            <img className="w-[100%] md:hidden block" src={abtpn} alt=""></img>
+
+            <motion.img
+              initial={{ opacity: 0, right: -30 }}
+              whileInView={{ opacity: 1, right: 30 }}
+              transition={{ duration: 1 }}
+              className="absolute w-[7em] lg:w-[11em] hidden md:block ait"
+              src={ait}
+              alt=""
+            />
+            <motion.img
+              initial={{ opacity: 0, left: -30 }}
+              whileInView={{ opacity: 1, left: 30 }}
+              transition={{ duration: 1 }}
+              className="absolute w-[3.3em] lg:w-[6.5em]  hidden md:block horse"
+              src={horse}
+              alt=""
+            />
+
+            <motion.img
+              initial={{ opacity: 0, right: -10 }}
+              whileInView={{ opacity: 1, right: 10 }}
+              transition={{ duration: 1 }}
+
+              className="absolute w-[5em] md:hidden block aitpn    " src={ait} alt="" />
+            <motion.img
+              initial={{ opacity: 0, left: -10 }}
+              whileInView={{ opacity: 1, left: 10 }}
+              transition={{ duration: 1 }}
+
+              className="absolute w-[2.3em] md:hidden block horsepn" src={horse} alt="" />
+          </div>
         </div>
         <div id="timeline"></div>
       </div>

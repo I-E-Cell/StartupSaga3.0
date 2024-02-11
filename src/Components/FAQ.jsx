@@ -13,7 +13,7 @@ const FAQ = () => {
       <div className='absolute gradii h-[100%] w-[30em] skew-x-[60deg] bg-[#FF9B31]'>
 
       </div>
-      <img className='absolute w-[30em] -left-[5em] top-[26%] md:top-[26%] lg:top-[24%] ' src={asd} alt="" />
+      <img className='absolute w-[30em] -left-[5em] top-[28%] md:top-[26%] lg:top-[24%] ' src={asd} alt="" />
       <img className='absolute w-[80em] hidden md:block left-[20em] top-[25%] lg:top-[23%]' src={asd2} alt="" />
 
       <div className=" text-center mb-[5em] md:mb-[7em] relative">
@@ -34,8 +34,8 @@ const FAQ = () => {
         </div>
         <div className='flex footer flex-col lg:flex-row gap:3 lg:gap-0  justify-around '>
           
-          <Accordion title='Is Shark Tank event open for all?' answer='Top 10 teams  from hackathon will be selected along with 15 outside teams '/>
-          <Accordion title='Is Niveshathon offline or online event?' answer='Niveshathon is a online event' />
+          <Accordion title='Who can participate in Shark Tank?' answer='Anyone with an ingenious business idea  '/>
+          <Accordion  title='Is Niveshathon offline or online event?' answer='Niveshathon is an online event' />
 
         </div>
 
