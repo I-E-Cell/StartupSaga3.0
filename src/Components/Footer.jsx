@@ -15,7 +15,6 @@ import cacright from "../assets/home/cacright.svg";
 import cacleft from "../assets/home/cacleft.svg";
 import horserider from "../assets/horserider.svg";
 
-import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
