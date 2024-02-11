@@ -233,13 +233,20 @@ body {
 
 @media (max-width:360px) {
     .about-text {
+        font-size: 0.6em;
+        width: 26em;
+
+
+    }
+}
+@media (max-width:345px) {
+    .about-text {
         font-size: 0.5em;
         width: 23em;
 
 
     }
 }
-
 .countdown-text {
     font-family: "Special Elite", sans-serif;
 }
