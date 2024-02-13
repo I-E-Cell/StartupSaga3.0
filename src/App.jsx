@@ -14,6 +14,8 @@ import Sponsors from "./Components/Sponsors";
 import SponUS from "./Components/SponUS";
 import Modal from "./Components/Modal.jsx";
 import Cards from "./Components/Cards1.jsx";
+import mixpanel from 'mixpanel-browser';
+mixpanel.init('92a875811535e823719809b9e6df97ea', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 
 
@@ -21,6 +23,7 @@ import Cards from "./Components/Cards1.jsx";
 function Landing() {
   const deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000);
 
+  mixpanel.track('HomePage loaded');
   return (
     <div  className="overflow-x-clip">
       <Nav />
