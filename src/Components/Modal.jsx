@@ -53,8 +53,8 @@ const EventData = [
     {
         id:6,
         logo: '',
-        EventName: 'Shark Tank',
-        discription: 'Shark Tank is an inter college event which provides an opportunity for students to showcase their Startup ideas in front of a panel of judges, taking inspiration from the popular TV show Shark Tank. The judges will also invest in the startups if they deem it worthy and the negotiation will happen on the spot.   ',
+        EventName: 'Shark Tank AIT',
+        discription: 'Shark Tank AIT is an inter college event which provides an opportunity for students to showcase their Startup ideas in front of a panel of judges, taking inspiration from the popular TV show Shark Tank. The judges will also invest in the startups if they deem it worthy and the negotiation will happen on the spot.   ',
         date: '31 Mar 2024',
         button: '#',
         prize: "₹1 lakh",
