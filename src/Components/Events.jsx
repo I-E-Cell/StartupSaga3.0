@@ -85,7 +85,7 @@ const Events = () => {
             
             </div>
             <div
-              onClick={() => displaymodal("Shark Tank")}
+              onClick={() => displaymodal("Shark Tank AIT")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "75%" })}
               className="w-[9em]  pl-14 relative flex flex-col  items-center  border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >

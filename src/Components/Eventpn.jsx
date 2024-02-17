@@ -190,7 +190,7 @@ const Eventpn = () => {
               </div>
               <div class="flex justify-end  mx-auto items-center">
                 <div class="w-[8.5em]">
-                  <div onClick={() => displaymodal('Shark Tank')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] gap-5  text-[#F0D6B8]  flex flex-col justify-center items-center rounded shadow">
+                  <div onClick={() => displaymodal('Shark Tank AIT')} class="p-4 w-[8.5em] h-[8.5em] border-[1px] border-[#210D00] bg-[#9E4D16] gap-5  text-[#F0D6B8]  flex flex-col justify-center items-center rounded shadow">
                     <img className='w-[45%] ' src={sharktank} alt="" />
                     <h1  className=' whitespace-nowrap text-semibold'>Register Here !</h1>
 
