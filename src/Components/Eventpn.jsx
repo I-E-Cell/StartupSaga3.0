@@ -178,7 +178,7 @@ const Eventpn = () => {
               <div class="flex justify-start  mx-auto items-center">
                 <div class="w-[8.5em] h-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded ">
-                    Shark Tank
+                    Shark Tank AIT
                     31/03/2024
                   </div>
                 </div>
