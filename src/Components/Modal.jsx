@@ -56,7 +56,7 @@ const EventData = [
         EventName: 'Shark Tank AIT',
         discription: 'Shark Tank AIT is an inter college event which provides an opportunity for students to showcase their Startup ideas in front of a panel of judges, taking inspiration from the popular TV show Shark Tank. The judges will also invest in the startups if they deem it worthy and the negotiation will happen on the spot.   ',
         date: '31 Mar 2024',
-        button: '#',
+        button: 'https://unstop.com/competitions/shark-tank-army-institute-of-technology-ait-pune-898086',
         prize: "₹1 lakh",
 
     },
@@ -100,10 +100,11 @@ function Modal(props) {
                                 </p>
                             </div>
                             <div className="p-4 md:p-5 ">
-                                <a  href={eventData.button} target='_blank'><motion.button disabled={eventData.id !== 1}  onClick={props.closeModal} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className={`mb-2 md:mb-0  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white   ${eventData.id!= 1 ? 'bg-[#7d7a74]' : 'bg-[#1F1401]'}`}>
-                                    {eventData.id!= 1 ? <span>Coming soon..</span> : <span>Register now</span>}
+                                <a  href={eventData.button} target='_blank'><motion.button disabled={eventData.id !== 1 && eventData.id !== 6}  onClick={props.closeModal} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className={`mb-2 md:mb-0  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white   ${eventData.id!= 1 && eventData.id !== 6 ? 'bg-[#7d7a74]' : 'bg-[#1F1401]'}`}>
+                                    {eventData.id!= 1 && eventData.id !== 6 ? <span>Coming soon..</span> : <span>Register now</span>}
                                 </motion.button></a>
                             </div>
+                            
                         </div>
                     </div>
                 </div>
