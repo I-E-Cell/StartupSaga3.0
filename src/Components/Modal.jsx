@@ -28,7 +28,7 @@ const EventData = [
         EventName: 'Ecell Meet',
         discription: 'The gathering of key stakeholders of E-cell from the various colleges across Pune to connect is not just a boring party but it’s like engaging in discussions and sharing insights. This gathering is a creative melting pot where like-minded people come to collaborate.',
         date: '29 Mar 2024',
-        button: '#',
+        button: 'https://forms.gle/1vmDFAyi9aX8eTc49',
         prize: "₹20,000",
     },
     {
@@ -47,7 +47,7 @@ const EventData = [
         EventName: 'NextNiche',
         discription: 'Join us at NextNiche a business hackathon for a transformative experience! In 24 hours come up with an innovative startup with your  unique product and prototype idea. Gain helpful connections, guidance, and rewards to kickstart business journey',
         date: '30 Mar 2024',
-        button: '#',
+        button: 'https://www.nextniche.tech/',
         prize: "₹1 lakh",
     },
     {
@@ -100,8 +100,8 @@ function Modal(props) {
                                 </p>
                             </div>
                             <div className="p-4 md:p-5 ">
-                                <a  href={eventData.button} target='_blank'><motion.button disabled={eventData.id !== 1 && eventData.id !== 6}  onClick={props.closeModal} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className={`mb-2 md:mb-0  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white   ${eventData.id!= 1 && eventData.id !== 6 ? 'bg-[#7d7a74]' : 'bg-[#1F1401]'}`}>
-                                    {eventData.id!= 1 && eventData.id !== 6 ? <span>Coming soon..</span> : <span>Register now</span>}
+                                <a  href={eventData.button} target='_blank'><motion.button disabled={eventData.id !== 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5}  onClick={props.closeModal} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className={`mb-2 md:mb-0  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white   ${eventData.id!= 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5 ? 'bg-[#7d7a74]' : 'bg-[#1F1401]'}`}>
+                                    {eventData.id!= 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5  ? <span>Coming soon..</span> : <span>Register now</span>}
                                 </motion.button></a>
                             </div>
                             
