@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { GoDotFill } from "react-icons/go";
 import ss from '../assets/ssb.svg';
 import skull from '../assets/skull.svg';
+import brochure from '../assets/brochure/Participants_Brochure.pdf'
 import { motion } from 'framer-motion';
 import mixpanel from 'mixpanel-browser';
 mixpanel.init('92a875811535e823719809b9e6df97ea', {debug: true, track_pageview: true, persistence: 'localStorage'});
@@ -134,7 +135,7 @@ const SponUS = () => {
                             <div className='w-[9px] top-[79.5%] left-[95%] h-[9px] flex justify-end bg-[#EADBB0] rounded-tl-full absolute '></div>
                             <div className='w-[9px] top-[79.5%]  h-[9px] flex justify-end bg-[#EADBB0] rounded-tr-full absolute '></div>
 
-                            <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className=' px-8 text-lg py-2 -rounded-[2em] font-semibold rounded-lg text-white bg-[#1F1401] '>BROCHURE</motion.button>
+                            <a href={brochure} target='_blank'><motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className=' px-8 text-lg py-2 -rounded-[2em] font-semibold rounded-lg text-white bg-[#1F1401] '>BROCHURE</motion.button></a>
                         </div>
 
                     </div>
