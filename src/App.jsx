@@ -15,6 +15,7 @@ import SponUS from "./Components/SponUS";
 import Modal from "./Components/Modal.jsx";
 import Cards from "./Components/Cards1.jsx";
 import mixpanel from 'mixpanel-browser';
+import Popup from "./Components/Popup.jsx";
 mixpanel.init('92a875811535e823719809b9e6df97ea', {debug: true, track_pageview: true, persistence: 'localStorage'});
 
 
@@ -29,7 +30,7 @@ function Landing() {
       <Nav />
 
       <Home />
-
+        <Popup />
         <About />
         <Modal />
         <Events />
