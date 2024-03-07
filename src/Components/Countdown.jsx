@@ -25,7 +25,7 @@ function Countdown() {
         size={clocksize}
         titlePosition="bottom"
         endAt={new Date(
-         "2024-03-27"
+         "2024-04-14"
         ).toUTCString()}
         monthTitle="MONTHS"
         dayTitle="DAYS"

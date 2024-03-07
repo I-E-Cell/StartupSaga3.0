@@ -10,7 +10,7 @@ import { GoDotFill } from "react-icons/go";
 
 import sharktank from '../assets/sharktank.svg'
 import mixpanel from 'mixpanel-browser';
-mixpanel.init('92a875811535e823719809b9e6df97ea', {debug: true, track_pageview: true, persistence: 'localStorage'});
+mixpanel.init('92a875811535e823719809b9e6df97ea', { debug: true, track_pageview: true, persistence: 'localStorage' });
 
 const Events = () => {
   const [trainPosition, setTrainPosition] = useState({
@@ -53,21 +53,21 @@ const Events = () => {
         <div className="flex relative flex-col z-10 gap-0 w-[100%]   items-center">
           <div className=" w-full flex justify-evenly">
             <div className=" w-[7.5em] rounded-lg  text-center flex flex-col gap-5">
-              
+
             </div>
             <div
-              onClick={() => displaymodal("Speaker Session")}
+              onClick={() => displaymodal("Ecell Meet")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "11%" })}
               className="w-[7.5em]  pl-7 relative flex flex-col  items-center  border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00] "
             >
               <div className='absolute w-3 h-3 rounded-full -top-1 -left-[7px] bg-black' ></div>
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Speaker Session</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>28 March</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Ecell Meet</h1>
+              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>11th April</h1>
 
-              <button onClick={()=>mixpanel.track('SpeakerSession button Clicked')} className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
+              <button onClick={() => mixpanel.track('SpeakerSession button Clicked')} className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
             </div>
             <div className=" w-[7.5em] rounded-lg  text-center flex flex-col gap-5">
-              
+
             </div>
             <div
               onClick={() => displaymodal("Mini Event")}
@@ -76,13 +76,13 @@ const Events = () => {
             >
               <div className='absolute w-3 h-3 rounded-full -top-1 -left-[7px] bg-black' ></div>
 
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Mini Event</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>29 March</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Mini Events</h1>
+              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>12th April</h1>
 
-              <button onClick={()=>mixpanel.track('MiniEvent button Clicked')} className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
+              <button onClick={() => mixpanel.track('MiniEvent button Clicked')} className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
             </div>
             <div className=" w-[7.5em] rounded-lg  text-center flex flex-col gap-5">
-            
+
             </div>
             <div
               onClick={() => displaymodal("Shark Tank AIT")}
@@ -92,43 +92,43 @@ const Events = () => {
               <div className='absolute w-3 h-3 rounded-full -top-1 -left-[7px] bg-black' ></div>
 
               <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Shark Tank AIT</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>31 March</h1>
+              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>14th April</h1>
 
-              <button onClick={()=>mixpanel.track('Sharktank button Clicked')} className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
+              <button onClick={() => mixpanel.track('Sharktank button Clicked')} className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
             </div>
           </div>
           <img className="" src={tracks} alt="" />
           <div className=" w-full flex justify-evenly">
             <div
-              onClick={() => displaymodal("Niveshathon")}
+              // onClick={() => displaymodal("Niveshathon")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "-6%" })}
               className="w-[7.5em]  pl-7 relative flex flex-col  items-center  justify-end border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >
               <div className='absolute w-3 h-3 rounded-full -bottom-1 -left-[7px] bg-black' ></div>
 
-              
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Niveshathon</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>27 March</h1>
 
-              <button onClick={()=>mixpanel.track('Niveshathon button Clicked')} className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Startup Saga</h1>
+              <h1 className=' rounded-md text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>11th - 14th April</h1>
+
+              {/* <button onClick={() => mixpanel.track('Niveshathon button Clicked')} className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button> */}
             </div>
             <div className=" w-[7.5em] rounded-lg  text-center flex flex-col gap-5">
-             
+
             </div>
             <div
-              onClick={() => displaymodal("Ecell Meet")}
+              onClick={() => displaymodal("Speaker Session")}
               onMouseEnter={() => moveTrain({ top: "-1.25em", left: "26%" })}
               className="w-[7.5em]  pl-7 relative flex flex-col  items-center justify-end   border-dashed  border-l-[3px] h-[9em] gap-1  text-[#F0D6B8]  border-[#210D00]"
             >
               <div className='absolute w-3 h-3 rounded-full -bottom-1 -left-[7px] bg-black' ></div>
 
-              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Ecell Meet</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>29 March</h1>
+              <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Speaker Session</h1>
+              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>12th April</h1>
 
-              <button onClick={()=>mixpanel.track('Ecell Meet button Clicked')} className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
+              <button onClick={() => mixpanel.track('Ecell Meet button Clicked')} className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
             </div>
             <div className=" w-[7.5em] rounded-lg  text-center flex flex-col gap-5">
-             
+
             </div>
             <div
               onClick={() => displaymodal("NextNiche")}
@@ -138,12 +138,12 @@ const Events = () => {
               <div className='absolute w-3 h-3 rounded-full -bottom-1 -left-[7px] bg-black' ></div>
 
               <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>NextNiche</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>30 March</h1>
+              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>13th April</h1>
 
-              <button onClick={()=>mixpanel.track('NextNiche button Clicked')} className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
+              <button onClick={() => mixpanel.track('NextNiche button Clicked')} className='font-semibold whitespace-nowrap  px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
             </div>
             <div className=" w-[7.5em] rounded-lg  text-center flex flex-col gap-5">
-              
+
             </div>
           </div>
         </div>
