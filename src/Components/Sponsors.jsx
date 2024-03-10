@@ -98,7 +98,7 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14 py-8 border-[#241303] rounded-xl flex'>
-                <a href="https://polygon.technology/" target='_blank'  ><img className='w-[9em] md:w-[13em]' src={TheDopeStore} alt="POLYGON LOGO" /></a>
+                <a href="https://thedopestore.tech/" target='_blank'  ><img className='w-[9em] md:w-[13em]' src={TheDopeStore} alt="POLYGON LOGO" /></a>
 
                 </div>
             </div>

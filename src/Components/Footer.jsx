@@ -131,15 +131,15 @@ const Footer = () => {
                 </div>
                 <div className=" flex text-center flex-row md:gap-6 gap-4 pt-3  px-2 justify-center">
                   <div className=" ">
-                    <p className=" text-white "> Ayush Kumar</p>
-                    <p className=" text-white text-[0.8em] "> (Secretary)</p>
-                    <p className="text-white flex items-center gap-1 mt-3 "><FaPhone />7991151088</p>
+                    <p className=" text-white "> Gulshan Singh</p>
+                    <p className=" text-white text-[0.8em] "> (Jt. Secretary)</p>
+                    <p className="text-white flex items-center gap-1 mt-3 "><FaPhone />9064099186</p>
 
                   </div>
                   <div className="">
-                    <p className="text-white ">Jyoti Yadav</p>
-                    <p className="text-white   text-[0.8em] ">(Secretary)</p>
-                    <p className="text-white flex items-center gap-1 mt-3  "><FaPhone />9170564275</p>
+                    <p className="text-white ">Taniya Singh</p>
+                    <p className="text-white   text-[0.8em] ">(Jt. Secretary)</p>
+                    <p className="text-white flex items-center gap-1 mt-3  "><FaPhone />7658048782</p>
                   </div>
                 </div>
               </div>
