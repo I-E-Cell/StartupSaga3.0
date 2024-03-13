@@ -14,9 +14,12 @@ function Popup (){
     <div className='w-[100%] h-[100vh]  z-40 backdrop-filter text-[#3E3126] backdrop-blur-sm  top-[0%] fixed flex justify-center items-center'>
         <div className='w-[20em] md:w-[22em] h-[15em] rounded-2xl bg-[#D2AD93]'>
             
-            <img className='relative left-[4.5em] md:left-[5.5em] overflow-hidden border-[#3E3126] rounded-2xl border-[2px] -top-[4em] h-[11em]' src={wapp} alt="" />
+        <a href="https://chat.whatsapp.com/BDgsO4AT8Ee90z8Jrq5jUX" target='_blank'><img className='relative cursor-pointer hover:scale-105 duration-150 md:hover:scale-100 md:cursor-default left-[4.5em] md:left-[5.5em] overflow-hidden border-[#3E3126] rounded-2xl border-[2px] -top-[4em] h-[11em]' src={wapp} alt="" /></a>
+
             {/* <h1 className='relative text-center text-3xl font-bold '>Note !</h1> */}
-            <h1 className='relative text-center text-lg w-[90%] mx-auto bottom-[3em]'> Scan to join our <span className=' font-semibold'>WhatsApp Group</span> for all the Updates !</h1>
+            <h1 className='relative md:hidden text-center text-lg w-[90%] mx-auto bottom-[3em]'> Click the QR to join our <span className=' font-semibold'>WhatsApp Group</span> for all the Updates !</h1>
+            <h1 className='relative text-center hidden md:block text-lg w-[90%] mx-auto bottom-[3em]'> Scan to join our <span className=' font-semibold'>WhatsApp Group</span> for all the Updates !</h1>
+
             <button onClick={pressed} className='relative  -top-12 w-[80%] flex justify-center rounded-md mx-auto text-white py-2 bg-[#3E3126]'>Close</button>
         </div>
     </div>: null
