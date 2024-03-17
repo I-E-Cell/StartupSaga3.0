@@ -4,7 +4,11 @@ import { GoDotFill } from "react-icons/go";
 import devfolio from '../assets/Sponc/Devfolio_Logo-Black.png'
 import ETHindia from '../assets/Sponc/ethindia-dark.png'
 import polygon from '../assets/Sponc/Polygon_Logo-Dark.png'
+import nurserylive from '../assets/Sponc/nurserylive.png'
+
 import TheDopeStore from '../assets/Sponc/TheDopeStore.svg'
+import BhadePay from '../assets/Sponc/BhadePay.svg'
+
 import { TbTie } from "react-icons/tb";
 
 const Sponsors = () => {
@@ -48,13 +52,13 @@ const Sponsors = () => {
             <div>
                 <div className='w-[90%] mx-auto border-[.8em] bg-[#241303]  text-white border-[#241303] rounded-xl flex'>
                     <div className=' flex w-full items-center justify-center  gap-2 md:gap-8'>
-                        <IoStar size={32}  color='#FFD700'/><IoStar size={32} color='#FFD700'/>
+                        <IoStar size={32} color='#FFD700' /><IoStar size={32} color='#FFD700' />
                         <h1 className='text-[1.5em] md:text-[3em] font-extrabold text-[#FFD700]'>GOLD</h1>
-                        <IoStar size={32} color='#FFD700'/><IoStar size={32} color='#FFD700'/>
+                        <IoStar size={32} color='#FFD700' /><IoStar size={32} color='#FFD700' />
                     </div>
                 </div>
                 <div className='w-[90%]  justify-center gap-5 md:gap-14 border-[.2em] py-8 mx-auto border-[#241303] rounded-xl flex'>
-                <a href="https://devfolio.co" target='_blank' ><img className='w-[8em] md:w-[11em]' src={devfolio} alt="DEVFOLIO LOGO" /></a>
+                    <a href="https://devfolio.co" target='_blank' ><img className='w-[8em] md:w-[11em]' src={devfolio} alt="DEVFOLIO LOGO" /></a>
 
                 </div>
             </div>
@@ -70,15 +74,20 @@ const Sponsors = () => {
             <div>
                 <div className='w-[90%] mx-auto border-[.8em] bg-[#241303]  text-white border-[#241303] rounded-xl flex'>
                     <div className=' flex w-full items-center justify-center  gap-2 md:gap-8'>
-                        <IoStar size={32}  color='#C0C0C0'/>
+                        <IoStar size={32} color='#C0C0C0' />
                         <h1 className='text-[1.5em] md:text-[3em] font-extrabold text-[#C0C0C0]'>SILVER</h1>
-                        <IoStar size={32}  color='#C0C0C0'/>
+                        <IoStar size={32} color='#C0C0C0' />
                     </div>
                 </div>
-                <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14 py-8 border-[#241303] rounded-xl flex'>
-                <a href="https://ethindia.co" target='_blank' ><img className='w-[8em] md:w-[11em]' src={ETHindia} alt="ETHINDIA LOGO" /></a>
-                <a href="https://polygon.technology/" target='_blank'  ><img className='w-[8em] md:w-[11em]' src={polygon} alt="POLYGON LOGO" /></a>
+                <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14 py-8 border-[#241303] rounded-xl grid items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4 '>
+                    <a href="https://www.bhadepay.com/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={BhadePay} alt="BhadePay LOGO" /></a>
+                    <a href="https://ethindia.co" target='_blank' ><img className='w-[8em] mx-auto md:w-[11em]' src={ETHindia} alt="ETHINDIA LOGO" /></a>
+                    <a href="https://polygon.technology/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={polygon} alt="POLYGON LOGO" /></a>
+                    <a href="https://nurserylive.com/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={nurserylive} alt="NurseryLive LOGO" /></a>
+
                 </div>
+
+
             </div>
 
             <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
@@ -92,13 +101,13 @@ const Sponsors = () => {
             <div>
                 <div className='w-[90%] mx-auto border-[.8em] bg-[#241303]  text-white border-[#241303] rounded-xl flex'>
                     <div className=' flex w-full items-center justify-center  gap-2 md:gap-8'>
-                        <TbTie size={33}  color='#C0C0C0'/>
+                        <TbTie size={33} color='#C0C0C0' />
                         <h1 className='text-[1.3em] md:text-[2.7em] font-extrabold text-[#ffffff]'>APPAREL</h1>
-                        <TbTie size={33}  color='#C0C0C0'/>
+                        <TbTie size={33} color='#C0C0C0' />
                     </div>
                 </div>
                 <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14 py-8 border-[#241303] rounded-xl flex'>
-                <a href="https://thedopestore.tech/" target='_blank'  ><img className='w-[9em] md:w-[13em]' src={TheDopeStore} alt="POLYGON LOGO" /></a>
+                    <a href="https://thedopestore.tech/" target='_blank'  ><img className='w-[9em] md:w-[13em]' src={TheDopeStore} alt="POLYGON LOGO" /></a>
 
                 </div>
             </div>
