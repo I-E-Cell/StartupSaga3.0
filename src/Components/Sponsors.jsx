@@ -5,9 +5,16 @@ import devfolio from '../assets/Sponc/Devfolio_Logo-Black.png'
 import ETHindia from '../assets/Sponc/ethindia-dark.png'
 import polygon from '../assets/Sponc/Polygon_Logo-Dark.png'
 import nurserylive from '../assets/Sponc/nurserylive.png'
-
+import { GiGreenhouse, GiUbisoftSun } from "react-icons/gi";
 import TheDopeStore from '../assets/Sponc/TheDopeStore.svg'
 import BhadePay from '../assets/Sponc/BhadePay.svg'
+import Bhau from '../assets/Sponc/bhau.svg'
+import TE from '../assets/Sponc/TE.png'
+
+import spindia from '../assets/Sponc/spindia.png'
+
+
+
 
 import { TbTie } from "react-icons/tb";
 
@@ -57,8 +64,10 @@ const Sponsors = () => {
                         <IoStar size={32} color='#FFD700' /><IoStar size={32} color='#FFD700' />
                     </div>
                 </div>
-                <div className='w-[90%]  justify-center gap-5 md:gap-14 border-[.2em] py-8 mx-auto border-[#241303] rounded-xl flex'>
+                <div className='w-[90%]  justify-center gap-5 md:gap-14 border-[.2em] pt-8 mx-auto border-[#241303] rounded-xl flex'>
                     <a href="https://devfolio.co" target='_blank' ><img className='w-[8em] md:w-[11em]' src={devfolio} alt="DEVFOLIO LOGO" /></a>
+                    <a href="" target='_blank' ><img className='w-[4em] md:w-[5em] relative -top-6' src={Bhau} alt="" /></a>
+                    <a href="https://devfolio.co" target='_blank' ><img className='w-[8em] md:w-[11em]' src={spindia} alt="Startup India LOGO" /></a>
 
                 </div>
             </div>
@@ -89,6 +98,29 @@ const Sponsors = () => {
 
 
             </div>
+            <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
+                <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
+                <GoDotFill size={10} />
+                <GoDotFill size={10} />
+                <GoDotFill size={10} />
+                <hr className='w-[45%] h-[3px] bg-[#241303]  mx-auto' />
+            </div>
+
+            <div>
+                <div className='w-[90%] mx-auto border-[.8em] bg-[#241303]  text-white border-[#241303] rounded-xl flex'>
+                    <div className=' flex w-full items-center justify-center  gap-2 md:gap-8'>
+                        {/* <IoStar size={32} color='#C0C0C0' /> */}
+                        <h1 className='text-[1em] md:text-[3em] whitespace-nowrap font-extrabold text-[#C0C0C0]'>Food Sponsor</h1>
+                        {/* <IoStar size={32} color='#C0C0C0' /> */}
+                    </div>
+                </div>
+                <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14  border-[#241303] rounded-xl flex '>
+                    <a href="https://nurserylive.com/" target='_blank'  ><img className='w-[5.5em] mx-auto md:w-[7em]' src={TE} alt="NurseryLive LOGO" /></a>
+
+                </div>
+
+
+            </div>
 
             <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
                 <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
@@ -107,10 +139,11 @@ const Sponsors = () => {
                     </div>
                 </div>
                 <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14 py-8 border-[#241303] rounded-xl flex'>
-                    <a href="https://thedopestore.tech/" target='_blank'  ><img className='w-[9em] md:w-[13em]' src={TheDopeStore} alt="POLYGON LOGO" /></a>
+                    <a href="https://thedopestore.tech/" target='_blank'  ><img className='w-[9em] md:w-[13em]' src={TheDopeStore} alt="DopeStore LOGO" /></a>
 
                 </div>
             </div>
+            
 
         </div>
     )
