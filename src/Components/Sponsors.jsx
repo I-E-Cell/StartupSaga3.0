@@ -88,10 +88,8 @@ const Sponsors = () => {
                         <IoStar size={32} color='#C0C0C0' />
                     </div>
                 </div>
-                <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14 py-8 border-[#241303] rounded-xl grid items-center grid-cols-2 md:grid-cols-3 lg:grid-cols-4 '>
+                <div className='w-[90%] mx-auto border-[.2em] justify-center py-8 gap-5 md:gap-14  border-[#241303] rounded-xl flex '>
                     <a href="https://www.bhadepay.com/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={BhadePay} alt="BhadePay LOGO" /></a>
-                    <a href="https://ethindia.co" target='_blank' ><img className='w-[8em] mx-auto md:w-[11em]' src={ETHindia} alt="ETHINDIA LOGO" /></a>
-                    <a href="https://polygon.technology/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={polygon} alt="POLYGON LOGO" /></a>
                     <a href="https://nurserylive.com/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={nurserylive} alt="NurseryLive LOGO" /></a>
 
                 </div>
@@ -110,7 +108,31 @@ const Sponsors = () => {
                 <div className='w-[90%] mx-auto border-[.8em] bg-[#241303]  text-white border-[#241303] rounded-xl flex'>
                     <div className=' flex w-full items-center justify-center  gap-2 md:gap-8'>
                         {/* <IoStar size={32} color='#C0C0C0' /> */}
-                        <h1 className='text-[1em] md:text-[3em] whitespace-nowrap font-extrabold text-[#C0C0C0]'>Food Sponsor</h1>
+                        <h1 className='text-[1.3em] md:text-[3em] font-extrabold text-[#C0C0C0]'>PLATFORM SPONSOR</h1>
+                        {/* <IoStar size={32} color='#C0C0C0' /> */}
+                    </div>
+                </div>
+                <div className='w-[90%] mx-auto border-[.2em] py-8 justify-center gap-5 md:gap-14  border-[#241303] rounded-xl flex '>
+                    <a href="https://ethindia.co" target='_blank' ><img className='w-[8em] mx-auto md:w-[11em]' src={ETHindia} alt="ETHINDIA LOGO" /></a>
+                    <a href="https://polygon.technology/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={polygon} alt="POLYGON LOGO" /></a>
+
+                </div>
+
+
+            </div>
+            <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
+                <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
+                <GoDotFill size={10} />
+                <GoDotFill size={10} />
+                <GoDotFill size={10} />
+                <hr className='w-[45%] h-[3px] bg-[#241303]  mx-auto' />
+            </div>
+
+            <div>
+                <div className='w-[90%] mx-auto border-[.8em] bg-[#241303]  text-white border-[#241303] rounded-xl flex'>
+                    <div className=' flex w-full items-center justify-center  gap-2 md:gap-8'>
+                        {/* <IoStar size={32} color='#C0C0C0' /> */}
+                        <h1 className='text-[1em] md:text-[3em] whitespace-nowrap font-extrabold text-[#C0C0C0]'>FOOD SPONSOR</h1>
                         {/* <IoStar size={32} color='#C0C0C0' /> */}
                     </div>
                 </div>
