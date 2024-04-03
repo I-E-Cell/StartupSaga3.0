@@ -30,7 +30,7 @@ function Landing() {
       <Nav />
 
       <Home />
-        <Popup />
+        {/* <Popup /> */}
         <About />
         <Modal />
         <Events />
