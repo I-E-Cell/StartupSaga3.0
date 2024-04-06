@@ -10,8 +10,10 @@ import TheDopeStore from '../assets/Sponc/TheDopeStore.svg'
 import BhadePay from '../assets/Sponc/BhadePay.svg'
 import Bhau from '../assets/Sponc/bhau.svg'
 import TE from '../assets/Sponc/TE.png'
+import soda from '../assets/Sponc/soda.svg'
 
-import spindia from '../assets/Sponc/spindia.png'
+
+import spindia from '../assets/Sponc/indias.svg'
 
 
 
@@ -64,9 +66,9 @@ const Sponsors = () => {
                         <IoStar size={32} color='#FFD700' /><IoStar size={32} color='#FFD700' />
                     </div>
                 </div>
-                <div className='w-[90%]  justify-center gap-5 md:gap-14 border-[.2em] pt-8 mx-auto border-[#241303] rounded-xl flex'>
+                <div className='w-[90%]  justify-center gap-5 md:gap-14 items-center border-[.2em] py-4 mx-auto border-[#241303] rounded-xl flex'>
                     <a href="https://devfolio.co" target='_blank' ><img className='w-[8em] md:w-[11em]' src={devfolio} alt="DEVFOLIO LOGO" /></a>
-                    <a href="https://bhau.org/" target='_blank' ><img className='w-[4em] md:w-[5em] relative -top-6' src={Bhau} alt="" /></a>
+                    <a href="https://bhau.org/" target='_blank' ><img className='w-[4em] md:w-[5em] relative ' src={Bhau} alt="" /></a>
                     <a href="https://thestartupindia.org" target='_blank' ><img className='w-[8em] md:w-[11em]' src={spindia} alt="Startup India LOGO" /></a>
 
                 </div>
@@ -138,6 +140,8 @@ const Sponsors = () => {
                 </div>
                 <div className='w-[90%] mx-auto border-[.2em] justify-center gap-5 md:gap-14  border-[#241303] rounded-xl flex '>
                     <a href="https://true-elements.com/" target='_blank'  ><img className='w-[5.5em] mx-auto md:w-[7em]' src={TE} alt="True Elements LOGO" /></a>
+                    <a href="/" target='_blank' className=' bg-blend-lighten'  ><img className='w-[5.5em] mx-auto md:w-[7em]' src={soda} alt="True Elements LOGO" /></a>
+
 
                 </div>
 
