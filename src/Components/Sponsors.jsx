@@ -11,8 +11,6 @@ import BhadePay from '../assets/Sponc/BhadePay.svg'
 import Bhau from '../assets/Sponc/bhau.svg'
 import TE from '../assets/Sponc/TE.png'
 import soda from '../assets/Sponc/soda.svg'
-
-
 import spindia from '../assets/Sponc/indias.svg'
 
 
