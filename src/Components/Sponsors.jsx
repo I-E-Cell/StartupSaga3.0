@@ -10,6 +10,8 @@ import TheDopeStore from '../assets/Sponc/TheDopeStore.svg'
 import BhadePay from '../assets/Sponc/BhadePay.svg'
 import Bhau from '../assets/Sponc/bhau.svg'
 import TE from '../assets/Sponc/TE.png'
+import dusa from '../assets/Sponc/dusa.svg'
+
 import soda from '../assets/Sponc/soda.svg'
 import spindia from '../assets/Sponc/indias.svg'
 
@@ -28,7 +30,7 @@ const Sponsors = () => {
                     <IoStar size={32} /><IoStar size={32} /><IoStar size={32} />
                 </div>
             </div>
-            {/* <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
+            <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
                 <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
                 <GoDotFill size={10} />
                 <GoDotFill size={10} />
@@ -44,10 +46,11 @@ const Sponsors = () => {
                         <IoStar size={32} /><IoStar size={32} /><IoStar size={32} />
                     </div>
                 </div>
-                <div className='w-[90%] mx-auto border-[.2em] py-12 border-[#241303] rounded-xl flex'>
+                <div className='w-[90%] mx-auto border-[.2em] justify-center py-4 border-[#241303] rounded-xl flex'>
+                <a href="/" target='_blank' ><img className='w-[8em] md:w-[11em]' src={dusa} alt="Dusa LOGO" /></a>
 
                 </div>
-            </div> */}
+            </div>
             <div className='w-[90%] mx-auto flex gap-3 justify-evenly items-center'>
                 <hr className='w-[45%] h-[3px] bg-[#241303] mx-auto' />
                 <GoDotFill size={10} />
