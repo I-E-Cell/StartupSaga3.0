@@ -4,7 +4,7 @@ import { GoDotFill } from "react-icons/go";
 import devfolio from '../assets/Sponc/Devfolio_Logo-Black.png'
 import ETHindia from '../assets/Sponc/ethindia-dark.png'
 import polygon from '../assets/Sponc/Polygon_Logo-Dark.png'
-import nurserylive from '../assets/Sponc/nurserylive.png'
+import nurserylive from '../assets/Sponc/tree.svg'
 import { GiGreenhouse, GiUbisoftSun } from "react-icons/gi";
 import TheDopeStore from '../assets/Sponc/TheDopeStore.svg'
 import BhadePay from '../assets/Sponc/BhadePay.svg'
@@ -93,7 +93,7 @@ const Sponsors = () => {
                 </div>
                 <div className='w-[90%] mx-auto border-[.2em] justify-center py-8 gap-5 md:gap-14  border-[#241303] rounded-xl flex '>
                     <a href="https://www.bhadepay.com/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={BhadePay} alt="BhadePay LOGO" /></a>
-                    <a href="https://nurserylive.com/" target='_blank'  ><img className='w-[8em] mx-auto md:w-[11em]' src={nurserylive} alt="NurseryLive LOGO" /></a>
+                    <a href="https://nurserylive.com/" target='_blank'  ><img className='w-[8.5em] mx-auto md:w-[11.5em]' src={nurserylive} alt="NurseryLive LOGO" /></a>
 
                 </div>
 
