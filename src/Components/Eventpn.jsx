@@ -40,7 +40,7 @@ const Eventpn = () => {
                 <div class="w-[8.5em]">
                   <div class=" w-[8.5em] h-[8.5em] flex items-center justify-center rounded pl-4 ">
                     Ecell Meet
-                    11/04/2024
+                    12/04/2024
                   </div>
                 </div>
               </div>

@@ -62,7 +62,7 @@ const Events = () => {
             >
               <div className='absolute w-3 h-3 rounded-full -top-1 -left-[7px] bg-black' ></div>
               <h1 className='text-[1.1em] whitespace-nowrap text-[#210D00] font-bold'>Ecell Meet</h1>
-              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>11th April</h1>
+              <h1 className='text-[0.9em] whitespace-nowrap text-[#210D00] font-semibold'>12th April</h1>
 
               <button onClick={() => mixpanel.track('SpeakerSession button Clicked')} className='font-semibold whitespace-nowrap px-3 py-[2px] rounded-lg border-[2px] bg-[#9E4D16] border-[#210D00]'>View Details</button>
             </div>

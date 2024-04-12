@@ -37,7 +37,7 @@ const EventData = [
         EventName: 'Mini Event',
         discription: 'Get your brain buzzing with mind-bending puzzles, test your agility in high-octane competitions, and ignite your competitive spirit like never before. Stay tuned for updates on our electrifying games and get ready to redefine what it means to be a champion! ',
         date: '12 April 2024',
-        button: '#',
+        button: 'https://unstop.com/o/xPUv1Jy?lb=oMWmuaV&utm_medium=Share&utm_source=shortUrl',
         prize: "₹30,000",
 
     },
@@ -100,8 +100,8 @@ function Modal(props) {
                                 </p>
                             </div>
                             <div className="p-4 md:p-5 ">
-                                <a  href={eventData.button} target='_blank'><motion.button disabled={eventData.id !== 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5}  onClick={props.closeModal} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className={`mb-2 md:mb-0  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white   ${eventData.id!= 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5 ? 'bg-[#7d7a74]' : 'bg-[#1F1401]'}`}>
-                                    {eventData.id!= 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5  ? <span>Coming soon..</span> : <span>Register now</span>}
+                                <a  href={eventData.button} target='_blank'><motion.button disabled={eventData.id !== 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5}  onClick={props.closeModal} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} transition={{ duration: 0.2 }} className={`mb-2 md:mb-0  w-full text-lg py-1 -rounded-[2em] rounded-lg text-white   ${eventData.id!= 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5 && eventData.id !== 4 ? 'bg-[#7d7a74]' : 'bg-[#1F1401]'}`}>
+                                    {eventData.id!= 1 && eventData.id !== 6 && eventData.id !== 3 && eventData.id !== 5  ? <span>Register now</span> : <span>Register now</span>}
                                 </motion.button></a>
                             </div>
                             
