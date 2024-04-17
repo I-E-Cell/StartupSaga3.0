@@ -123,7 +123,8 @@ const Home = () => {
         <div className="  ">
           <div className="py-4 h-[4.8em] flex justify-center items-center md:h-[7.2em] rounded-2xl ">
 
-            <Countdown />
+            {/* <Countdown /> */}
+            <h1 className="text-2xl md:text-3xl font-bold md:font-extrabold">Time Up</h1>
           </div>
         </div>
       </div>
