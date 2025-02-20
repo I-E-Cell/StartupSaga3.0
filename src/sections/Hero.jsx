@@ -88,7 +88,7 @@ const Hero = () => {
       </section>
 
       {/* Rest of the content outside the hero section */}
-      <div className="mt-12 flex flex-col justify-center items-center gap-[150px] bg-[#001223] w-full">
+      <div className="mt-16 flex flex-col justify-center items-center gap-[150px] bg-[#001223] w-full">
         <CountdownTimer/>
         <Timeline />
         <Testimonials />

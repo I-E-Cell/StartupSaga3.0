@@ -1,47 +1,35 @@
-import { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
 
 const TestAnimation = () => {
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
+  const section1Ref = useRef(null);
+  const section2Ref = useRef(null);
 
-    const { innerHeight } = window;
+  const { scrollYProgress: scrollYProgress1 } = useScroll({
+    target: section1Ref,
+    offset: ["start 80%", "start 30%"]
+  });
 
-    // Zoom-out effect for section1
-    gsap.from("#section1", {
-      scale: 1.5,
-      opacity: 0,
-      duration: 2,
-      ease: "power2.out",
-      scrollTrigger: {
-        trigger: "#section1",
-        start: "top 80%", // Starts animation when 80% of #section1 is in view
-        end: `+=${innerHeight * 0.5}`,
-        scrub: 1,
-      },
-    });
+  const { scrollYProgress: scrollYProgress2 } = useScroll({
+    target: section2Ref,
+    offset: ["start 80%", "start 10%"]
+  });
 
-    // Zoom-in effect for section2
-    gsap.from("#section2", {
-      scale: 1.5,
-      opacity: 0,
-      duration: 2,
-      ease: "power2.out",
-      scrollTrigger: {
-        trigger: "#section2",
-        start: "top 80%", // Starts when 80% of section2 is visible
-        end: `+=${innerHeight * 0.7}`,
-        scrub: 1,
-      },
-    });
-  }, []);
+  // Transform values for section1
+  const section1Scale = useTransform(scrollYProgress1, [0, 1], [1.5, 1]);
+  const section1Opacity = useTransform(scrollYProgress1, [0, 1], [0, 1]);
+
+  // Transform values for section2
+  const section2Scale = useTransform(scrollYProgress2, [0, 1], [1.5, 1]);
+  const section2Opacity = useTransform(scrollYProgress2, [0, 1], [0, 1]);
 
   return (
     <div>
-      <div
-        id="section1"
+      <motion.div
+        ref={section1Ref}
         style={{
+          scale: section1Scale,
+          opacity: section1Opacity,
           height: "100vh",
           background: "linear-gradient(135deg, #ff9a9e, #fad0c4)",
           display: "flex",
@@ -53,13 +41,22 @@ const TestAnimation = () => {
           textShadow: "2px 2px 10px rgba(0, 0, 0, 0.3)",
           boxShadow: "0 5px 15px rgba(0, 0, 0, 0.2)",
         }}
+        initial={{ scale: 1.5, opacity: 0 }}
       >
-        <h2>ROBO</h2>
-      </div>
+        <motion.h2
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
+          ROBO
+        </motion.h2>
+      </motion.div>
 
-      <div
-        id="section2"
+      <motion.div
+        ref={section2Ref}
         style={{
+          scale: section2Scale,
+          opacity: section2Opacity,
           height: "100vh",
           background: "linear-gradient(135deg, #a1c4fd, #c2e9fb)",
           display: "flex",
@@ -73,9 +70,16 @@ const TestAnimation = () => {
           textShadow: "1px 1px 5px rgba(255, 255, 255, 0.5)",
           boxShadow: "0 5px 15px rgba(0, 0, 0, 0.2)",
         }}
+        initial={{ scale: 1.5, opacity: 0 }}
       >
-        <p>Hello world...</p>
-      </div>
+        <motion.p
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+        >
+          Hello world...
+        </motion.p>
+      </motion.div>
     </div>
   );
 };

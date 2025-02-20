@@ -1,4 +1,4 @@
-import gsap from "gsap";
+import { motion, useAnimation } from "framer-motion";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
@@ -17,6 +17,7 @@ const navItems = [
 const NavBar = () => {
   const navContainerRef = useRef(null);
   const logoRef = useRef(null);
+  const controls = useAnimation();
 
   const { y: currentScrollY } = useWindowScroll();
   const [isNavVisible, setIsNavVisible] = useState(true);
@@ -26,14 +27,10 @@ const NavBar = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      // Get the navbar height to offset the scroll position
       const navHeight = navContainerRef.current?.offsetHeight || 0;
-      
-      // Calculate the final scroll position with offset
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navHeight - 20; // 20px extra padding
+      const offsetPosition = elementPosition + window.pageYOffset - navHeight - 20;
 
-      // Smooth scroll to the section
       window.scrollTo({
         top: offsetPosition,
         behavior: "smooth"
@@ -41,7 +38,6 @@ const NavBar = () => {
     }
   };
 
-  // Handle nav item click
   const handleNavClick = (e, item) => {
     e.preventDefault();
     const sectionId = item.toLowerCase().replace(/\s+/g, '-');
@@ -67,27 +63,31 @@ const NavBar = () => {
   }, [currentScrollY, lastScrollY]);
 
   useEffect(() => {
-    gsap.to(navContainerRef.current, {
+    controls.start({
       y: isNavVisible ? 0 : -100,
       opacity: isNavVisible ? 1 : 0,
-      duration: 0.2,
+      transition: { duration: 0.2 }
     });
-  }, [isNavVisible]);
+  }, [isNavVisible, controls]);
 
   return (
-    <div
+    <motion.div
       ref={navContainerRef}
+      initial={{ y: 0, opacity: 1 }}
+      animate={controls}
       className="fixed w-[90%] md:w-[80%] top-4 z-50 py-3 md:py-6 md:px-12 px-4 transition-all duration-700 rounded-lg"
     >
       <header className="w-full">
         <nav className="flex items-center justify-between">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img
+            <motion.img
               ref={logoRef}
               src={Logo}
               alt="logo"
               className="w-8 md:w-auto transition-all duration-300"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
             />
 
             <Button
@@ -102,20 +102,25 @@ const NavBar = () => {
           <div className="flex h-full items-center">
             <div className="hidden lg:block">
               {navItems.map((item, index) => (
-                <a
+                <motion.a
                   key={index}
                   href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
                   className="nav-hover-btn"
                   onClick={(e) => handleNavClick(e, item)}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1 }}
                 >
                   {item}
-                </a>
+                </motion.a>
               ))}
             </div>
           </div>
         </nav>
       </header>
-    </div>
+    </motion.div>
   );
 };
 
