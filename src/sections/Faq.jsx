@@ -12,9 +12,9 @@ const Faq = () => {
       <div className="flex w-full lg:max-w-[35%] items-start justify-center mb-8 lg:mb-0">
         <Content />
       </div>
-      <div className="flex flex-col gap-24 w-full lg:max-w-[60%] items-center justify-center">
+      <div className="flex flex-col gap-24 w-full lg:max-w-[90%] items-center justify-center">
         <Questions />
-        <div className="bg-white w-full rounded-full flex justify-between items-center">
+        <div className="bg-white w-full md:w-[90%] rounded-full flex justify-between items-center">
           <p className="pl-6 text-black font-semibold py-3 text-sm md:text-xl">
             ecell@aitpune.edu.in
           </p>

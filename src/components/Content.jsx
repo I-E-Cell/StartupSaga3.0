@@ -33,7 +33,7 @@ const Content = () => {
             {" "}
             {/* Font size set to 16px */}
             Have questions? Find quick answers to the most common queries about
-            Unaati 4.0. If you need more details, feel free to reach out!
+            Startup Saga 4. If you need more details, feel free to reach out!
           </p>
           <a
             href="https://www.aitecell.in/"

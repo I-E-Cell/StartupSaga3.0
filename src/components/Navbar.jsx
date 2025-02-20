@@ -29,18 +29,19 @@ const NavBar = () => {
     if (element) {
       const navHeight = navContainerRef.current?.offsetHeight || 0;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - navHeight - 20;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - navHeight - 20;
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: "smooth"
+        behavior: "smooth",
       });
     }
   };
 
   const handleNavClick = (e, item) => {
     e.preventDefault();
-    const sectionId = item.toLowerCase().replace(/\s+/g, '-');
+    const sectionId = item.toLowerCase().replace(/\s+/g, "-");
     scrollToSection(sectionId);
   };
 
@@ -66,7 +67,7 @@ const NavBar = () => {
     controls.start({
       y: isNavVisible ? 0 : -100,
       opacity: isNavVisible ? 1 : 0,
-      transition: { duration: 0.2 }
+      transition: { duration: 0.2 },
     });
   }, [isNavVisible, controls]);
 
@@ -90,12 +91,19 @@ const NavBar = () => {
               whileTap={{ scale: 0.95 }}
             />
 
-            <Button
-              id="product-button"
-              title="Brochure"
-              rightIcon={<TiLocationArrow />}
-              containerClass="bg-blue-50 flex items-center justify-center gap-1"
-            />
+            <a
+              href="https://drive.google.com/uc?export=download&id=1WXQzLy_pWNpASizkV-Bj8dXLN4ngWzZR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-between  bg-white backdrop-blur-md rounded-full text-black"
+            >
+              <Button
+                id="product-button"
+                title="Brochure"
+                rightIcon={<TiLocationArrow />}
+                containerClass="bg-blue-50 flex items-center justify-center gap-1"
+              />
+            </a>
           </div>
 
           {/* Navigation Links and Audio Button */}
@@ -104,7 +112,7 @@ const NavBar = () => {
               {navItems.map((item, index) => (
                 <motion.a
                   key={index}
-                  href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
+                  href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
                   className="nav-hover-btn"
                   onClick={(e) => handleNavClick(e, item)}
                   whileHover={{ scale: 1.05 }}

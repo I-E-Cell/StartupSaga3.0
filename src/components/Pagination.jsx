@@ -1,63 +1,66 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-const Pagination = ({ totalPages, currentPage, onPageChange }) => {
+// Import images
+import Team3 from "/images/team3.webp";
+import Team2 from "/images/team2.webp";
+import Team from "/images/team.webp";
+import Stand from "/images/stand.webp";
+import Ss from "/images/ss.webp";
+import Secs from "/images/secs.webp";
+import Prize from "/images/prize.webp";
+import Pm2 from "/images/pm2.webp";
+import Fe from "/images/fes.webp";
+import Pm from "/images/pm.webp";
+import Eval2 from "/images/eval2.webp";
+import Chill from "/images/chill.webp";
+import Eval from "/images/eval.webp";
+import Be from "/images/bes.webp";
+import Arya from "/images/arya.webp";
+import Dig from "/images/dig.webp";
+import Febe from "/images/febe.webp";
+
+// Define images array inside the component
+const images = [
+  Team3, Team2, Team, Stand, Ss, Secs, Prize, Pm2, Fe, Pm, Eval2,
+  Chill, Eval, Be, Arya, Dig, Febe, Team3, Team2, Team, Stand, Ss, Secs
+];
+
+const Pagination = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const totalPages = images.length;
+
+  // Auto-scroll effect
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentPage((prevPage) => (prevPage === totalPages ? 1 : prevPage + 1));
+    }, 2000); 
+
+    return () => clearInterval(interval);
+  }, [totalPages]);
+
   const handlePrevious = () => {
-    const newPage = currentPage === 1 ? totalPages : currentPage - 1;
-    onPageChange(newPage);
+    setCurrentPage((prevPage) => (prevPage === 1 ? totalPages : prevPage - 1));
   };
 
   const handleNext = () => {
-    const newPage = currentPage === totalPages ? 1 : currentPage + 1;
-    onPageChange(newPage);
-  };
-  const renderPageCircles = () => {
-    return Array.from({ length: totalPages }, (_, index) => {
-      const pageNumber = index + 1;
-      return (
-        <button
-          key={pageNumber}
-          onClick={() => onPageChange(pageNumber)}
-          className={`
-            ${
-              currentPage === pageNumber
-                ? "w-8 h-2 rounded-full bg-white"
-                : "w-2 h-2 rounded-full bg-white/50 "
-            } 
-            mx-1 transition-all duration-300 z-50
-          `}
-          aria-label={`Go to page ${pageNumber}`}
-        />
-      );
-    });
+    setCurrentPage((prevPage) => (prevPage === totalPages ? 1 : prevPage + 1));
   };
 
   return (
-    <div className="flex items-center justify-between space-x-4 z-50 pointer-events-auto">
-      <div
-        className={`border-2 border-white rounded-full flex justify-center items-center h-10 w-10 transition-all duration-300`}
-      >
-        <button
-          onClick={handlePrevious}
-          className="text-white p-3 disabled:cursor-not-allowed"
-          aria-label="Previous event"
-        >
-          <FaChevronLeft />
-        </button>
-      </div>
-
-      <div className="flex items-center">{renderPageCircles()}</div>
-
-      <div
-        className={`border-2 border-white rounded-full flex justify-center items-center h-10 w-10 transition-all duration-300`}
-      >
-        <button
-          onClick={handleNext}
-          className="text-white disabled:opacity-50"
-          aria-label="Next event"
-        >
-          <FaChevronRight />
-        </button>
+    <div className="flex flex-col items-center space-y-4 w-full h-full">
+      {/* Image Display */}
+      <div className="relative w-full h-full overflow-hidden">
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt={`Slide ${index + 1}`}
+            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+              currentPage === index + 1 ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
       </div>
     </div>
   );
