@@ -16,33 +16,33 @@ const MinusIcon = () => (
 const faqs = [
   {
     id: 1,
-    question: "What are the perks of participating in UNNATI?",
-    answer: "You get to compete with the best young minds of AIT, a 48-hour event with amazing problem statements and prizes! Goodies and Swags. Cmon, still need more?"
+    question: "Who can participate in Startup Saga?",
+    answer: "Students, aspiring entrepreneurs, and startup enthusiasts from all disciplines and colleges are welcome to participate."
   },
   {
     id: 2,
-    question: "Is there any registration fee to attend UNNATI?",
-    answer: "NO, it's FREE! Just bring your team members along."
+    question: "How can I stay updated on event details?",
+    answer: "Follow Startup Saga’s social media pages or check the official website for updates."
   },
   {
     id: 3,
-    question: "Is UNNATI online or offline?",
-    answer: "Both the rounds of UNNATI are offline."
+    question: "Can we get funding for our startup at SharkTank AIT?",
+    answer: "Yes! If your pitch impresses the investors, you may receive funding, mentorship, or incubation offers."
   },
   {
     id: 4,
-    question: "Any specific qualifications to be a participant?",
-    answer: "You love to speak, ideate or work in groups, then you are more than welcome to participate in the Event."
+    question: "Can non-technical students participate in the hackathon?",
+    answer: "Yes!"
   },
   {
     id: 5,
-    question: "Will Participants receive Certificates?",
-    answer: "Yes, participation certificates will be provided to all the participants."
+    question: "Will there be accommodation for outstation participants?",
+    answer: "Yes, accommodation will be provided for participants residing outside Pune."
   },
   {
     id: 6,
-    question: "Who can attend UNNATI?",
-    answer: "All the FE and SE students of AIT irrespective of their stream/branch are welcome to participate in the event. But remember, you get extra points for forming an inter-branch team or girl members team."
+    question: "Will there be any networking opportunities?",
+    answer: "Absolutely! Events like the E-Cell Meet and Startup Expo provide great opportunities to connect with peers, mentors, and investors."
   }
 ];
 
@@ -60,7 +60,7 @@ const Questions = () => {
           {faqs.map((faq, index) => (
             <div
               key={faq.id}
-              className='relative cursor-pointer p-4 rounded-lg'
+              className='w-full relative cursor-pointer p-4 rounded-lg'
               onClick={() => handleClick(index)}
             >
               <div className='flex md:items-center justify-between'>
