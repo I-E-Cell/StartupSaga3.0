@@ -1,61 +1,61 @@
 import React from "react";
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
+import { motion, useMotionValue, useTransform, useSpring, useAnimationFrame } from "framer-motion";
 import "../styles/GridMotion.css";
 
 const GridMotion = ({ items = [] }) => {
-  const gridRef = useRef(null);
-  const rowRefs = useRef([]);
-  const mouseXRef = useRef(window.innerWidth / 2);
-
+  const mouseX = useMotionValue(window.innerWidth / 2);
+  const rowMotionValues = Array(4).fill(null).map(() => useMotionValue(0));
+  
   const totalItems = 28;
   const defaultItems = Array.from(
-    { length: totalItems },
+    { length: totalItems }, 
     (_, index) => `Item ${index + 1}`
   );
-  const combinedItems =
-    items.length > 0 ? items.slice(0, totalItems) : defaultItems;
+  const combinedItems = items.length > 0 ? items.slice(0, totalItems) : defaultItems;
 
-  useEffect(() => {
-    gsap.ticker.lagSmoothing(0);
+  // Create spring configurations for each row
+  const rowSprings = rowMotionValues.map((_, index) => {
+    const baseConfig = {
+      stiffness: 400,
+      damping: 30,
+      mass: 1
+    };
+    
+    // Adjust spring parameters based on row position
+    return useSpring(0, {
+      ...baseConfig,
+      damping: baseConfig.damping + (index * 5),
+      mass: baseConfig.mass + (index * 0.2)
+    });
+  });
 
+  // Set up transforms for each row
+  const rowTransforms = rowSprings.map((spring, index) => {
+    const maxMoveAmount = 300;
+    const direction = index % 2 === 0 ? 1 : -1;
+    
+    return useTransform(spring, (value) => {
+      return ((value / window.innerWidth) * maxMoveAmount - maxMoveAmount / 2) * direction;
+    });
+  });
+
+  // Handle mouse movement
+  React.useEffect(() => {
     const handleMouseMove = (e) => {
-      mouseXRef.current = e.clientX;
+      mouseX.set(e.clientX);
     };
-
-    const updateMotion = () => {
-      const maxMoveAmount = 300;
-      const baseDuration = 0.8;
-      const inertiaFactors = [0.6, 0.4, 0.3, 0.2];
-
-      rowRefs.current.forEach((row, index) => {
-        if (row) {
-          const direction = index % 2 === 0 ? 1 : -1;
-          const moveAmount =
-            ((mouseXRef.current / window.innerWidth) * maxMoveAmount -
-              maxMoveAmount / 2) *
-            direction;
-
-          gsap.to(row, {
-            x: moveAmount,
-            duration:
-              baseDuration + inertiaFactors[index % inertiaFactors.length],
-            ease: "power3.out",
-            overwrite: "auto",
-          });
-        }
-      });
-    };
-
-    const removeAnimationLoop = gsap.ticker.add(updateMotion);
 
     window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, [mouseX]);
 
-    return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
-      removeAnimationLoop();
-    };
-  }, []);
+  // Update row positions based on mouse movement
+  useAnimationFrame(() => {
+    const mouseXValue = mouseX.get();
+    rowSprings.forEach((spring, index) => {
+      spring.set(mouseXValue);
+    });
+  });
 
   const renderContent = (content) => {
     if (React.isValidElement(content) && content.type === "img") {
@@ -65,37 +65,58 @@ const GridMotion = ({ items = [] }) => {
           style={{
             backgroundImage: `url(${content.props.src})`,
           }}
-        ></div>
+        />
       );
-    } else {
-      return <div className="row__item-content">{content}</div>;
     }
+    return <div className="row__item-content">{content}</div>;
   };
 
   return (
-    <div className="noscroll loading" ref={gridRef}>
+    <div className="noscroll loading">
       <section className="intro">
         <div className="gridMotion-container">
           {[...Array(4)].map((_, rowIndex) => (
-            <div
+            <motion.div
               key={rowIndex}
               className="row"
-              ref={(el) => (rowRefs.current[rowIndex] = el)}
+              style={{ x: rowTransforms[rowIndex] }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ 
+                duration: 0.8, 
+                delay: rowIndex * 0.1,
+                ease: "easeOut"
+              }}
             >
               {[...Array(7)].map((_, itemIndex) => {
                 const content = combinedItems[rowIndex * 7 + itemIndex];
                 return (
-                  <div key={itemIndex} className="row__item">
-                    <div className="row__item-inner">
+                  <motion.div
+                    key={itemIndex}
+                    className="row__item"
+                    whileHover={{ 
+                      scale: 1.05,
+                      transition: { duration: 0.2 } 
+                    }}
+                  >
+                    <motion.div 
+                      className="row__item-inner"
+                      initial={{ opacity: 0, scale: 0.9 }}
+                      animate={{ opacity: 1, scale: 1 }}
+                      transition={{ 
+                        duration: 0.4,
+                        delay: (rowIndex * 7 + itemIndex) * 0.03
+                      }}
+                    >
                       {renderContent(content)}
-                    </div>
-                  </div>
+                    </motion.div>
+                  </motion.div>
                 );
               })}
-            </div>
+            </motion.div>
           ))}
         </div>
-        <div className="fullview"></div>
+        <div className="fullview" />
       </section>
     </div>
   );

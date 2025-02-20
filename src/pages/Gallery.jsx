@@ -1,9 +1,9 @@
 import React from "react";
 import GridMotion from "../sections/GridMotion";
 import Overlay from "../sections/Overlay";
-import Meet1 from "/images/ecellMeet1.jpg";
-import Shark from "/images/sharktank.jpg";
-import Next from "/images/nextniche.jpg";
+import Meet1 from "/images/ecellMeet.webp";
+import Shark from "/images/sharktank.webp";
+import Next from "/images/nextniche.webp";
 
 const items = [
   <img src={Meet1} alt="meet1" className="h-full w-full object-fill" />,
