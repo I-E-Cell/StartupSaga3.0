@@ -9,7 +9,7 @@ const Faq = () => {
       id="faqs"
       className="flex flex-col gap-24 px-4 md:px-14 justify-between items-center"
     >
-      <div className="flex w-full lg:max-w-[35%] items-start justify-center mb-8 lg:mb-0">
+      <div className="flex w-full lg:max-w-[50%] items-start justify-center mb-8 lg:mb-0">
         <Content />
       </div>
       <div className="flex flex-col gap-24 w-full lg:max-w-[90%] items-center justify-center">
