@@ -1,7 +1,13 @@
 import React from "react";
 import SponsorSlab from "./SponsorSlab";
 
-const foodSponsors = ["/images/truel.png", "/images/soda.svg"];
+const foodSponsors = [
+  {
+    image: "/images/NoodlePlus.png",
+    website: "#",
+    logoWidth: "w-1/2"
+  },
+];
 
 const FoodSponsors = () => {
   return (
@@ -11,7 +17,12 @@ const FoodSponsors = () => {
       </div>
       <div className="flex flex-wrap justify-center items-center gap-10 md:gap-36 w-full">
         {foodSponsors.map((sponsor, index) => (
-          <SponsorSlab key={index} sponsorImage={sponsor} logoWidth={"w-1/3"} />
+          <SponsorSlab 
+            key={index} 
+            sponsorImage={sponsor.image}
+            sponsorLink={sponsor.website}
+            logoWidth={sponsor.logoWidth}
+          />
         ))}
       </div>
     </div>

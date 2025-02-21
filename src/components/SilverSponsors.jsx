@@ -2,8 +2,7 @@ import React from "react";
 import SponsorSlab from "./SponsorSlab";
 
 const silverSponsors = [
-  "/images/bhadePay.svg",
-  "/images/tree.svg",
+
 ];
 
 const SilverSponsors = () => {

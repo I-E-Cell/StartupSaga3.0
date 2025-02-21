@@ -2,9 +2,7 @@ import React from "react";
 import SponsorSlab from "./SponsorSlab";
 
 const goldSponsors = [
-  "/images/Devfolio.png",
-  "/images/india.svg",
-  "/images/india.svg",
+
 ];
 
 const GoldSponsors = () => {
