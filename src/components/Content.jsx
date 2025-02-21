@@ -22,14 +22,14 @@ const ArrowIcon = () => (
 const Content = () => {
   return (
     <>
-      <div className="w-[100%] m-auto flex flex-col items-center justify-start">
-        <div className="w-[100%] flex flex-col items-center gap-4">
+      <div className="w-full m-auto flex flex-col items-center justify-start">
+        <div className="w-full flex flex-col items-center gap-4">
           {" "}
           {/* Changed to items-start */}
           <h1 className="uppercase text-center text-5xl md:text-6xl lg:text-9xl font-['shakuro'] text-white">
             FAQs
           </h1>
-          <p className="font-normal text-[16px] text-white text-center">
+          <p className="w-full font-normal text-[16px] text-white text-center">
             {" "}
             {/* Font size set to 16px */}
             Have questions? Find quick answers to the most common queries about

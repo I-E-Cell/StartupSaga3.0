@@ -7,7 +7,7 @@ const platinumSponsors = [
     website: "https://www.blue-bricks.com/"
   },
   {
-    image: "/images/ProGrowth.svg",
+    image: "/images/ProGrowth.png",
     website: "https://progrowthpeople.com/"
   }
 ];
