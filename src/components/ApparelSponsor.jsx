@@ -2,7 +2,6 @@ import React from "react";
 import SponsorSlab from "./SponsorSlab";
 
 const apparelSponsors = [
-  "/images/TheDopeStore.svg",
 ];
 
 const ApparelSponsors = () => {

@@ -2,8 +2,7 @@ import React from "react";
 import SponsorSlab from "./SponsorSlab";
 
 const platformSponsors = [
-  "/images/ethindia.png",
-  "/images/polygon.png",
+
 ];
 
 const PlatformSponsors = () => {
