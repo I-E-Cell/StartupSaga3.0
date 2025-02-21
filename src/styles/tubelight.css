@@ -75,7 +75,19 @@
   
   @media (max-width: 768px) {
     .tubelight span {
-      font-size: 3em;
+      font-size: 4em;
+      padding: 0 2px;
+    }
+    
+    .tubelight-subtitle span {
+      font-size: 1.5em;
+      padding: 0 1px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .tubelight span {
+      font-size: 2.7em;
       padding: 0 2px;
     }
     
