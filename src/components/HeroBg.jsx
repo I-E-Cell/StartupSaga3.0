@@ -67,7 +67,14 @@ const HeroBg = () => {
           <span>T</span>
           <span>Y</span>
         </h2>
-        
+        <div className="mt-6 flex justify-center items-center">
+          <div
+            class="apply-button"
+            data-hackathon-slug="YOUR-HACKATHON-SLUG"
+            data-button-theme="light"
+            style={{ height: "44px", width: "312px" }}
+          ></div>
+        </div>
       </div>
       <div className="relative mx-auto w-full top-0">
         <div className="absolute top-1/2 md:top-1/2 left-1/2 -translate-x-1/2 -translate-y-2/3 border-4 w-[200px] h-[200px] rounded-full shadow-[0_0_4px_4px_rgba(255,255,255,0.25)]" />
