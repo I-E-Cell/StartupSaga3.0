@@ -1,10 +1,16 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import TimelinePoint from './TimelinePoint';
-import TimelineContent from './TimelineContent';
-import TimelineTitle from './TimelineTitle';
+import React from "react";
+import { motion } from "framer-motion";
+import TimelinePoint from "./TimelinePoint";
+import TimelineContent from "./TimelineContent";
+import TimelineTitle from "./TimelineTitle";
 
-const TimelineItem = ({ title, content, isFirst }) => {
+const TimelineItem = ({
+  title,
+  content,
+  eventType,
+  registrationLink,
+  isFirst,
+}) => {
   return (
     <motion.div
       className="w-[90%] md:w-full flex justify-start pt-28 md:pt-40 md:gap-10"
@@ -17,7 +23,12 @@ const TimelineItem = ({ title, content, isFirst }) => {
         <TimelinePoint />
         <TimelineTitle title={title} />
       </div>
-      <TimelineContent title={title} content={content} />
+      <TimelineContent
+        title={title}
+        content={content}
+        eventType={eventType}
+        registrationLink={registrationLink}
+      />
     </motion.div>
   );
 };
