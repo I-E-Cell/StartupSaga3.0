@@ -1,7 +1,7 @@
 import React from "react";
 import Slab from "/images/Slab.svg";
 
-const SponsorSlab = ({ sponsorImage, logoWidth = "w-2/3", sponsorLink = "#" }) => {
+const SponsorSlab = ({ sponsorImage, sponsorAlt = "sponsor", logoWidth = "w-2/3", sponsorLink = "#" }) => {
   return (
     <div className="relative w-[70%] md:w-auto flex justify-center items-center">
       <img src={Slab} alt="slab" />
@@ -13,7 +13,7 @@ const SponsorSlab = ({ sponsorImage, logoWidth = "w-2/3", sponsorLink = "#" }) =
       >
         <img 
           src={sponsorImage} 
-          alt="sponsor" 
+          alt={sponsorAlt} 
         />
       </a>
     </div>
