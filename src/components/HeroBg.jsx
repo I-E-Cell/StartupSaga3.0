@@ -70,7 +70,7 @@ const HeroBg = () => {
         <div className="mt-6 flex justify-center items-center">
           <div
             class="apply-button"
-            data-hackathon-slug="YOUR-HACKATHON-SLUG"
+            data-hackathon-slug="nextniche2-startupsaga4"
             data-button-theme="light"
             style={{ height: "44px", width: "312px" }}
           ></div>
