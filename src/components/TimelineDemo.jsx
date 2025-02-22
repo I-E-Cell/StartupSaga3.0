@@ -38,6 +38,8 @@ const TimelineDemo = ({ data }) => {
             key={item.title}
             title={item.title}
             content={item.content}
+            eventType={item.eventType}
+            registrationLink={item.registrationLink}
             isFirst={index === 0}
           />
         ))}

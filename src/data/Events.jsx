@@ -3,9 +3,11 @@ import React from "react";
 export const EventData = [
   {
     title: "E-Cell Meet",
+    eventType: "general",
+    registrationLink: "",
     content: (
       <div key="E-Cell Meet">
-        <p className="text-neutral-200 text-[14px] md:text-[16px] font-normal mb-8">
+        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-8">
           Join a gathering of{" "}
           <span className="font-semibold">
             young innovators and startup enthusiasts
@@ -42,9 +44,11 @@ export const EventData = [
   },
   {
     title: "Standup Show",
+    eventType: "general",
+    registrationLink: "",
     content: (
-      <div key="E-Cell Meet">
-        <p className="text-neutral-200 text-[14px] md:text-[16px] font-normal mb-8">
+      <div key="Standup Show">
+        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-8">
           Take a break from brainstorming and coding with a{" "}
           <span className="font-semibold">hilarious standup comedy show.</span>{" "}
           Laugh your stress away as witty humor meets relatable student life
@@ -70,9 +74,11 @@ export const EventData = [
   },
   {
     title: "AIT Startup Expo",
+    eventType: "general",
+    registrationLink: "",
     content: (
       <div key="AIT Startup Expo">
-        <p className="text-neutral-200 text-[14px] md:text-[16px] font-normal mb-4">
+        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
           Discover groundbreaking ideas and{" "}
           <span className="font-semibold">game-changing innovations </span> as
           startups showcase their projects. Meet founders, investors, and
@@ -97,10 +103,12 @@ export const EventData = [
   },
   {
     title: "NextNiche",
+    eventType: "hackathon",
+    registrationLink: "",
     content: (
       <div key="NextNiche">
-        <p className="text-neutral-200 text-[14px] md:text-[16px] font-normal mb-4">
-          A<span className="font-semibold">24-hour coding marathon </span> where
+        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
+          A<span className="font-semibold"> 24-hour coding marathon </span> where
           creativity meets problem-solving. Compete with the brightest minds,
           tackle real-world challenges, and bring ideas to life. Push your
           limits, collaborate, and turn bold ideas into reality!
@@ -123,9 +131,11 @@ export const EventData = [
   },
   {
     title: "SharkTank AIT",
+    eventType: "general",
+    registrationLink: "",
     content: (
       <div key="SharkTank AIT">
-        <p className="text-neutral-200 text-[14px] md:text-[16px] font-normal mb-4">
+        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
           Have a startup idea?{" "}
           <span className="font-semibold">
             Pitch it to expert judges and potential investors!{" "}
