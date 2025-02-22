@@ -4,14 +4,17 @@ import SponsorSlab from "./SponsorSlab";
 const platformSponsors = [
   {
     image: "/images/ethindia.png",
+    alt: "ETHINDIA LOGO",
     website: "https://ethindia2024.devfolio.co/",
   },
   {
     image: "/images/devfolio.svg",
+    alt: "DEVFOLIO LOGO",
     website: "https://devfolio.co/discover",
   },
   {
     image: "/images/polygon.png",
+    alt: "POLYGON LOGO",
     website: "https://polygon.technology/",
   },
 ];
@@ -27,6 +30,7 @@ const PlatformSponsors = () => {
           <SponsorSlab
             key={index}
             sponsorImage={sponsor.image}
+            sponsorAlt={sponsor.alt}
             sponsorLink={sponsor.website}
           />
         ))}
