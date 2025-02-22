@@ -23,7 +23,7 @@ const Sponsors = () => {
         width: window.innerWidth >= 1024 ? "120vw" : "100vw",
       }}
     >
-      <div className="absolute left-1/2 -translate-x-1/2 top-0  w-[120%]  h-full">
+      <div className="absolute left-1/2 -translate-x-1/2 top-0  w-[100%]  h-full">
         <img src={Clouds} alt="" className="w-full -translate-y-[99%]" />
       </div>
       <div className="flex flex-col gap-2 uppercase text-center font-['shakuro'] text-white">
@@ -34,12 +34,12 @@ const Sponsors = () => {
         <PlatinumSponsors />
         {/* <GoldSponsors /> */}
         {/* <SilverSponsors /> */}
-        {/* <PlatformSponsors /> */}
+        <PlatformSponsors />
         <FoodSponsors />
         {/* <ApparelSponsors /> */}
       </div>
 
-      <div className="absolute left-1/2 -translate-x-1/2 top-[100%] w-[120%]  h-full">
+      <div className="absolute left-1/2 -translate-x-1/2 top-[100%] w-[100%]  h-full">
         <img src={CloudsB} alt="" className="w-full" />
       </div>
     </div>
