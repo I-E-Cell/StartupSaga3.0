@@ -1,11 +1,11 @@
 import React from "react";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
     <main>
-      <div className="hidden sm:block">
+      {/* <div className="hidden sm:block">
         <AnimatedCursor
           innerSize={8}
           outerSize={35}
@@ -20,7 +20,7 @@ const App = () => {
             border: "1px solid white",
           }}
         />
-      </div>
+      </div> */}
       <Outlet />
     </main>
   );

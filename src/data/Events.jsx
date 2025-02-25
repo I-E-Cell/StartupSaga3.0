@@ -42,40 +42,40 @@ export const EventData = [
       </div>
     ),
   },
-  {
-    title: "Standup Show",
-    eventType: "general",
-    registrationLink: "",
-    content: (
-      <div key="Standup Show">
-        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-8">
-          Take a break from brainstorming and coding with a{" "}
-          <span className="font-semibold">hilarious standup comedy show.</span>{" "}
-          Laugh your stress away as witty humor meets relatable student life
-          experiences. A perfect way to unwind, refresh, and recharge before
-          diving back into the high-energy entrepreneurial events of Startup
-          Saga!
-        </p>
+  // {
+  //   title: "Standup Show",
+  //   eventType: "general",
+  //   registrationLink: "",
+  //   content: (
+  //     <div key="Standup Show">
+  //       <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-8">
+  //         Take a break from brainstorming and coding with a{" "}
+  //         <span className="font-semibold">hilarious standup comedy show.</span>{" "}
+  //         Laugh your stress away as witty humor meets relatable student life
+  //         experiences. A perfect way to unwind, refresh, and recharge before
+  //         diving back into the high-energy entrepreneurial events of Startup
+  //         Saga!
+  //       </p>
 
-        <div className="grid grid-cols-2 gap-4">
-          <img
-            src="/images/standup2.webp"
-            alt="feature template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-          <img
-            src="/images/standup4.webp"
-            alt="feature template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-        </div>
-      </div>
-    ),
-  },
+  //       <div className="grid grid-cols-2 gap-4">
+  //         <img
+  //           src="/images/standup2.webp"
+  //           alt="feature template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //         <img
+  //           src="/images/standup4.webp"
+  //           alt="feature template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //       </div>
+  //     </div>
+  //   ),
+  // },
   {
     title: "AIT Startup Expo",
     eventType: "general",
-    registrationLink: "",
+    registrationLink: "https://unstop.com/o/T4EUbGL?lb=oMWmuaV&utm_medium=Share&utm_source=shortUrl",
     content: (
       <div key="AIT Startup Expo">
         <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
@@ -103,8 +103,8 @@ export const EventData = [
   },
   {
     title: "NextNiche",
-    eventType: "hackathon",
-    registrationLink: "",
+    eventType: "general",
+    registrationLink: "https://unstop.com/o/TSUR8rM?lb=oMWmuaV&utm_medium=Share&utm_source=shortUrl",
     content: (
       <div key="NextNiche">
         <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
@@ -132,7 +132,7 @@ export const EventData = [
   {
     title: "SharkTank AIT",
     eventType: "general",
-    registrationLink: "",
+    registrationLink: "https://unstop.com/hackathons/shark-tank-ait-startup-saga-army-institute-of-technology-ait-pune-1374865",
     content: (
       <div key="SharkTank AIT">
         <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
