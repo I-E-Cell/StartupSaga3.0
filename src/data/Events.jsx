@@ -4,7 +4,7 @@ export const EventData = [
   {
     title: "E-Cell Meet",
     eventType: "general",
-    registrationLink: "",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd3OIgjM2YLal1-PArI8r9KBGGPGhfab-nyR-Vj8TX0QQi6cA/viewform?usp=dialog",
     content: (
       <div key="E-Cell Meet">
         <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-8">
