@@ -1,47 +1,47 @@
 import React from "react";
 
 export const EventData = [
-  {
-    title: "E-Cell Meet",
-    eventType: "general",
-    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc_eDI8Hz5CYOlQyopVUtVt-Sjufhei2CXPcKfk4PKGfjLUyg/viewform?usp=sharing",
-    content: (
-      <div key="E-Cell Meet">
-        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-8">
-          Join a gathering of{" "}
-          <span className="font-semibold">
-            young innovators and startup enthusiasts
-          </span>{" "}
-          to share ideas, learn from mentors, and build meaningful connections.
-          This event is all about networking, exchanging insights, and exploring
-          new opportunities in the startup world. If you love discussing ideas
-          and meeting like-minded people, this is the place for you!
-        </p>
-        <div className="grid grid-cols-2 gap-4">
-          <img
-            src="/images/ecellMeet1.webp"
-            alt="startup template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-          <img
-            src="/images/ecellMeet2.webp"
-            alt="startup template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-          <img
-            src="/images/ecellMeet3.webp"
-            alt="startup template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-          <img
-            src="/images/ecellMeet4.webp"
-            alt="startup template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-        </div>
-      </div>
-    ),
-  },
+  // {
+  //   title: "E-Cell Meet",
+  //   eventType: "general",
+  //   registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSc_eDI8Hz5CYOlQyopVUtVt-Sjufhei2CXPcKfk4PKGfjLUyg/viewform?usp=sharing",
+  //   content: (
+  //     <div key="E-Cell Meet">
+  //       <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-8">
+  //         Join a gathering of{" "}
+  //         <span className="font-semibold">
+  //           young innovators and startup enthusiasts
+  //         </span>{" "}
+  //         to share ideas, learn from mentors, and build meaningful connections.
+  //         This event is all about networking, exchanging insights, and exploring
+  //         new opportunities in the startup world. If you love discussing ideas
+  //         and meeting like-minded people, this is the place for you!
+  //       </p>
+  //       <div className="grid grid-cols-2 gap-4">
+  //         <img
+  //           src="/images/ecellMeet1.webp"
+  //           alt="startup template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //         <img
+  //           src="/images/ecellMeet2.webp"
+  //           alt="startup template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //         <img
+  //           src="/images/ecellMeet3.webp"
+  //           alt="startup template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //         <img
+  //           src="/images/ecellMeet4.webp"
+  //           alt="startup template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //       </div>
+  //     </div>
+  //   ),
+  // },
   // {
   //   title: "Standup Show",
   //   eventType: "general",
@@ -72,35 +72,35 @@ export const EventData = [
   //     </div>
   //   ),
   // },
-  {
-    title: "AIT Startup Expo",
-    eventType: "general",
-    registrationLink: "https://unstop.com/o/T4EUbGL?lb=oMWmuaV&utm_medium=Share&utm_source=shortUrl",
-    content: (
-      <div key="AIT Startup Expo">
-        <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
-          Discover groundbreaking ideas and{" "}
-          <span className="font-semibold">game-changing innovations </span> as
-          startups showcase their projects. Meet founders, investors, and
-          industry leaders while exploring the latest trends. Whether you're
-          here to learn, connect, or invest, this expo is where{" "}
-          <span className="font-semibold">big ideas take center stage!</span>
-        </p>
-        <div className="grid grid-cols-2 gap-4">
-          <img
-            src="/images/expo1.webp"
-            alt="hero template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-          <img
-            src="/images/expo2.webp"
-            alt="feature template"
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-          />
-        </div>
-      </div>
-    ),
-  },
+  // {
+  //   title: "AIT Startup Expo",
+  //   eventType: "general",
+  //   registrationLink: "https://unstop.com/o/T4EUbGL?lb=oMWmuaV&utm_medium=Share&utm_source=shortUrl",
+  //   content: (
+  //     <div key="AIT Startup Expo">
+  //       <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
+  //         Discover groundbreaking ideas and{" "}
+  //         <span className="font-semibold">game-changing innovations </span> as
+  //         startups showcase their projects. Meet founders, investors, and
+  //         industry leaders while exploring the latest trends. Whether you're
+  //         here to learn, connect, or invest, this expo is where{" "}
+  //         <span className="font-semibold">big ideas take center stage!</span>
+  //       </p>
+  //       <div className="grid grid-cols-2 gap-4">
+  //         <img
+  //           src="/images/expo1.webp"
+  //           alt="hero template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //         <img
+  //           src="/images/expo2.webp"
+  //           alt="feature template"
+  //           className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+  //         />
+  //       </div>
+  //     </div>
+  //   ),
+  // },
   {
     title: "NextNiche",
     eventType: "general",
