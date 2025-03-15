@@ -74,7 +74,7 @@ const Hero = () => {
         className="relative h-screen w-full overflow-hidden"
       >
         <div className="bg-[#D693A2] absolute inset-0">
-          <div className="absolute -bottom-12 md:-bottom-64 inset-0 flex justify-between w-full mx-auto pointer-events-none">
+          <div className="absolute -bottom-12 md:-bottom-64 inset-0 flex justify-between w-full mx-auto">
             <HeroBg />
           </div>
         </div>
