@@ -92,7 +92,7 @@ const NavBar = () => {
             />
 
             <a
-              href="https://drive.google.com/uc?export=download&id=1WXQzLy_pWNpASizkV-Bj8dXLN4ngWzZR"
+              href="https://drive.google.com/file/d/1WNZSeOcf6aoodRLo9hiDBw72N9AmyWW-/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-between  bg-white backdrop-blur-md rounded-full text-black"
