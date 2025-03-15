@@ -9,12 +9,13 @@ import Treefront1 from "/images/trre1.svg";
 import Treefront2 from "/images/tree2.svg";
 import Dragon from "/images/dragon.svg";
 import Birds from "/images/birds.svg";
+import Unstop from "/images/unstop.svg";
 import "../styles/tubelight.css";
 
 const HeroBg = () => {
   return (
-    <div className="animated relative inset-0 flex justify-between w-full mx-auto pointer-events-none">
-      <div className="absolute top-[30vw] lg:top-[10vw] left-1/2 -translate-x-1/2 z-10 text-center w-full">
+    <div className="animated relative inset-0 flex justify-between w-full mx-aut0">
+      <div className="absolute top-[30vw] lg:top-[10vw] left-1/2 -translate-x-1/2 z-10 text-center flex flex-col justify-center items-center w-full">
         <h1 className="tubelight mb-4" style={{ fontFamily: "shakuro" }}>
           <span>S</span>
           <span>T</span>
@@ -67,9 +68,20 @@ const HeroBg = () => {
           <span>T</span>
           <span>Y</span>
         </h2>
-        <div className="mt-6 flex justify-center items-center">
+        
+        <div className="mt-6 flex flex-col justify-center items-center">
+        <button
+          onClick={() =>
+            (window.location.href =
+              "https://unstop.com/o/TSUR8rM?lb=oMWmuaV&utm_medium=Share&utm_source=shortUrl")
+          }
+          className=" px-8 py-2 rounded-lg gap-3 cursor-pointer bg-white text-[#1C4980]  flex justify-center items-center mt-8 text-sm md:text-base"
+        >
+          <img src={Unstop} alt="Unstop" className="w-8 md:w-12 " />
+          <p className="uppercase font-extrabold">Register with unstop</p>
+        </button>
           <div
-            class="apply-button"
+            className="apply-button"
             data-hackathon-slug="nextniche2-startupsaga4"
             data-button-theme="light"
             style={{ height: "44px", width: "312px" }}
