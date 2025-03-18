@@ -108,7 +108,7 @@ export const EventData = [
     content: (
       <div key="NextNiche">
         <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
-          A<span className="font-semibold"> 24-hour coding marathon </span> where
+          A<span className="font-semibold"> 18-hour coding marathon </span> where
           creativity meets problem-solving. Compete with the brightest minds,
           tackle real-world challenges, and bring ideas to life. Push your
           limits, collaborate, and turn bold ideas into reality!
