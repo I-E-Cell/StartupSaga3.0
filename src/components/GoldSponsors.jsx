@@ -1,8 +1,12 @@
 import React from "react";
 import SponsorSlab from "./SponsorSlab";
 
-const goldSponsors = [
-
+const GoldSponsor = [
+  {
+    image: "/images/WetnJoy.png",
+    website: "https://www.lonavala.wetnjoy.in/"
+  },
+  
 ];
 
 const GoldSponsors = () => {
@@ -12,8 +16,13 @@ const GoldSponsors = () => {
         Gold sponsors
       </div>
       <div className="flex flex-wrap justify-center items-center gap-10 md:gap-36 w-full">
-        {goldSponsors.map((sponsor, index) => (
-          <SponsorSlab key={index} sponsorImage={sponsor} />
+        {GoldSponsor.map((sponsor, index) => (
+          <SponsorSlab 
+            key={index} 
+            sponsorImage={sponsor.image}
+            sponsorLink={sponsor.website}
+            logoWidth="w-[250px]"
+          />
         ))}
       </div>
     </div>
