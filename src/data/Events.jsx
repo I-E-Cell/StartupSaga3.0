@@ -104,7 +104,7 @@ export const EventData = [
   {
     title: "NextNiche",
     eventType: "general",
-    registrationLink: "https://unstop.com/o/TSUR8rM?lb=oMWmuaV&utm_medium=Share&utm_source=shortUrl",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd3n9o-UhLyT9RHxbaq59ACTVK2RJ2-forKzSMBrTjwZ0u0zw/viewform",
     content: (
       <div key="NextNiche">
         <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
@@ -132,7 +132,7 @@ export const EventData = [
   {
     title: "SharkTank AIT",
     eventType: "general",
-    registrationLink: "https://unstop.com/hackathons/shark-tank-ait-startup-saga-army-institute-of-technology-ait-pune-1374865",
+    registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSfs-eaX8xdNux2spZ8PZKzYZSsU2m_mhKfZDrhmx_V27Tl_pQ/viewform",
     content: (
       <div key="SharkTank AIT">
         <p className="text-neutral-200 text-[14px] md:text-lg font-normal mb-4">
