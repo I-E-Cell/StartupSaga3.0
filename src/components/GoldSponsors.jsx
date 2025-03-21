@@ -21,7 +21,7 @@ const GoldSponsors = () => {
             key={index} 
             sponsorImage={sponsor.image}
             sponsorLink={sponsor.website}
-            logoWidth="w-[250px]"
+            logoWidth="w-[200px]"
           />
         ))}
       </div>
