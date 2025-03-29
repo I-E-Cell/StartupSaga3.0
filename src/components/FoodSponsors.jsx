@@ -7,6 +7,11 @@ const foodSponsors = [
     website: "#",
     logoWidth: "w-1/2"
   },
+  {
+    image: "/images/budhani.svg",
+    website: "#",
+    logoWidth: "w-1/3"
+  },
 ];
 
 const FoodSponsors = () => {
